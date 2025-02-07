@@ -10,7 +10,7 @@
         
         "cloud_computing_theo_full": 44,
         "cloud_computing_theo_ar_all_lectures": null,
-        "cloud_computing_theo_lectures": null,
+        "cloud_computing_theo_lectures": [359,360,363],
         "cloud_computing_theo_ar_lectures": null,
         "cloud_computing_theo_summarize_lectures": null,
         "cloud_computing_theo_qa_lectures": null,
@@ -18,7 +18,7 @@
         "cloud_computing_theo_adds_lectures": 18,
 
         "cloud_computing_lab_full": 45,
-        "cloud_computing_lab_lectures": null,
+        "cloud_computing_lab_lectures": [362],
         "cloud_computing_lab_old": 76,
         "cloud_computing_lab_app": null,
         "cloud_computing_lab_adds_lectures": 7,
@@ -35,7 +35,7 @@
         "design_and_analyze_systems_theo_adds_lectures": 14,
 
         "design_and_analyze_systems_lab_full": 47,
-        "design_and_analyze_systems_lab_lectures": null,
+        "design_and_analyze_systems_lab_lectures": [357],
         "design_and_analyze_systems_lab_old": 78,
         "design_and_analyze_systems_lab_app": null,
 
@@ -59,7 +59,7 @@
 
         
         "iot_theo_full": 50,
-        "iot_theo_lectures": null,
+        "iot_theo_lectures": [350],
         "iot_theo_ar_all_lectures": null,
         "iot_theo_ar_lectures": null,
         "iot_theo_summarize_lectures": null,
@@ -68,7 +68,7 @@
         "iot_theo_adds_lectures": 16,
 
         "iot_lab_full": 51,
-        "iot_lab_lectures": null,
+        "iot_lab_lectures": [364,347],
         "iot_lab_app": null,
         "iot_lab_old": 74,
 
