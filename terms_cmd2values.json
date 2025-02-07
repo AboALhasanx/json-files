@@ -1,14 +1,14 @@
 {
     "commands": {
 
-        "comuni_full" : null,
+        "comuni_full" : 43,
         "comuni_lectures" : null,
         "communi_ar_all_lectures" : null,
         "communi_ar_lectures" : null,
 
 
         
-        "cloud_computing_theo_full": null,
+        "cloud_computing_theo_full": 44,
         "cloud_computing_theo_ar_all_lectures": null,
         "cloud_computing_theo_lectures": null,
         "cloud_computing_theo_ar_lectures": null,
@@ -17,7 +17,7 @@
         "cloud_computing_theo_old": 75,
         "cloud_computing_theo_adds_lectures": 18,
 
-        "cloud_computing_lab_full": 
+        "cloud_computing_lab_full": 45,
         "cloud_computing_lab_lectures": null,
         "cloud_computing_lab_old": 76,
         "cloud_computing_lab_app": null,
@@ -25,7 +25,7 @@
 
 
         
-        "design_and_analyze_systems_theo_full": null,
+        "design_and_analyze_systems_theo_full": 46,
         "design_and_analyze_systems_theo_ar_all_lectures": null,
         "design_and_analyze_systems_theo_lectures": null,
         "design_and_analyze_systems_theo_ar_lectures": null,
@@ -34,14 +34,14 @@
         "design_and_analyze_systems_theo_old": 77,
         "design_and_analyze_systems_theo_adds_lectures": 14,
 
-        "design_and_analyze_systems_lab_full": null,
+        "design_and_analyze_systems_lab_full": 47,
         "design_and_analyze_systems_lab_lectures": null,
         "design_and_analyze_systems_lab_old": 78,
         "design_and_analyze_systems_lab_app": null,
 
 
         
-        "mobile_applications_theo_full": null,
+        "mobile_applications_theo_full": 48,
         "mobile_applications_theo_lectures": null,
         "mobile_applications_theo_ar_all_lectures": null,
         "mobile_applications_theo_ar_lectures": null,
@@ -50,7 +50,7 @@
         "mobile_applications_theo_old": 71,
         "mobile_applications_theo_adds_lectures": 13,
 
-        "mobile_applications_lab_full": null,
+        "mobile_applications_lab_full": 49,
         "mobile_applications_lab_lectures": null,
         "mobile_applications_lab_app": null,
         "mobile_applications_lab_old": 72,
@@ -58,7 +58,7 @@
 
 
         
-        "iot_theo_full": null,
+        "iot_theo_full": 50,
         "iot_theo_lectures": null,
         "iot_theo_ar_all_lectures": null,
         "iot_theo_ar_lectures": null,
@@ -67,7 +67,7 @@
         "iot_theo_old": 73,
         "iot_theo_adds_lectures": 16,
 
-        "iot_lab_full": null,
+        "iot_lab_full": 51,
         "iot_lab_lectures": null,
         "iot_lab_app": null,
         "iot_lab_old": 74,
