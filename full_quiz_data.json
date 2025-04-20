@@ -9,6 +9,15 @@
     "correct_option_id": 0
   },
   {
+    "question": "1.\tESP8266 is a:",
+    "options": [
+      "Low-cost",
+      "High-cost",
+      "Bluetooth module"
+    ],
+    "correct_option_id": 0
+  },
+  {
     "question": "2.\tESP8266 supports:",
     "options": [
       "TCP/IP stack",
