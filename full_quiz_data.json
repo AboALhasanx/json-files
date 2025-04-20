@@ -1,0 +1,377 @@
+[
+  {
+    "question": "1.\tESP8266 is a:",
+    "options": [
+      "Low-cost",
+      "High-cost",
+      "Bluetooth module"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "2.\tESP8266 supports:",
+    "options": [
+      "TCP/IP stack",
+      "USB interface",
+      "GSM module"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "3.\tESP8266 includes:",
+    "options": [
+      "MCU – Microcontroller Unit",
+      "GPU",
+      "RAM only"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "4.\tESP8266 Produced by a company based in:",
+    "options": [
+      "Tokyo",
+      "Berlin",
+      "Shanghai"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5.\tESP8266 Produced by Manufacturer name:",
+    "options": [
+      "Intel",
+      "Ai-Thinker",
+      "Espressif"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "6.\tESP8266 First appeared in:",
+    "options": [
+      "March 2012",
+      "August 2014",
+      "May 2016"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "7.\tESP8266 First module version:",
+    "options": [
+      "ESP-32",
+      "ESP-10",
+      "ESP-01"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "8.\tESP8266 First module made by:",
+    "options": [
+      "Ai-Thinker",
+      "Espressif",
+      "MediaTek"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "9.\tESP8266 Allows microcontrollers to connect to:",
+    "options": [
+      "GSM",
+      "Bluetooth",
+      "Wi-Fi network"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "10.\tESP8266 Enables:",
+    "options": [
+      "Audio processing",
+      "GPU rendering",
+      "Simple TCP/IP connections"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "1.\tWhat microcontroller does the ESP-12E module use?",
+    "options": [
+      "ARM Cortex-M3",
+      "AVR Atmega328P",
+      "Tensilica L106 32-bit"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "2.\tWhat is the CPU clock speed of the ESP-12E?",
+    "options": [
+      "40 MHz",
+      "80 MHz",
+      "120 MHz"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "3.\tHow much flash memory is available in ESP-12E?",
+    "options": [
+      "2 MB",
+      "4 MB",
+      "8 MB"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "4.\tWhat type of ADC is included in the ESP-12E module?",
+    "options": [
+      "8-bit",
+      "12-bit",
+      "10-bit"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5.\tWhat programmer does NodeMCU 1.0 include for USB communication?",
+    "options": [
+      "CH340G",
+      "CP2102 USB-to-UART",
+      "FT232RL"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "6.\tWhich of the following protocols are supported by the ESP-12E?",
+    "options": [
+      "HTTP/USB",
+      "CAN/I2S/RS232",
+      "IPv4/TCP/UDP/HTTP/FTP"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "7.\tWhat is the operating frequency of the Wi-Fi in ESP-12E?",
+    "options": [
+      "2.4 GHz",
+      "5 GHz",
+      "1.8 GHz"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "8.\tWhat are the security standards supported by NodeMCU?",
+    "options": [
+      "WPA/WPA2",
+      "WPS only",
+      "None"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "9.\tWhat encryption types are supported by ESP-12E?",
+    "options": [
+      "WEP/TKIP/AES",
+      "SHA1/SHA2",
+      "Base64/MD5"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "10.\tWhich power interface is used for NodeMCU?",
+    "options": [
+      "Type-C USB",
+      "Mini USB",
+      "Micro USB"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "11.\tNodeMCU 1.0 is:",
+    "options": [
+      "Proprietary closed design",
+      "Open sourced",
+      "Licensed under commercial IP"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "12.\tWhich push buttons are available on the NodeMCU board?",
+    "options": [
+      "Power and Reset",
+      "Sleep and Flash",
+      "Reset and Flash"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "13.\tWhat physical feature makes NodeMCU breadboard-friendly?",
+    "options": [
+      "Extra-large PCB",
+      "Compact/narrow design",
+      "Built-in battery slot"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "14.\tWhich module does NodeMCU 1.0 use?",
+    "options": [
+      "ESP-32",
+      "ESP-01",
+      "ESP-12E"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "15.\tWhich interfaces are supported by ESP-12E?",
+    "options": [
+      "RS232, PS/2",
+      "SPI, UART, I2C, PWM, GPIO",
+      "HDMI, USB-C"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "1.\tWhat is the maximum length of the cable for DHT sensor?",
+    "options": [
+      "10 meters",
+      "30 meters",
+      "20 meters",
+      "50 meters"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "1.\tWhat value of pull-up resistor is recommended if the cable is shorter than 20 meters?",
+    "options": [
+      "10K",
+      "5K",
+      "1K",
+      "100Ω"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "2.\tWhat should be done if the cable length is longer than 20 meters?",
+    "options": [
+      "Remove pull-up resistor",
+      "Choose an appropriate pull-up resistor",
+      "Use two DATA lines",
+      "Replace with I2C sensor"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "3.\tWhy is a delay required after powering the DHT sensor?",
+    "options": [
+      "To allow heating",
+      "To bypass unstable status",
+      "To charge internal battery",
+      "For self-test"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "4.\tHow long should you wait before sending data requests to the DHT after power-up?",
+    "options": [
+      "Immediately",
+      "5–10 seconds",
+      "1–2 seconds",
+      "After 30ms"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5.\tWhat is the recommended capacitor value for power filtering between VDD and GND?",
+    "options": [
+      "10nF",
+      "1µF",
+      "470µF",
+      "100nF"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "6.\tWhat is the purpose of the capacitor between VDD and GND?",
+    "options": [
+      "Boost voltage",
+      "Store temperature",
+      "Power filtering",
+      "Clock timing"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "7.\tWhere is the pull-up resistor connected in the DHT sensor setup?",
+    "options": [
+      "Between GND and VCC",
+      "Between VDD and DATA line",
+      "Between GND and DATA",
+      "Between NC and DATA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "8.\tWhat happens if no pull-up resistor is used in a DHT setup?",
+    "options": [
+      "Nothing",
+      "The DATA signal may become unstable",
+      "The sensor overheats",
+      "The sensor runs faster"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "9.\tThe pull-up resistor helps to:",
+    "options": [
+      "Keep the data line HIGH when idle",
+      "Pull current from the sensor",
+      "Power the GND pin",
+      "Increase sensor sensitivity"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "10.\tHow many pins from the DHT sensor are used in this circuit connection?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "6.\tWhich of the following gases can MQ-2 detect?",
+    "options": [
+      "Oxygen",
+      "Methane",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "7.\tThe MQ-2 sensor works best:",
+    "options": [
+      "In extreme heat",
+      "At room temperature",
+      "Underwater",
+      "In complete darkness"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "8.\tWhat is the approximate current drawn by the MQ-2 sensor?",
+    "options": [
+      "20 mA",
+      "165 mA",
+      "1 A",
+      "500 mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "9.\tWhat is the typical operating voltage for the MQ-2 sensor?",
+    "options": [
+      "3.3V",
+      "5V",
+      "9V",
+      "12V"
+    ],
+    "correct_option_id": 1
+  }
+]
