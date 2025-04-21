@@ -9,6 +9,52 @@
     ],
     "correct_option_id": 0
   },
+
+{
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Power Plant",
+      "The Things, which are embedded with sensors",
+      "The Web Browser",
+      "The Database Server"
+    ],
+    "correct_option_id": 1,
+  },
+  
+  {
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Networks that connect devises",
+      "The Graphics Engine",
+      "The Chat system",
+      "The Print Service"
+    ],
+    "correct_option_id": 0,
+  },
+  
+  {
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Weather App",
+      "The Systems that process data to/from the things",
+      "The Keyboard Module",
+      "The Antivirus Software"
+    ],
+    "correct_option_id": 1,
+  }
+  
+  
+  {
+    "question": "The Internet of Things (IoT) is:",
+    "options": [
+      "A type of computer virus that ",
+      "The interconnection of Embedded System devices to Internet to send or receive information",
+      "A tool to clean internet cache",
+      "A mobile app to control music"
+    ],
+    "correct_option_id": 1,
+  },
+  
   {
     "question": "2.\tESP8266 supports:",
     "options": [
@@ -21,11 +67,11 @@
   {
     "question": "3.\tESP8266 includes:",
     "options": [
-      "MCU – Microcontroller Unit",
       "GPU",
-      "RAM only"
+      "RAM only",
+      "MCU"
     ],
-    "correct_option_id": 0
+    "correct_option_id": 2
   },
   {
     "question": "4.\tESP8266 Produced by a company based in:",
