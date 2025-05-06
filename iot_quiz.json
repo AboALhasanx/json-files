@@ -1055,7 +1055,7 @@
             "Connect GPIO16 to RST"
         ],
         "correct_option_id": 3
-    }
+    },
     {
         "question": "What does GPIO0 determine during boot?",
         "options": [
@@ -1685,7 +1685,7 @@
             "It is the power pin",
             "Provides an analog signal based on gas concentration",
             "It measures the temperature",
-            "Gives a digital signal",
+            "Gives a digital signal"
         ],
         "correct_option_id": 3
     },
