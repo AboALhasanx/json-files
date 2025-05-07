@@ -1,0 +1,256 @@
+[
+  {
+    "question": "Which keyword is used to define a compile-time constant?",
+    "options": [
+      "var",
+      "final",
+      "static",
+      "const"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which statement is used in Dart to execute code based on a condition?",
+    "options": [
+      "when",
+      "match",
+      "if",
+      "validate"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the correct syntax to iterate through a List using a forEach loop?",
+    "options": [
+      "List.for(item)",
+      "forEach(List)",
+      "list.forEach((item) => print(item));",
+      "foreach(list in item)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which control flow structure is best for evaluating multiple specific values of a single variable?",
+    "options": [
+      "for loop",
+      "if-else chain",
+      "switch",
+      "while"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the following types is used to represent true/false values in Dart?",
+    "options": [
+      "bit",
+      "boolean",
+      "bool",
+      "flag"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which of the following is the correct way to declare a string variable in Dart?",
+    "options": [
+      "string name = \"Dart\";",
+      "string name = \"Dart\";",
+      "str name = 'Dart';",
+      "text name = \"Dart\";"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which keyword is used to declare a variable whose value is assigned at runtime and cannot be changed afterward?",
+    "options": [
+      "final",
+      "const",
+      "dynamic",
+      "immutable"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How can you add a new item to an existing Dart List?",
+    "options": [
+      "append()",
+      "insert()",
+      "push()",
+      "add()"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What property must be set to define the number of columns in a GridView.count?",
+    "options": [
+      "itemCount",
+      "crossAxisCount",
+      "columnCount",
+      "gridLength"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens when you place a ListView inside a Column without an Expanded widget?",
+    "options": [
+      "It throws a runtime error",
+      "It scrolls horizontally",
+      "It takes up all available space",
+      "It becomes invisible"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Variables declared with final can be changed later in the program.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Dart uses the keyword float for decimal numbers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Dart requires that you declare the type of every variable.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Variables declared with final can be reassigned once at runtime.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "The print() function can interpolate variables directly using the $ symbol.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "A Dart class can have multiple constructors.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Dart supports multiple inheritance through the extends keyword.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Mixins allow class composition without inheritance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which widget should you use when the interface doesn’t need to retain state?",
+    "options": [
+      "StatefulWidget",
+      "Scaffold",
+      "StatelessWidget",
+      "Container"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the purpose of the Scaffold widget in Flutter?",
+    "options": [
+      "It creates text layouts",
+      "It provides a base layout structure for apps",
+      "It centers widgets on the screen",
+      "It wraps ListView widgets"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which widget is ideal for displaying a scrollable vertical list of items?",
+    "options": [
+      "Column",
+      "GridView",
+      "ListView",
+      "ListTile"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget is used inside SliverList to define how each item should be built?",
+    "options": [
+      "ListTile",
+      "SliverChildBuilderDelegate",
+      "ItemBuilder",
+      "SliverDelegate"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the primary widget used to navigate between pages using imperative routing in Flutter?",
+    "options": [
+      "Navigator.pushNamed",
+      "Navigator.pop",
+      "MaterialPageRoute",
+      "RouteObserver"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Routes in Flutter can only be used with strings as identifiers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "SnackBars can include actions like buttons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "A StatefulWidget allows state values to be saved and updated in real time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Stateless widgets can store and manage internal state.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  }
+]
