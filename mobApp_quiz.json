@@ -1,4 +1,195 @@
 [
+  [
+  {
+    "question": "Which keyword is used to declare a whole number in Dart?",
+    "options": [
+      "double",
+      "int",
+      "string",
+      "bool"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the correct syntax to declare a double variable in Dart?",
+    "options": [
+      "double myVariable = 35;",
+      "int myVariable = 35.5;",
+      "double myVariable = 2.99;",
+      "string myVariable = 2.99;"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What keyword is used to define an immutable variable whose value is assigned at compile-time?",
+    "options": [
+      "final",
+      "const",
+      "static",
+      "dynamic"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which of the following is the correct way to declare a string variable in Dart?",
+    "options": [
+      "string name = 'Dart';",
+      "String name = 'Dart';",
+      "str name = 'Dart';",
+      "text name = 'Dart';"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How can you create a variable that cannot be reassigned at runtime in Dart?",
+    "options": [
+      "final",
+      "const",
+      "dynamic",
+      "immutable"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens when you assign a null value to a variable in Dart?",
+    "options": [
+      "The variable becomes non-nullable",
+      "The variable will throw a runtime error",
+      "The variable is explicitly set to null",
+      "The variable will be deleted"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the main difference between `final` and `const` in Dart?",
+    "options": [
+      "Both are used for immutability but `final` is runtime checked while `const` is compile-time checked",
+      "`final` is checked at compile time and `const` at runtime",
+      "There is no difference, both are used interchangeably",
+      "`const` is used for strings only, while `final` can be used for any data type"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "In Dart, the `double` data type is used to store which kind of value?",
+    "options": [
+      "Integer values",
+      "Decimal numbers",
+      "Text values",
+      "Boolean values"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the use of the `String` type in Dart?",
+    "options": [
+      "To store boolean values",
+      "To store sequences of characters",
+      "To store whole numbers",
+      "To store date values"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which keyword is used to declare a variable that can be null in Dart?",
+    "options": [
+      "nullable",
+      "final",
+      "const",
+      "?"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which data type in Dart is used to store true/false values?",
+    "options": [
+      "bool",
+      "int",
+      "string",
+      "double"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which of the following methods can be used to print a variable in Dart?",
+    "options": [
+      "print('$variable')",
+      "log(variable)",
+      "show(variable)",
+      "display(variable)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What does `final` keyword in Dart mean?",
+    "options": [
+      "The value can be assigned only once at runtime",
+      "The value can be reassigned at runtime",
+      "The value is constant and cannot be changed at runtime",
+      "The value is mutable"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which of the following is the correct way to declare a nullable variable in Dart?",
+    "options": [
+      "int myVariable = 10;",
+      "int ?myVariable;",
+      "nullable int myVariable;",
+      "int myVariable = null;"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which of the following statements about immutability in Dart is correct?",
+    "options": [
+      "An immutable variable can never be changed",
+      "An immutable variable can only be changed at runtime",
+      "An immutable variable can only be changed at compile-time",
+      "An immutable variable is mutable at runtime"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What happens when you try to change the value of a `const` variable at runtime in Dart?",
+    "options": [
+      "The application crashes",
+      "The compiler throws a compile-time error",
+      "The value is changed without any issues",
+      "The variable becomes dynamic"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What type of number can a `double` data type represent in Dart?",
+    "options": [
+      "Only integers",
+      "Only decimal numbers",
+      "Both integers and decimal numbers",
+      "None of the above"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "How would you store a true/false value in Dart?",
+    "options": [
+      "bool myVariable = 'true';",
+      "bool myVariable = true;",
+      "bool myVariable = 1;",
+      "bool myVariable = 0;"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Can the value of a `final` variable in Dart be changed after it is initialized?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct_option_id": 1
+  }
+]
+
   {
     "question": "Which keyword is used to define a compile-time constant?",
     "options": [
