@@ -1,272 +1,528 @@
 [
-  [
   {
-    "question": "Which keyword is used to declare a whole number in Dart?",
+    "question": "Which of the following is used to declare a whole number in Dart?",
     "options": [
-      "double",
-      "int",
-      "string",
-      "bool"
+      "A. double",
+      "B. int",
+      "C. String",
+      "D. bool"
     ],
     "correct_option_id": 1
   },
   {
-    "question": "What is the correct syntax to declare a double variable in Dart?",
+    "question": "What is the correct syntax to iterate through a List using a forEach loop?",
     "options": [
-      "double myVariable = 35;",
-      "int myVariable = 35.5;",
-      "double myVariable = 2.99;",
-      "string myVariable = 2.99;"
+      "A. list.for(item)",
+      "B. forEach(list)",
+      "C. list.forEach(item => print(item));",
+      "D. foreach(list in item)"
     ],
     "correct_option_id": 2
   },
   {
-    "question": "What keyword is used to define an immutable variable whose value is assigned at compile-time?",
+    "question": "What keyword is used in Dart to define a constant group of values like days of the week?",
     "options": [
-      "final",
-      "const",
-      "static",
-      "dynamic"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Which of the following is the correct way to declare a string variable in Dart?",
-    "options": [
-      "string name = 'Dart';",
-      "String name = 'Dart';",
-      "str name = 'Dart';",
-      "text name = 'Dart';"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "How can you create a variable that cannot be reassigned at runtime in Dart?",
-    "options": [
-      "final",
-      "const",
-      "dynamic",
-      "immutable"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "What happens when you assign a null value to a variable in Dart?",
-    "options": [
-      "The variable becomes non-nullable",
-      "The variable will throw a runtime error",
-      "The variable is explicitly set to null",
-      "The variable will be deleted"
+      "A. list",
+      "B. group",
+      "C. enum",
+      "D. map"
     ],
     "correct_option_id": 2
   },
   {
-    "question": "What is the main difference between `final` and `const` in Dart?",
+    "question": "What is the benefit of adding parameters to a function?",
     "options": [
-      "Both are used for immutability but `final` is runtime checked while `const` is compile-time checked",
-      "`final` is checked at compile time and `const` at runtime",
-      "There is no difference, both are used interchangeably",
-      "`const` is used for strings only, while `final` can be used for any data type"
+      "A. It shortens the code",
+      "B. It makes functions reusable and flexible",
+      "C. It prevents runtime errors",
+      "D. It ensures type safety"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What symbol is commonly used for defining single-expression anonymous functions in Dart?",
+    "options": [
+      "A. =>",
+      "B. ->",
+      "C. <-"
     ],
     "correct_option_id": 0
   },
   {
-    "question": "In Dart, the `double` data type is used to store which kind of value?",
+    "question": "Which data structure in Dart is used to store items in an ordered collection?",
     "options": [
-      "Integer values",
-      "Decimal numbers",
-      "Text values",
-      "Boolean values"
+      "A. Map",
+      "B. Set",
+      "C. List",
+      "D. Queue"
     ],
-    "correct_option_id": 1
+    "correct_option_id": 2
   },
   {
-    "question": "What is the use of the `String` type in Dart?",
+    "question": "How do you check if a Map contains a specific key?",
     "options": [
-      "To store boolean values",
-      "To store sequences of characters",
-      "To store whole numbers",
-      "To store date values"
+      "A. hasKey()",
+      "B. contains()",
+      "C. containsKey()",
+      "D. findKey()"
     ],
-    "correct_option_id": 1
+    "correct_option_id": 2
   },
   {
-    "question": "Which keyword is used to declare a variable that can be null in Dart?",
+    "question": "Which method is called automatically when a class is instantiated?",
     "options": [
-      "nullable",
-      "final",
-      "const",
-      "?"
+      "A. launch()",
+      "B. build()",
+      "C. create()",
+      "D. constructor()"
     ],
     "correct_option_id": 3
   },
   {
-    "question": "Which data type in Dart is used to store true/false values?",
+    "question": "In the example test, what does await Future.delayed(...) simulate?",
     "options": [
-      "bool",
-      "int",
-      "string",
-      "double"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Which of the following methods can be used to print a variable in Dart?",
-    "options": [
-      "print('$variable')",
-      "log(variable)",
-      "show(variable)",
-      "display(variable)"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "What does `final` keyword in Dart mean?",
-    "options": [
-      "The value can be assigned only once at runtime",
-      "The value can be reassigned at runtime",
-      "The value is constant and cannot be changed at runtime",
-      "The value is mutable"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Which of the following is the correct way to declare a nullable variable in Dart?",
-    "options": [
-      "int myVariable = 10;",
-      "int ?myVariable;",
-      "nullable int myVariable;",
-      "int myVariable = null;"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Which of the following statements about immutability in Dart is correct?",
-    "options": [
-      "An immutable variable can never be changed",
-      "An immutable variable can only be changed at runtime",
-      "An immutable variable can only be changed at compile-time",
-      "An immutable variable is mutable at runtime"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "What happens when you try to change the value of a `const` variable at runtime in Dart?",
-    "options": [
-      "The application crashes",
-      "The compiler throws a compile-time error",
-      "The value is changed without any issues",
-      "The variable becomes dynamic"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "What type of number can a `double` data type represent in Dart?",
-    "options": [
-      "Only integers",
-      "Only decimal numbers",
-      "Both integers and decimal numbers",
-      "None of the above"
+      "A. A delay for a synchronous operation",
+      "B. A sleep command",
+      "C. A real-world async event like API delay",
+      "D. An error message"
     ],
     "correct_option_id": 2
   },
   {
-    "question": "How would you store a true/false value in Dart?",
+    "question": "Which package is recommended for adding custom fonts like Google Fonts in Flutter?",
     "options": [
-      "bool myVariable = 'true';",
-      "bool myVariable = true;",
-      "bool myVariable = 1;",
-      "bool myVariable = 0;"
+      "A. flutter_fonts",
+      "B. fonts_google",
+      "C. google_fonts",
+      "D. custom_fonts"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget should you use when the interface doesn't need to retain state?",
+    "options": [
+      "A. StatefulWidget",
+      "B. Scaffold",
+      "C. StatelessWidget",
+      "D. Container"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the purpose of the Scaffold widget in Flutter?",
+    "options": [
+      "A. It creates text layouts",
+      "B. It provides a base layout structure for apps",
+      "C. It centers widgets on the screen",
+      "D. It wraps ListView widgets"
     ],
     "correct_option_id": 1
   },
   {
-    "question": "Can the value of a `final` variable in Dart be changed after it is initialized?",
+    "question": "Which widget is ideal for displaying a scrollable vertical list of items?",
     "options": [
-      "Yes",
-      "No"
+      "A. Column",
+      "B. GridView",
+      "C. ListView",
+      "D. ListTile"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget is used inside SliverList to define how each item should be built?",
+    "options": [
+      "A. ListTile",
+      "B. SliverChildBuilderDelegate",
+      "C. ItemBuilder",
+      "D. SliverDelegate"
     ],
     "correct_option_id": 1
-  }
-]
-
+  },
+  {
+    "question": "What is the primary widget used to navigate between pages using imperative routing in Flutter?",
+    "options": [
+      "A. Navigator.pushNamed",
+      "B. Navigator.pop",
+      "C. MaterialPageRoute",
+      "D. RouteObserver"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Routes in Flutter can only be used with strings as identifiers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "SnackBars can include actions like buttons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "A StatefulWidget allows state values to be saved and updated in real-time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Stateless widgets can store and manage internal state.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the primary purpose of variables in Dart?",
+    "options": [
+      "a) To store data temporarily in memory",
+      "b) To execute functions",
+      "c) To manage UI elements",
+      "d) To control hardware devices"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the correct way to handle exceptions in Dart?",
+    "options": [
+      "a) Using try, catch, and finally blocks",
+      "b) Using if-else conditions",
+      "c) Using while loops",
+      "d) Ignoring errors and letting the program crash"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How do you declare a function in Dart without parameters?",
+    "options": [
+      "a) void functionName() {}",
+      "b) functionName: Void {}",
+      "c) func functionName() {}",
+      "d) functionName: functionName() {}"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which Dart data structure allows storing key-value pairs?",
+    "options": [
+      "a) List",
+      "b) Set",
+      "c) Map",
+      "d) Queue"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What keyword is used in Dart for creating a class?",
+    "options": [
+      "a) class",
+      "b) struct",
+      "c) interface",
+      "d) className"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How do you initialize an object of a class in Dart?",
+    "options": [
+      "a) var obj = new ClassName();",
+      "b) var obj = ClassName();",
+      "c) ClassName obj = new ClassName();"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What type of testing is NOT typically used in Flutter development?",
+    "options": [
+      "a) Unit testing",
+      "b) Integration testing",
+      "c) Manual testing",
+      "d) UI testing"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the following is a way to load assets in a Flutter app?",
+    "options": [
+      "a) Using pubspec.yaml",
+      "b) Using import \"assets.dart\"",
+      "c) Using loadAssets() function",
+      "d) Using asset.load()"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How do you declare a future function in Dart?",
+    "options": [
+      "a) async Future myFunction() {}",
+      "b) Future myFunction() async {}",
+      "c) myFunction() Future {}"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the primary function of the pubspec.yaml file in Flutter?",
+    "options": [
+      "a) To configure routing in the app",
+      "b) To define dependencies and assets",
+      "c) To store user settings",
+      "d) To handle API requests"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is a key feature of Flutter widgets?",
+    "options": [
+      "a) They are immutable",
+      "b) They require a database",
+      "c) They must be manually updated",
+      "d) They do not support animations"
+    ],
+    "correct_option_id": 0
+  },
+    {
+    "question": "Which of the types is used to represent true/false values in Dart?",
+    "options": [
+      "A. bit",
+      "B. boolean",
+      "C. bool",
+      "D. flag"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the default value of an uninitialized nullable integer in Dart?",
+    "options": [
+      "A. 0",
+      "B. undefined",
+      "C. null",
+      "D. NaN"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What type is used to store text data in Dart?",
+    "options": [
+      "A. Text",
+      "B. str",
+      "C. String",
+      "D. Char"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which statement is used in Dart to execute code based on a condition?",
+    "options": [
+      "A. when",
+      "B. match",
+      "C. if",
+      "D. validate"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What does the finally block do in exception handling?",
+    "options": [
+      "A. Catches only specific exceptions",
+      "B. Runs only if no error occurs",
+      "C. Runs always, whether or not an error occurred",
+      "D. Prevents application from compiling"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the benefit of adding parameters to a function?",
+    "options": [
+      "A. It shortens the code",
+      "B. It makes functions reusable and flexible",
+      "C. It prevents runtime errors",
+      "D. It ensures type safety"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "The LayoutBuilder widget is primarily used for:",
+    "options": [
+      "A. Loading images",
+      "B. Composing responsive layouts based on constraints",
+      "C. Styling widgets",
+      "D. Adding animations"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which of these is true about using a SnackBar in Flutter?",
+    "options": [
+      "A. It appears permanently on the screen.",
+      "B. It must be manually dismissed with a button.",
+      "C. It disappears automatically after a short time.",
+      "D. It can only be used with SliverAppBar."
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget is used to implement a navigation drawer in Flutter?",
+    "options": [
+      "A. SideBar",
+      "B. Drawer",
+      "C. AppDrawer",
+      "D. NavRail"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What widget is typically used to add a bottom navigation bar in a Flutter app?",
+    "options": [
+      "A. BottomSheet",
+      "B. NavigationBar",
+      "C. BottomNavigationBar",
+      "D. FloatingActionBar"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "A while loop in Dart will never run if the condition is false at the beginning.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "SnackBars can include actions like buttons.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Routes in Flutter can only be used with strings as identifiers.",
+    "options": ["true", "false"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "A Drawer widget must be used within a Scaffold to function properly.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Tabs in Flutter require a controller to sync their state with the TabBarView.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "You can use Keys in Flutter only to maintain widget state during rebuilds.",
+    "options": ["true", "false"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "MediaQuery can return properties such as padding, aspect ratio, and orientation.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "LayoutBuilder automatically triggers a rebuild if device dimensions change.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The Placeholder widget cannot define fallback height or color.",
+    "options": ["true", "false"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
+    "options": ["true", "false"],
+    "correct_option_id": 0
+  },
   {
     "question": "Which keyword is used to define a compile-time constant?",
     "options": [
-      "var",
-      "final",
-      "static",
-      "const"
+      "A. var",
+      "B. final",
+      "C. static",
+      "D. const"
     ],
     "correct_option_id": 3
   },
   {
     "question": "Which statement is used in Dart to execute code based on a condition?",
     "options": [
-      "when",
-      "match",
-      "if",
-      "validate"
+      "A. when",
+      "B. match",
+      "C. if",
+      "D. validate"
     ],
     "correct_option_id": 2
   },
   {
     "question": "What is the correct syntax to iterate through a List using a forEach loop?",
     "options": [
-      "List.for(item)",
-      "forEach(List)",
-      "list.forEach((item) => print(item));",
-      "foreach(list in item)"
+      "A. list.for(item)",
+      "B. forEach(list)",
+      "C. list.forEach(item => print(item));",
+      "D. foreach(list in item)"
     ],
     "correct_option_id": 2
   },
   {
     "question": "Which control flow structure is best for evaluating multiple specific values of a single variable?",
     "options": [
-      "for loop",
-      "if-else chain",
-      "switch",
-      "while"
+      "A. for loop",
+      "B. if-else chain",
+      "C. switch",
+      "D. while"
     ],
     "correct_option_id": 2
   },
   {
-    "question": "Which of the following types is used to represent true/false values in Dart?",
+    "question": "Which of the types is used to represent true/false values in Dart?",
     "options": [
-      "bit",
-      "boolean",
-      "bool",
-      "flag"
+      "A. bit",
+      "B. boolean",
+      "C. bool",
+      "D. flag"
     ],
-    "correct_option_id": 3
+    "correct_option_id": 2
   },
   {
     "question": "Which of the following is the correct way to declare a string variable in Dart?",
     "options": [
-      "string name = \"Dart\";",
-      "string name = \"Dart\";",
-      "str name = 'Dart';",
-      "text name = \"Dart\";"
+      "A. string name = \"Dart\";",
+      "B. String name = \"Dart\";",
+      "C. str name = 'Dart';",
+      "D. text name = 'Dart';"
     ],
-    "correct_option_id": 2
+    "correct_option_id": 1
   },
   {
     "question": "Which keyword is used to declare a variable whose value is assigned at runtime and cannot be changed afterward?",
     "options": [
-      "final",
-      "const",
-      "dynamic",
-      "immutable"
+      "A. final",
+      "B. const",
+      "C. dynamic",
+      "D. immutable"
     ],
     "correct_option_id": 0
   },
   {
     "question": "How can you add a new item to an existing Dart List?",
     "options": [
-      "append()",
-      "insert()",
-      "push()",
-      "add()"
+      "A. append()",
+      "B. insert()",
+      "C. push()",
+      "D. add()"
     ],
     "correct_option_id": 3
   },
@@ -288,160 +544,46 @@
       "It takes up all available space",
       "It becomes invisible"
     ],
-    "correct_option_id": 3
+    "correct_option_id": 0
   },
   {
     "question": "Variables declared with final can be changed later in the program.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 1
   },
   {
     "question": "Dart uses the keyword float for decimal numbers.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 1
   },
   {
     "question": "Dart requires that you declare the type of every variable.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Variables declared with final can be reassigned once at runtime.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 1
   },
   {
-    "question": "The print() function can interpolate variables directly using the $ symbol.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "question": "Variables declared with final can be reassigned once at runtime.",
+    "options": ["true", "false"],
+    "correct_option_id": 1
+  },
+  {
+    "question": "print() function can interpolate variables directly using the $ symbol.",
+    "options": ["true", "false"],
     "correct_option_id": 0
   },
   {
     "question": "A Dart class can have multiple constructors.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 0
   },
   {
     "question": "Dart supports multiple inheritance through the extends keyword.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 1
   },
   {
     "question": "Mixins allow class composition without inheritance.",
-    "options": [
-      "True",
-      "False"
-    ],
+    "options": ["true", "false"],
     "correct_option_id": 0
-  },
-  {
-    "question": "Which widget should you use when the interface doesn’t need to retain state?",
-    "options": [
-      "StatefulWidget",
-      "Scaffold",
-      "StatelessWidget",
-      "Container"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "What is the purpose of the Scaffold widget in Flutter?",
-    "options": [
-      "It creates text layouts",
-      "It provides a base layout structure for apps",
-      "It centers widgets on the screen",
-      "It wraps ListView widgets"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "Which widget is ideal for displaying a scrollable vertical list of items?",
-    "options": [
-      "Column",
-      "GridView",
-      "ListView",
-      "ListTile"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "Which widget is used inside SliverList to define how each item should be built?",
-    "options": [
-      "ListTile",
-      "SliverChildBuilderDelegate",
-      "ItemBuilder",
-      "SliverDelegate"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "What is the primary widget used to navigate between pages using imperative routing in Flutter?",
-    "options": [
-      "Navigator.pushNamed",
-      "Navigator.pop",
-      "MaterialPageRoute",
-      "RouteObserver"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Routes in Flutter can only be used with strings as identifiers.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "SnackBars can include actions like buttons.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "A StatefulWidget allows state values to be saved and updated in real time.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "Stateless widgets can store and manage internal state.",
-    "options": [
-      "True",
-      "False"
-    ],
-    "correct_option_id": 1
   }
 ]
