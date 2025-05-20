@@ -74,7 +74,7 @@
         
         "graduation_form_lectures": 21,
         "graduation_titles_lectures": 22,
-        "graduate_old_projects_lectures": 23,
+        "graduate_old_projects_lectures": [23,435],
         "graduation_new_titles_lectures":109,
 
 
