@@ -1,8 +1,9 @@
+
 [
   {
     "question": "yes or no",
     "options": [
-     "yes",
+      "yes",
       "no"
     ],
     "correct_option_id": 0
