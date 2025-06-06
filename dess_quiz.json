@@ -1,0 +1,11 @@
+
+[
+  {
+    "question": "yes or no",
+    "options": [
+      "yes",
+      "no"
+    ],
+    "correct_option_id": 0
+  }
+]
