@@ -40,11 +40,8 @@
 
         
         "mobile_applications_theo_full": 48,
-        "mobile_applications_theo_lectures": null,
-        "mobile_applications_theo_ar_all_lectures": null,
-        "mobile_applications_theo_ar_lectures": null,
-        "mobile_applications_theo_summarize_lectures": null,
-        "mobile_applications_theo_qa_lectures": null,
+        "mobile_applications_theo_summarize_lectures": [409,413,417,422],
+        "mobile_applications_theo_qa_lectures": [460],
         "mobile_applications_theo_old": 71,
         "mobile_applications_theo_adds_lectures": 13,
 
