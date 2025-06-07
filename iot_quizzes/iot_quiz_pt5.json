@@ -1,0 +1,239 @@
+[
+  {
+    "question": "What does the Forecast Umbrella do?",
+    "options": [
+      "Manages grocery shopping lists",
+      "Plays music and gives news",
+      "Tracks pill schedules",
+      "Lights up when rain is expected using weather data"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the GlowCap (Smart Pill Bottle)?",
+    "options": [
+      "A smart refrigerator with a touchscreen",
+      "A pill bottle that glows and beeps to remind users",
+      "A smart security device",
+      "A weather app for forecasting rain"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How many ADC channels are available on NodeMCU?",
+    "options": [
+      "1",
+      "2",
+      "4"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the correct voltage range for the ADC pin?",
+    "options": [
+      "0 - 5V",
+      "0 - 3.3V",
+      "1 - 3.3V"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the correct pin label for the ADC on NodeMCU?",
+    "options": [
+      "D0",
+      "GPIO2",
+      "A0"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What function is used to read the analog voltage on NodeMCU?",
+    "options": [
+      "digitalRead(A0)",
+      "analogRead(A0)",
+      "readVoltage(A0)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What should GPIO15 be during boot/reset/wakeup?",
+    "options": [
+      "LOW",
+      "HIGH"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What should GPIO2 be during boot/reset/wakeup?",
+    "options": [
+      "HIGH",
+      "LOW"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is required for deep sleep mode in NodeMCU?",
+    "options": [
+      "Connect GPIO2 to RST",
+      "Connect GPIO0 to RST",
+      "Keep GPIO15 HIGH",
+      "Connect GPIO16 to RST"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What does GPIO0 determine during boot?",
+    "options": [
+      "The mode",
+      "The temperature",
+      "The voltage",
+      "The speed"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "If GPIO0 is HIGH, what mode is the NodeMCU in?",
+    "options": [
+      "Flash mode",
+      "Run mode",
+      "Deep sleep mode",
+      "Sleep mode"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "If GPIO0 is LOW, what mode is the NodeMCU in?",
+    "options": [
+      "Sleep mode",
+      "Run mode",
+      "Deep sleep mode",
+      "Flash mode"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which function is used to configure a GPIO pin as input or output?",
+    "options": [
+      "pinMode()",
+      "setupGPIO()",
+      "digitalWrite()"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which GPIO pins are used for (to serial) TX and RX in NodeMCU?",
+    "options": [
+      "GPIO1 & GPIO3",
+      "GPIO4 & GPIO5",
+      "GPIO12 & GPIO13"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the special input mode for GPIO16?",
+    "options": [
+      "INPUT_PULLDOWN",
+      "INPUT_PULLDOWN_16",
+      "INPUT_PULLUP"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Explain how to manually enter Upload Mode in NodeMCU?",
+    "options": [
+      "Hold FLASH, press and release RESET while still holding FLASH, then release FLASH",
+      "Hold both RESET and FLASH for 5 seconds then relse RESET only",
+      "Press RESET and wait for automatic mode switch, and not press FLASH",
+      "Press RESET, then press FLASH and release both at the same time"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which GPIOs are internal connected to flash chip and not recommended for use?",
+    "options": [
+      "GPIO0–5",
+      "GPIO12–15",
+      "GPIO6–GPIO11"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the role of the USB-to-serial adapter in some NodeMCU boards?",
+    "options": [
+      "Auto handling FLASH/RESET for upload",
+      "Wi-Fi connection",
+      "Power regulation"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is source current in GPIO?",
+    "options": [
+      "When the pin is grounded",
+      "When the pin outputs current to another device",
+      "When the pin is turned off",
+      "When the pin receives current from an external device"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is sink current in GPIO?",
+    "options": [
+      "When the pin outputs current to another device",
+      "When the pin receives current from an external device",
+      "When the pin is grounded",
+      "When the pin is turned on"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the maximum source current per GPIO pin in NodeMCU?",
+    "options": [
+      "20mA",
+      "12mA",
+      "25mA",
+      "10mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the maximum sink current per GPIO pin in NodeMCU?",
+    "options": [
+      "10mA",
+      "25mA",
+      "20mA",
+      "12mA"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the total maximum current for all GPIOs combined in NodeMCU?",
+    "options": [
+      "240mA",
+      "220mA",
+      "120mA",
+      "192mA"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the function of the voltage regulator in NodeMCU?",
+    "options": [
+      "Protect the circuit from reverse current",
+      "Power the USB connection",
+      "Increase the 3.3V input to 5V",
+      "Convert 5V input to a stable 3.3V output"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the role of diode D1 in the power supply circuit?",
+    "options": [
+      "Increase the input voltage",
+      "Protect the circuit from reverse current",
+      "Regulate the output voltage",
+      "Control the power supply to the USB"
+    ],
+    "correct_option_id": 1
+  }
+]

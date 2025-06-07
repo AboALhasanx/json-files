@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the output voltage from the regulator in NodeMCU?",
+    "options": [
+      "3.3V",
+      "5V",
+      "1.8V",
+      "12V"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the maximum current output supported by the voltage regulator in NodeMCU?",
+    "options": [
+      "1.2A",
+      "800mA",
+      "1A",
+      "500mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the input voltage to the regulator in NodeMCU?",
+    "options": [
+      "5V from USB",
+      "12V from adapter",
+      "3.3V",
+      "1.8V from battery"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is a relay?",
+    "options": [
+      "A high-voltage switch that operates without a control signal",
+      "A power supply circuit",
+      "A microcontroller used for controlling motors",
+      "uses a low-voltage signal to control a high-voltage circuit"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What are the three main function pins of a relay?",
+    "options": [
+      "VCC, GND, Reset",
+      "VCC, Input, Ground",
+      "VCC, GND, Input",
+      "VCC, Output, Control"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the purpose of the VCC pin in a relay module?",
+    "options": [
+      "Control the switch",
+      "Ground the circuit",
+      "Provide input signal",
+      "Power the module"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the purpose of the GND pin in a relay module?",
+    "options": [
+      "Control the switch",
+      "Ground connection",
+      "Power the module",
+      "Send control signal"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What does the Input pin in a relay module do?",
+    "options": [
+      "Receives the control signal from the microcontroller",
+      "Powers the module",
+      "Controls the ground connection",
+      "Sets the relay in off state"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is Normally Open (NO) in a relay?",
+    "options": [
+      "Always disconnected regardless if the relay is activated or not",
+      "Connected by default and disconnects when the relay is activated",
+      "Always connected regardless if the relay is activated or not",
+      "Disconnected by default and connects when the relay is activated"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is Normally Closed (NC) in a relay?",
+    "options": [
+      "Connected by default and disconnects when the relay is activated",
+      "Disconnected by default and connects when the relay is activated",
+      "Always disconnected regardless if the relay is activated or not",
+      "Always connected regardless if the relay is activated or not"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the supply voltage for the relay module?",
+    "options": [
+      "5V to 12V",
+      "1.8V to 3.3V",
+      "3V to 5V",
+      "3.75V to 6V"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the quiescent current of the relay module?",
+    "options": [
+      "100mA",
+      "2mA",
+      "10mA",
+      "50mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the current when the relay is active?",
+    "options": [
+      "150mA",
+      "100mA",
+      "~70mA",
+      "10mA"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the maximum contact voltage of the relay?",
+    "options": [
+      "5VDC",
+      "12VDC",
+      "220VAC",
+      "250VAC or 30VDC"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the maximum current supported by the relay?",
+    "options": [
+      "10mA",
+      "15mA",
+      "20mA",
+      "5mA"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How does a relay work?",
+    "options": [
+      "Uses a switch to directly control the current flow",
+      "Uses a coil to attract the contacts and pull them together when activated",
+      "Uses capacitive sensors to open and close the contacts",
+      "Uses an NTC thermistor to regulate the current"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the function of the coil in a relay?",
+    "options": [
+      "Attracts the contacts and pulls them together when activated",
+      "Regulates the current flow directly",
+      "Converts digital signals to analog",
+      "Pushes the contacts apart when not energized"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the function of the spring in a relay?",
+    "options": [
+      "Pushes the contacts apart when the coil is not energized",
+      "Attracts the contacts together when energized",
+      "Regulates the input voltage",
+      "Converts digital data to analog signals"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What type of sensor is the DHT?",
+    "options": [
+      "Capacitive humidity sensor and an NTC thermistor for temperature",
+      "Photocell for light detection",
+      "Pressure sensor for measuring air pressure",
+      "Gas sensor for detecting toxic gases"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What does the internal chip of the DHT sensor do?",
+    "options": [
+      "Converts analog signals from the sensors to digital data",
+      "Regulates the humidity readings and save it to MCU",
+      "Controls the output voltage from USB",
+      "Converts digital signals to analog"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the advantage of the DHT sensor?",
+    "options": [
+      "It requires multiple components to function",
+      "It uses complex data conversion methods",
+      "It only works with analog data",
+      "It provides direct digital output without needing extra components"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the humidity measuring range of the DH11 sensor?",
+    "options": [
+      "0% to 100%",
+      "20% to 90%",
+      "10% to 100%",
+      "0% to 80%"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the humidity measurement accuracy of the DH11 sensor?",
+    "options": [
+      "±1% RH",
+      "±5% RH",
+      "±2% RH",
+      "±10% RH"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the temperature measuring range of the DH11 sensor?",
+    "options": [
+      "0°C to 100°C",
+      "-40°C to 80°C",
+      "0°C to 50°C",
+      "-40°C to 125°C"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the temperature measurement accuracy of the DH11 sensor?",
+    "options": [
+      "±2°C",
+      "±1°C",
+      "±3°C",
+      "±0.5°C"
+    ],
+    "correct_option_id": 2
+  }
+]

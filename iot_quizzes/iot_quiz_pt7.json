@@ -1,0 +1,250 @@
+[
+  {
+    "question": "What is the sampling period of the DH11 sensor?",
+    "options": [
+      "1.7 - 2 S",
+      "0.5 S",
+      "2 S",
+      "1 S"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the humidity measuring range of the DH22 sensor?",
+    "options": [
+      "10% to 95%",
+      "20% to 90%",
+      "0% to 100%",
+      "5% to 95%"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the humidity measurement accuracy of the DH22 sensor?",
+    "options": [
+      "±2% to ±5% RH",
+      "±3% RH",
+      "±2% RH",
+      "±5% RH"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the temperature measuring range of the DH22 sensor?",
+    "options": [
+      "0°C to 100°C",
+      "-40°C to 80°C",
+      "-40°C to 125°C",
+      "0°C to 50°C"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the temperature measurement accuracy of the DH22 sensor?",
+    "options": [
+      "±2°C",
+      "±0.2°C to ±0.5°C",
+      "±3°C",
+      "±1°C"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the sampling period of the DH22 sensor?",
+    "options": [
+      "0.5 S",
+      "2 S",
+      "1.7 to 2 S",
+      "1 S"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What value of pull-up resistor is recommended if the cable is shorter than 20 meters?",
+    "options": [
+      "10K",
+      "5K",
+      "1K",
+      "100Ω"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What should be done if the cable length is longer than 20 meters?",
+    "options": [
+      "Remove pull-up resistor",
+      "Choose an appropriate pull-up resistor",
+      "Use two DATA lines",
+      "Replace with I2C sensor"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Why is a delay required after powering the DHT sensor?",
+    "options": [
+      "To allow heating",
+      "To bypass unstable status",
+      "To charge internal battery",
+      "For self-test"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How long should you wait before sending data requests to the DHT after power-up?",
+    "options": [
+      "Immediately",
+      "5–10 seconds",
+      "1–2 seconds",
+      "After 30ms"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the recommended capacitor value for power filtering between VDD and GND?",
+    "options": [
+      "10nF",
+      "1µF",
+      "470µF",
+      "100nF"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the purpose of the capacitor between VDD and GND?",
+    "options": [
+      "Boost voltage",
+      "Store temperature",
+      "Power filtering",
+      "Clock timing"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Where is the pull-up resistor connected in the DHT sensor setup?",
+    "options": [
+      "Between GND and VCC",
+      "Between VDD and DATA line",
+      "Between GND and DATA",
+      "Between NC and DATA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens if no pull-up resistor is used in a DHT setup?",
+    "options": [
+      "Nothing",
+      "The DATA signal may become unstable",
+      "The sensor overheats",
+      "The sensor runs faster"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "The pull-up resistor helps to:",
+    "options": [
+      "Keep the data line HIGH when idle",
+      "Pull current from the sensor",
+      "Power the GND pin",
+      "Increase sensor sensitivity"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How many pins from the DHT sensor are used in this circuit connection?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the following gases can MQ-2 detect?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Methane"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "The MQ-2 sensor works best:",
+    "options": [
+      "In extreme heat",
+      "At room temperature",
+      "Underwater",
+      "In complete darkness"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the approximate current drawn by the MQ-2 sensor?",
+    "options": [
+      "20 mA",
+      "265 mA",
+      "1 A",
+      "165 mA"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the typical operating voltage for the MQ-2 sensor?",
+    "options": [
+      "3.3V",
+      "5V",
+      "9V",
+      "12V"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the function of the GND pin on the MQ-2 sensor?",
+    "options": [
+      "It provides power to the sensor by power of air",
+      "Provides analog output",
+      "connected to the negative terminal of the power source",
+      "It measures gas concentration"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What must the GND pin be connected to?",
+    "options": [
+      "Ground of the circuit",
+      "Negative terminal of the power source",
+      "None of the above"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What does the DOUT (DO) pin on the MQ-2 sensor do?",
+    "options": [
+      "It is the power pin",
+      "Provides an analog signal based on gas concentration",
+      "It measures the temperature",
+      "Gives a digital signal"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What happens if no gas is present in the MQ-2 sensor DOUT pin?",
+    "options": [
+      "The output is LOW",
+      "The output is HIGH",
+      "It provides an analog voltage",
+      "The sensor shuts off"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens when gas is detected in the MQ-2 sensor DOUT pin?",
+    "options": [
+      "The output is LOW and the sensor stops working",
+      "The output is HIGH and LED is ON",
+      "The output is LOW and LED is ON",
+      "The output is HIGH and LED is OFF"
+    ],
+    "correct_option_id": 2
+  }
+]

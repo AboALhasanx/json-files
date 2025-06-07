@@ -1,0 +1,243 @@
+[
+  {
+    "question": "What is the operating frequency of the Wi-Fi in ESP-12E?",
+    "options": [
+      "2.4 GHz",
+      "5 GHz",
+      "1.8 GHz"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What are the security standards supported by NodeMCU?",
+    "options": [
+      "WPA/WPA2",
+      "WPS only",
+      "None"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What encryption types are supported by ESP-12E?",
+    "options": [
+      "WEP/TKIP/AES",
+      "SHA1/SHA2",
+      "Base64/MD5"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which power interface is used for NodeMCU?",
+    "options": [
+      "Type-C USB",
+      "Mini USB",
+      "Micro USB"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "tNodeMCU 1.0 is:",
+    "options": [
+      "Proprietary closed design",
+      "Open sourced",
+      "Licensed under commercial IP"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which push buttons are available on the NodeMCU board?",
+    "options": [
+      "Power and Reset",
+      "Sleep and Flash",
+      "Reset and Flash"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What physical feature makes NodeMCU breadboard-friendly?",
+    "options": [
+      "Extra-large PCB",
+      "Compact/narrow design",
+      "Built-in battery slot"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which module does NodeMCU 1.0 use?",
+    "options": [
+      "ESP-32",
+      "ESP-01",
+      "ESP-12E"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which interfaces are supported by ESP-12E?",
+    "options": [
+      "RS232, PS/2",
+      "SPI, UART, I2C, PWM, GPIO",
+      "HDMI, USB-C"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the maximum length of the cable for DHT sensor?",
+    "options": [
+      "10 meters",
+      "30 meters",
+      "20 meters",
+      "50 meters"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What value of pull-up resistor is recommended if the cable is shorter than 20 meters?",
+    "options": [
+      "10K",
+      "5K",
+      "1K",
+      "100Ω"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What should be done if the cable length is longer than 20 meters?",
+    "options": [
+      "Remove pull-up resistor",
+      "Choose an appropriate pull-up resistor",
+      "Use two DATA lines",
+      "Replace with I2C sensor"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Why is a delay required after powering the DHT sensor?",
+    "options": [
+      "To allow heating",
+      "To bypass unstable status",
+      "To charge internal battery",
+      "For self-test"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How long should you wait before sending data requests to the DHT after power-up?",
+    "options": [
+      "Immediately",
+      "5–10 seconds",
+      "1–2 seconds",
+      "After 30ms"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the recommended capacitor value for power filtering between VDD and GND?",
+    "options": [
+      "10nF",
+      "1µF",
+      "470µF",
+      "100nF"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the purpose of the capacitor between VDD and GND?",
+    "options": [
+      "Boost voltage",
+      "Store temperature",
+      "Power filtering",
+      "Clock timing"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Where is the pull-up resistor connected in the DHT sensor setup?",
+    "options": [
+      "Between GND and VCC",
+      "Between VDD and DATA line",
+      "Between GND and DATA",
+      "Between NC and DATA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens if no pull-up resistor is used in a DHT setup?",
+    "options": [
+      "Nothing",
+      "The DATA signal may become unstable",
+      "The sensor overheats",
+      "The sensor runs faster"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the purpose of Bootloader mode in NodeMCU?",
+    "options": [
+      "To activate power-saving mode",
+      "To select between running code or entering programming mode",
+      "To configure the Wi-Fi settings",
+      "To reset all GPIO pins"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which GPIO pin must be LOW during every boot/reset/wakeup?",
+    "options": [
+      "GPIO2",
+      "GPIO0",
+      "GPIO15",
+      "GPIO16"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which GPIO pin must be HIGH during every boot/reset/wakeup?",
+    "options": [
+      "GPIO15",
+      "GPIO0",
+      "GPIO2",
+      "GPIO16"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What happens when GPIO0 is HIGH during boot?",
+    "options": [
+      "The board enters Flash mode",
+      "The board shuts down",
+      "The board enters Run mode",
+      "The board resets"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What happens when GPIO0 is LOW during boot?",
+    "options": [
+      "The board enters Run mode",
+      "The board enters Flash (programming) mode",
+      "The board connects to internet",
+      "The board enters Deep Sleep"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "To enter Deep Sleep mode, GPIO16 must be connected to:",
+    "options": [
+      "GND",
+      "VCC",
+      "RST",
+      "GPIO0"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is a relay?",
+    "options": [
+      "A power supply circuit",
+      "An electromechanical switch controlled by low voltage",
+      "A Wi-Fi transmitter",
+      "A sensor for current"
+    ],
+    "correct_option_id": 1
+  }
+]

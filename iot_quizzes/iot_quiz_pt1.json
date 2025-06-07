@@ -1,0 +1,236 @@
+[
+  {
+    "question": "ESP8266 is a:",
+    "options": [
+      "Low-cost",
+      "High-cost",
+      "Bluetooth module"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Power Plant",
+      "The Things, which are embedded with sensors",
+      "The Web Browser",
+      "The Database Server"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Networks that connect devises",
+      "The Graphics Engine",
+      "The Chat system",
+      "The Print Service"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is one of the main parts of an IoT system?",
+    "options": [
+      "The Weather App",
+      "The Systems that process data to/from the things",
+      "The Keyboard Module",
+      "The Antivirus Software"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is ESP8266?",
+    "options": [
+      "A Bluetooth speaker module",
+      "A low-cost Wi-Fi module with TCP/IP stack and MCU",
+      "A microprocessor for gaming",
+      "An advanced camera module"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "When was the ESP8266 first introduced?",
+    "options": [
+      "March 2012",
+      "August 2014",
+      "May 2016",
+      "January 2013"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Who introduced the ESP8266 module?",
+    "options": [
+      "Ai-Thinker",
+      "Intel",
+      "Espressif Systems",
+      "MediaTek"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which company manufactured the first ESP-01 module?",
+    "options": [
+      "Espressif Systems",
+      "Samsung",
+      "Ai-Thinker",
+      "Qualcomm"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What does ESP8266 allow microcontrollers to do?",
+    "options": [
+      "Connect to USB devices",
+      "Run high-resolution graphics",
+      "Connect to Wi-Fi and perform TCP/IP communication",
+      "Control AC motors directly"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "The Internet of Things (IoT) is:",
+    "options": [
+      "A type of computer virus that ",
+      "The interconnection of Embedded System devices to Internet to send or receive information",
+      "A tool to clean internet cache",
+      "A mobile app to control music"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "ESP8266 supports:",
+    "options": [
+      "TCP/IP stack",
+      "USB interface",
+      "GSM module"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "ESP8266 includes:",
+    "options": [
+      "GPU",
+      "RAM only",
+      "MCU"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "ESP8266 Produced by a company based in:",
+    "options": [
+      "Tokyo",
+      "Berlin",
+      "Shanghai"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "ESP8266 Produced by Manufacturer name:",
+    "options": [
+      "Intel",
+      "Ai-Thinker",
+      "Espressif"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "ESP8266 First appeared in:",
+    "options": [
+      "March 2012",
+      "August 2014",
+      "May 2016"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "ESP8266 First module version:",
+    "options": [
+      "ESP-32",
+      "ESP-10",
+      "ESP-01"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "ESP8266 First module made by:",
+    "options": [
+      "Ai-Thinker",
+      "Espressif",
+      "MediaTek"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "ESP8266 Allows microcontrollers to connect to:",
+    "options": [
+      "GSM",
+      "Bluetooth",
+      "Wi-Fi network"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "ESP8266 Enables:",
+    "options": [
+      "Audio processing",
+      "GPU rendering",
+      "Simple TCP/IP connections"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What microcontroller does the ESP-12E module use?",
+    "options": [
+      "ARM Cortex-M3",
+      "AVR Atmega328P",
+      "Tensilica L106 32-bit"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the CPU clock speed of the ESP-12E?",
+    "options": [
+      "40 MHz",
+      "80 MHz",
+      "120 MHz"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How much flash memory is available in ESP-12E?",
+    "options": [
+      "2 MB",
+      "4 MB",
+      "8 MB"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What type of ADC is included in the ESP-12E module?",
+    "options": [
+      "8-bit",
+      "12-bit",
+      "10-bit"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What programmer does NodeMCU 1.0 include for USB communication?",
+    "options": [
+      "CH340G",
+      "CP2102 USB-to-UART",
+      "FT232RL"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which of the following protocols are supported by the ESP-12E?",
+    "options": [
+      "HTTP/USB",
+      "CAN/I2S/RS232",
+      "IPv4/TCP/UDP/HTTP/FTP"
+    ],
+    "correct_option_id": 2
+  }
+]

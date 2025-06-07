@@ -1,0 +1,252 @@
+[
+  {
+    "question": "How many main function pins does a relay have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the function of the 'Input' pin in a relay module?",
+    "options": [
+      "Provides ground signal",
+      "Sends power to the LED",
+      "Receives control signal from microcontroller",
+      "Generates AC output"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What happens in a Normally Open (NO) configuration?",
+    "options": [
+      "The circuit is always connected",
+      "The circuit connects only when relay is activated",
+      "The circuit never closes",
+      "It acts like a battery backup"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens in a Normally Closed (NC) configuration?",
+    "options": [
+      "The circuit disconnects when relay is activated",
+      "The relay becomes locked",
+      "The signal is reversed",
+      "It switches to analog mode"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which of the following is NOT a component of a relay module?",
+    "options": [
+      "5V Relay",
+      "Diode",
+      "Capacitor",
+      "Transistor"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which component in a relay module limits current?",
+    "options": [
+      "Resistors",
+      "Diode",
+      "LED",
+      "Jumper"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the supply voltage range of a relay module?",
+    "options": [
+      "1V - 3V",
+      "3.75V - 6V",
+      "5V - 12V",
+      "2V - 5V"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the current drawn when relay is inactive (quiescent)?",
+    "options": [
+      "70mA",
+      "5mA",
+      "2mA",
+      "12mA"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the maximum current a relay can handle?",
+    "options": [
+      "5A",
+      "8A",
+      "10A",
+      "15A"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the maximum voltage a relay can switch?",
+    "options": [
+      "250VAC or 30VDC",
+      "12VDC only",
+      "220VAC",
+      "50VDC"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How does a relay activate the switch contacts?",
+    "options": [
+      "By sending analog voltage directly",
+      "Using a coil that pulls the contacts together",
+      "Using Wi-Fi signal",
+      "Through thermal expansion"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What causes the relay contacts to separate?",
+    "options": [
+      "The coil is energized",
+      "A magnetic field builds",
+      "A spring pushes them apart when coil is off",
+      "They separate automatically after delay"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What physical mechanism inside a relay controls movement?",
+    "options": [
+      "Motor",
+      "Piston",
+      "Coil and spring",
+      "Thermistor"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What type of sensor is the DHT?",
+    "options": [
+      "Capacitive humidity and NTC thermistor sensor",
+      "Optical and capacitive sensor",
+      "Piezoelectric temperature sensor",
+      "Voltage divider sensor"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What type of output does the DHT sensor provide?",
+    "options": [
+      "Analog",
+      "PWM signal",
+      "Digital data",
+      "Serial output only"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Why is the DHT sensor considered easy to use?",
+    "options": [
+      "It includes a battery",
+      "It requires no extra components",
+      "It works only with Arduino",
+      "It uses Bluetooth"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the purpose of the internal chip in DHT sensor?",
+    "options": [
+      "To filter analog signals",
+      "To regulate voltage",
+      "To convert analog to digital",
+      "To power the sensor"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the purpose of the pull-up resistor in the DHT sensor circuit?",
+    "options": [
+      "To keep the data line HIGH when idle",
+      "To pull current from the sensor",
+      "To power the GND pin",
+      "To increase sensor sensitivity"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The pull-up resistor helps to:",
+    "options": [
+      "Keep the data line HIGH when idle",
+      "Pull current from the sensor",
+      "Power the GND pin",
+      "Increase sensor sensitivity"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How many pins from the DHT sensor are used in this circuit connection?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the following gases can MQ-2 detect?",
+    "options": [
+      "Oxygen",
+      "Methane",
+      "Carbon dioxide",
+      "Argon"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "The MQ-2 sensor works best:",
+    "options": [
+      "In extreme heat",
+      "At room temperature",
+      "Underwater",
+      "In complete darkness"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the approximate current drawn by the MQ-2 sensor?",
+    "options": [
+      "20 mA",
+      "165 mA",
+      "1 A",
+      "500 mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the typical operating voltage for the MQ-2 sensor?",
+    "options": [
+      "3.3V",
+      "5V",
+      "9V",
+      "12V"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What type of microcontroller is used in the ESP-12E module?",
+    "options": [
+      "AVR Atmega328",
+      "Tensilica L106 32-bit",
+      "Intel Atom",
+      "ARM Cortex-M4"
+    ],
+    "correct_option_id": 1
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the CPU clock speed of the ESP-12E?",
+    "options": [
+      "80 MHz",
+      "100 MHz",
+      "60 MHz",
+      "40 MHz"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the ADC resolution integrated in ESP-12E?",
+    "options": [
+      "16-bit",
+      "8-bit",
+      "12-bit",
+      "10-bit"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "How much SPI flash memory does ESP-12E contain?",
+    "options": [
+      "2 MB",
+      "16 MB",
+      "4 MB",
+      "8 MB"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which communication interfaces are supported by ESP-12E?",
+    "options": [
+      "PCIe, SATA",
+      "Thunderbolt",
+      "HDMI, USB, PS/2",
+      "SPI, UART, I2C, PWM, GPIO"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the operating frequency of the ESP-12E WiFi?",
+    "options": [
+      "3.2 GHz",
+      "2.4 GHz",
+      "5 GHz",
+      "1.8 GHz"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which operation modes are supported by ESP-12E?",
+    "options": [
+      "STA/AP/STA+AP",
+      "Access Point only",
+      "Client only",
+      "Router"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What security standards are supported by ESP-12E?",
+    "options": [
+      "SSL only",
+      "WPA only",
+      "WEP only",
+      "WPA/WPA2"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which encryption types are supported by ESP-12E?",
+    "options": [
+      "WEP/TKIP/AES",
+      "MD5/SHA1",
+      "RSA/DSA",
+      "Base64"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which protocols are supported by ESP-12E?",
+    "options": [
+      "DNS, DHCP only",
+      "IPv6, SMTP",
+      "IPv4, TCP, UDP, HTTP, FTP",
+      "ICMP, SNMP"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the typical current for a NodeMCU GPIO pin?",
+    "options": [
+      "12 mA",
+      "2 mA",
+      "24 mA",
+      "6 mA"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the maximum current for a NodeMCU GPIO pin?",
+    "options": [
+      "20 mA",
+      "12 mA",
+      "6 mA",
+      "10 mA"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which pins are used for I2C on NodeMCU?",
+    "options": [
+      "GPIO2 and GPIO15",
+      "GPIO12 and GPIO13",
+      "GPIO1 and GPIO3",
+      "GPIO4 (D2) and GPIO5 (D1)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is the function of the GND pin on MQ-2?",
+    "options": [
+      "It provides analog output",
+      "It connects to the negative terminal of the power source",
+      "It receives gas data",
+      "It connects to a relay"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens if the GND pin is not connected?",
+    "options": [
+      "Sensor reads higher values",
+      "Sensor still works normally",
+      "The sensor circuit cannot operate",
+      "Only analog works"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What kind of signal does DOUT provide?",
+    "options": [
+      "Analog voltage signal",
+      "Digital HIGH or LOW signal",
+      "PWM signal",
+      "SPI data"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What does a HIGH signal on DOUT mean?",
+    "options": [
+      "Gas is detected and LED is ON",
+      "Sensor is in sleep mode",
+      "No gas is detected and LED is OFF",
+      "The sensor is warming up"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What happens when gas is detected on MQ-2 sensor?",
+    "options": [
+      "DOUT = HIGH, LED OFF",
+      "AOUT becomes zero",
+      "DOUT = LOW, LED ON",
+      "Sensor stops working"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What does AOUT pin provide?",
+    "options": [
+      "A stable 5V output",
+      "Digital signal only",
+      "Analog voltage that varies with gas concentration",
+      "Wi-Fi data stream"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What happens to AOUT voltage if more gas is detected?",
+    "options": [
+      "Voltage decreases",
+      "Voltage increases",
+      "Stays at 0V",
+      "Becomes digital"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the purpose of the VCC pin?",
+    "options": [
+      "It sends data to microcontroller",
+      "It connects to GND",
+      "It powers the sensor with +5V",
+      "It reads analog signal"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What voltage must be connected to VCC for MQ-2?",
+    "options": [
+      "3.3V",
+      "5V",
+      "12V",
+      "1.8V"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the best preheat time for MQ-2 sensor?",
+    "options": [
+      "1 hour",
+      "8 hours",
+      "12 hours",
+      "More than 24 hours"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What is Canary?",
+    "options": [
+      "A smart refrigerator with Wi-Fi",
+      "An umbrella that lights up when it rains",
+      "A smart security device with HD video and motion detection",
+      "A voice-controlled device connected to Alexa"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What feature does the Smart Refrigerator have?",
+    "options": [
+      "Voice control for managing groceries",
+      "A touchscreen for managing groceries and ordering food",
+      "A smart pill bottle with reminders",
+      "Rain detection using Wi-Fi"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the main purpose of Amazon Echo Dot?",
+    "options": [
+      "Detects rain and provides weather updates",
+      "Manages groceries and creates shopping lists",
+      "Tracks pill schedules and sends reminders",
+      "Plays music, gives news, and controls smart devices"
+    ],
+    "correct_option_id": 3
+  }
+]
