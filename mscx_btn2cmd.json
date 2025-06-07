@@ -1,0 +1,23 @@
+{
+"🗽 الملازم الي موجودة 📁": "en_available_notes",
+"🕋 الملازم الي موجودة 📁": "ar_available_notes",
+"💻 الملازم الي موجودة 📁": "com_available_notes",
+
+"🧠 المصادر مال مادة 📁": "ai_subject_sources",
+"🧠 ملخصات 🗂": "ai_summarize_lec",
+
+"🌐 المصادر مال مادة 📁": "networks_subject_sources",
+"🌐 ملخصات 🗂": "networks_summarize_lec",
+
+"⛓ المصادر مال مادة 📁": "oop_subject_sources",
+"⛓ ملخصات 🗂": "oop_summarize_lec",
+
+"📊 المصادر مال مادة 📁": "se_subject_sources",
+"📊 ملخصات 🗂": "se_summarize_lec",
+
+"📚 المصادر مال مادة 📁": "ds_algo_subject_sources",
+"📚 ملخصات 🗂": "ds_algo_summarize_lec",
+
+"🖥️ المصادر مال مادة 📁": "os_subject_sources",
+"🖥️ ملخصات 🗂": "os_summarize_lec"
+}
