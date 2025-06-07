@@ -1,0 +1,11 @@
+[
+  {
+    "question": "ESP8266 is a:",
+    "options": [
+      "Low-cost",
+      "High-cost",
+      "Bluetooth module"
+    ],
+    "correct_option_id": 0
+  }
+]
