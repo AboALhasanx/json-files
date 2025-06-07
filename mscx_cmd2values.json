@@ -1,24 +1,25 @@
-
 {
-"en_available_notes": null,
-"ar_available_notes": null,
-"com_available_notes": null,
+  "commands": {
+    "en_available_notes": null,
+    "ar_available_notes": null,
+    "com_available_notes": null,
 
-"ai_subject_sources": null,
-"ai_summarize_lec": null,
+    "ai_subject_sources": null,
+    "ai_summarize_lec": null,
 
-"networks_subject_sources": null,
-"networks_summarize_lec": null,
+    "networks_subject_sources": null,
+    "networks_summarize_lec": null,
 
-"oop_subject_sources": null,
-"oop_summarize_lec": null,
+    "oop_subject_sources": null,
+    "oop_summarize_lec": null,
 
-"se_subject_sources": null,
-"se_summarize_lec": null,
-
-"ds_algo_subject_sources": 5,
-"ds_algo_summarize_lec": null,
-
-"os_subject_sources": null,
-"os_summarize_lec": null
+    "se_subject_sources": null,
+    "se_summarize_lec": null,
+    
+    "ds_algo_subject_sources": [4,5],
+    "ds_algo_summarize_lec": null,
+    
+    "os_subject_sources": null,
+    "os_summarize_lec": null
+  }
 }
