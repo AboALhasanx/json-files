@@ -1,0 +1,241 @@
+[
+  {
+    "question": "Which of the following is used to declare a whole number in Dart?",
+    "options": [
+      "A. double",
+      "B. int",
+      "C. String",
+      "D. bool"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the correct syntax to iterate through a List using a forEach loop?",
+    "options": [
+      "A. list.for(item)",
+      "B. forEach(list)",
+      "C. list.forEach(item => print(item));",
+      "D. foreach(list in item)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What keyword is used in Dart to define a constant group of values like days of the week?",
+    "options": [
+      "A. list",
+      "B. group",
+      "C. enum",
+      "D. map"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the benefit of adding parameters to a function?",
+    "options": [
+      "A. It shortens the code",
+      "B. It makes functions reusable and flexible",
+      "C. It prevents runtime errors",
+      "D. It ensures type safety"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What symbol is commonly used for defining single-expression anonymous functions in Dart?",
+    "options": [
+      "A. =>",
+      "B. ->",
+      "C. <-"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which data structure in Dart is used to store items in an ordered collection?",
+    "options": [
+      "A. Map",
+      "B. Set",
+      "C. List",
+      "D. Queue"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "How do you check if a Map contains a specific key?",
+    "options": [
+      "A. hasKey()",
+      "B. contains()",
+      "C. containsKey()",
+      "D. findKey()"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which method is called automatically when a class is instantiated?",
+    "options": [
+      "A. launch()",
+      "B. build()",
+      "C. create()",
+      "D. constructor()"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "In the example test, what does await Future.delayed(...) simulate?",
+    "options": [
+      "A. A delay for a synchronous operation",
+      "B. A sleep command",
+      "C. A real-world async event like API delay",
+      "D. An error message"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which package is recommended for adding custom fonts like Google Fonts in Flutter?",
+    "options": [
+      "A. flutter_fonts",
+      "B. fonts_google",
+      "C. google_fonts",
+      "D. custom_fonts"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget should you use when the interface doesn't need to retain state?",
+    "options": [
+      "A. StatefulWidget",
+      "B. Scaffold",
+      "C. StatelessWidget",
+      "D. Container"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the purpose of the Scaffold widget in Flutter?",
+    "options": [
+      "A. It creates text layouts",
+      "B. It provides a base layout structure for apps",
+      "C. It centers widgets on the screen",
+      "D. It wraps ListView widgets"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which widget is ideal for displaying a scrollable vertical list of items?",
+    "options": [
+      "A. Column",
+      "B. GridView",
+      "C. ListView",
+      "D. ListTile"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which widget is used inside SliverList to define how each item should be built?",
+    "options": [
+      "A. ListTile",
+      "B. SliverChildBuilderDelegate",
+      "C. ItemBuilder",
+      "D. SliverDelegate"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the primary widget used to navigate between pages using imperative routing in Flutter?",
+    "options": [
+      "A. Navigator.pushNamed",
+      "B. Navigator.pop",
+      "C. MaterialPageRoute",
+      "D. RouteObserver"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Routes in Flutter can only be used with strings as identifiers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "SnackBars can include actions like buttons.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "A StatefulWidget allows state values to be saved and updated in real-time.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Stateless widgets can store and manage internal state.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the primary purpose of variables in Dart?",
+    "options": [
+      "a) To store data temporarily in memory",
+      "b) To execute functions",
+      "c) To manage UI elements",
+      "d) To control hardware devices"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What is the correct way to handle exceptions in Dart?",
+    "options": [
+      "a) Using try, catch, and finally blocks",
+      "b) Using if-else conditions",
+      "c) Using while loops",
+      "d) Ignoring errors and letting the program crash"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How do you declare a function in Dart without parameters?",
+    "options": [
+      "a) void functionName() {}",
+      "b) functionName: Void {}",
+      "c) func functionName() {}",
+      "d) functionName: functionName() {}"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which Dart data structure allows storing key-value pairs?",
+    "options": [
+      "a) List",
+      "b) Set",
+      "c) Map",
+      "d) Queue"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What keyword is used in Dart for creating a class?",
+    "options": [
+      "a) class",
+      "b) struct",
+      "c) interface",
+      "d) className"
+    ],
+    "correct_option_id": 0
+  }
+]

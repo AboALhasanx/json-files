@@ -1,0 +1,174 @@
+[
+  {
+    "question": "Platform-specific behavior in Flutter can be controlled using the Platform class from dart:io.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which keyword is used to define a compile-time constant?",
+    "options": [
+      "A. var",
+      "B. final",
+      "C. static",
+      "D. const"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Which statement is used in Dart to execute code based on a condition?",
+    "options": [
+      "A. when",
+      "B. match",
+      "C. if",
+      "D. validate"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "What is the correct syntax to iterate through a List using a forEach loop?",
+    "options": [
+      "A. list.for(item)",
+      "B. forEach(list)",
+      "C. list.forEach(item => print(item));",
+      "D. foreach(list in item)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which control flow structure is best for evaluating multiple specific values of a single variable?",
+    "options": [
+      "A. for loop",
+      "B. if-else chain",
+      "C. switch",
+      "D. while"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the types is used to represent true/false values in Dart?",
+    "options": [
+      "A. bit",
+      "B. boolean",
+      "C. bool",
+      "D. flag"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Which of the following is the correct way to declare a string variable in Dart?",
+    "options": [
+      "A. string name = \"Dart\";",
+      "B. String name = \"Dart\";",
+      "C. str name = 'Dart';",
+      "D. text name = 'Dart';"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which keyword is used to declare a variable whose value is assigned at runtime and cannot be changed afterward?",
+    "options": [
+      "A. final",
+      "B. const",
+      "C. dynamic",
+      "D. immutable"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "How can you add a new item to an existing Dart List?",
+    "options": [
+      "A. append()",
+      "B. insert()",
+      "C. push()",
+      "D. add()"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "What property must be set to define the number of columns in a GridView.count?",
+    "options": [
+      "itemCount",
+      "crossAxisCount",
+      "columnCount",
+      "gridLength"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What happens when you place a ListView inside a Column without an Expanded widget?",
+    "options": [
+      "It throws a runtime error",
+      "It scrolls horizontally",
+      "It takes up all available space",
+      "It becomes invisible"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Variables declared with final can be changed later in the program.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Dart uses the keyword float for decimal numbers.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Dart requires that you declare the type of every variable.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Variables declared with final can be reassigned once at runtime.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "print() function can interpolate variables directly using the $ symbol.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "A Dart class can have multiple constructors.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Dart supports multiple inheritance through the extends keyword.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Mixins allow class composition without inheritance.",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_option_id": 0
+  }
+]
