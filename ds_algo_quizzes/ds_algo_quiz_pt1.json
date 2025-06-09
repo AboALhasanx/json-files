@@ -250,5 +250,86 @@
       "C. delete[] M[i] for each i; then delete[] M;"
     ],
     "correct_option_id": 2
+  },
+  {
+    "question": "29. In a singly linked list, what does the 'next' pointer in each node represent?",
+    "options": [
+      "A. A link to the previous node",
+      "B. A link to the next node",
+      "C. The data stored in the node"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "30. Which node in a singly linked list is identified by having its 'next' pointer equal to null?",
+    "options": [
+      "A. Head node",
+      "B. Middle node",
+      "C. Tail node"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "31. What term describes the process of moving from one node to the next by following 'next' pointers?",
+    "options": [
+      "A. Index hopping",
+      "B. Link hopping",
+      "C. Memory hopping"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "32. Unlike a fixed-size array, a singly linked list can be resized at runtime because:",
+    "options": [
+      "A. Its nodes are stored contiguously in memory",
+      "B. It uses a dynamic array internally",
+      "C. You can add or remove nodes without shifting all elements"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "33. In a singly linked list implementation, what does a head pointer value of NULL signify?",
+    "options": [
+      "A. The list is empty",
+      "B. The list has one element",
+      "C. The list is full"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "34. What is the time complexity of adding an element to the front of a singly linked list?",
+    "options": [
+      "A. O(n)",
+      "B. O(log n)",
+      "C. O(1)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "35. Which sequence of steps correctly describes removing the first node from a singly linked list?",
+    "options": [
+      "A. Save head in a temp, head = head->next, delete temp",
+      "B. Delete head, then save head->next, head = temp",
+      "C. head = head->next, delete head"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "36. In the node definition `class StringNode { string elem; StringNode* next; };`, what is the role of the `next` pointer?",
+    "options": [
+      "A. It stores the data element",
+      "B. It points to the next node in the list",
+      "C. It indicates the end of the list"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "37. What must the destructor of a singly linked list do to avoid memory leaks?",
+    "options": [
+      "A. Repeatedly call removeFront() until the list is empty",
+      "B. Just set head to NULL",
+      "C. Only delete the head pointer"
+    ],
+    "correct_option_id": 0
   }
 ]
