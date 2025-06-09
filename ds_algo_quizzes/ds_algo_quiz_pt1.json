@@ -331,5 +331,325 @@
       "C. Only delete the head pointer"
     ],
     "correct_option_id": 0
+  },
+  {
+    "question": "38. What does the template parameter `<E>` represent in `class SLinkedList<E>`?",
+    "options": [
+      "A. The maximum number of elements",
+      "B. The type of elements stored in the list",
+      "C. The memory allocation strategy"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "39. Which statement correctly creates a generic singly linked list of integers?",
+    "options": [
+      "A. SLinkedList<int> list;",
+      "B. SLinkedList list<int>;",
+      "C. SLinkedList<E> list<int>;"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "40. In the `addFront` method of `SLinkedList<E>`, why do we set `v->next = head` before `head = v`?",
+    "options": [
+      "A. To free the old head node",
+      "B. To link the new node to the existing list",
+      "C. To delete previous nodes"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "41. What ensures no memory leaks in the destructor of `SLinkedList<E>`?",
+    "options": [
+      "A. Calling `delete head;` once",
+      "B. Iteratively calling `removeFront()` until the list is empty",
+      "C. Setting head to NULL without deletion"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "42. Why must each definition be prefaced by `template <typename E>` when implementing `SLinkedList<E>` methods?",
+    "options": [
+      "A. To specify exception handling",
+      "B. To instantiate the template for each type parameter",
+      "C. To optimize memory usage"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "43. What is the purpose of the header and trailer sentinels in a doubly linked list?",
+    "options": [
+      "A. To store user data at the ends of the list",
+      "B. To simplify edge-case code by marking list boundaries",
+      "C. To improve memory allocation speed"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "44. When inserting a new node z immediately after node v, which pointer update must happen last to maintain list integrity?",
+    "options": [
+      "A. z->next = v->next;",
+      "B. v->next = z;",
+      "C. z->prev = v;"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "45. In the `remove(DNode* v)` utility, after unlinking v, which action must follow to prevent a memory leak?",
+    "options": [
+      "A. Delete the header sentinel",
+      "B. Delete the trailer sentinel",
+      "C. Delete node v"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "46. How can one check if a doubly linked list (with sentinels) is empty?",
+    "options": [
+      "A. header->next == trailer",
+      "B. header->prev == trailer",
+      "C. trailer->next == header"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "47. Which advantage do doubly linked lists have over singly linked lists?",
+    "options": [
+      "A. They use less memory per node",
+      "B. They allow efficient removal from any position if you have a pointer to the node",
+      "C. They avoid the need for sentinels"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "48. In a circularly linked list with a cursor, the element returned by `back()` is:",
+    "options": [
+      "A. The element at the cursor node",
+      "B. The element immediately after the cursor node",
+      "C. The element immediately before the cursor node"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "49. Which pointer update is required when adding a new node after the cursor in a nonempty circular list?",
+    "options": [
+      "A. newNode->next = cursor->next;",
+      "B. cursor->next = newNode->next;",
+      "C. cursor->next = cursor;"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "50. What must the `remove()` operation do when the list contains only one node?",
+    "options": [
+      "A. Set cursor->next = cursor",
+      "B. Delete the node and set cursor = NULL",
+      "C. Throw an exception"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "51. Reversing a doubly linked list by copying elements into a temporary list and back results in what overall time complexity?",
+    "options": [
+      "A. O(n)",
+      "B. O(n²)",
+      "C. O(log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "52. During list reversal, inserting each extracted element from the original list to the front of the temporary list ensures that:",
+    "options": [
+      "A. The relative order of elements is preserved",
+      "B. The last element of the original list becomes the first in the temporary list",
+      "C. The list remains sorted"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "53. What distinguishes the base case in a recursive function?",
+    "options": [
+      "A. It calls the function again with a smaller argument",
+      "B. It returns a non-recursive value without further self-calls",
+      "C. It throws an exception when a condition is met"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "54. In a recursion trace, each arrow pointing inward (→) represents:",
+    "options": [
+      "A. A return from a function call",
+      "B. A new recursive function call",
+      "C. A loop iteration"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "55. For `recursiveFactorial(n)`, what is the time complexity in terms of `n`?",
+    "options": [
+      "A. O(n!)",
+      "B. O(n)",
+      "C. O(log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "56. Which pattern best describes the recursive drawing of ticks between inch marks in the ruler example?",
+    "options": [
+      "A. drawTicks(L) calls drawTicks(L+1) once",
+      "B. drawTicks(L) performs two calls to drawTicks(L-1) around a central action",
+      "C. drawTicks(L) uses an iterative for-loop to simulate recursion"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "57. Why does a recursive function always terminate if its argument strictly decreases and a base case is defined?",
+    "options": [
+      "A. Because C++ enforces a maximum recursion depth",
+      "B. Because eventually the argument reaches the base case and no further self-calls occur",
+      "C. Because the compiler optimizes tail calls automatically"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "58. In a linear recursive function summing an array of length n, how many total calls to the recursive function are made (including the initial call)?",
+    "options": [
+      "A. n",
+      "B. n+1",
+      "C. 2n",
+      "D. n−1"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "59. Which of the following correctly describes the base case for the recursive array-sum algorithm LinearSum(A,n)?",
+    "options": [
+      "A. n == 0: return 0",
+      "B. n == 1: return A[0]",
+      "C. n ≤ 1: return 1",
+      "D. n < 0: throw error"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "60. Consider the recursive array-reversal algorithm ReverseArray(A,i,j). What condition signals that the recursion should stop?",
+    "options": [
+      "A. i == j",
+      "B. i > j",
+      "C. either i >= j",
+      "D. either i == j or i+1 == j"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "61. Which feature distinguishes a tail-recursive function from a general recursive one?",
+    "options": [
+      "A. It makes at most one recursive call per invocation",
+      "B. Its recursive call is the very last operation in the function",
+      "C. It uses only constant amount of extra memory",
+      "D. It never calls itself indirectly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "62. What is the worst-case additional space (call-stack depth) used by the linear recursive sum of n elements?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)",
+      "D. O(n^2)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "63. What characterizes a binary recursive algorithm?",
+    "options": [
+      "A. It makes exactly one recursive call per invocation",
+      "B. It makes two recursive calls per invocation",
+      "C. It alternates between recursion and iteration"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "64. Assuming n is a power of two, what is the depth of the recursion tree for the BinarySum algorithm on an array of length n?",
+    "options": [
+      "A. O(n)",
+      "B. O(log n)",
+      "C. O(n log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "65. Why does the naive binary recursion for Fibonacci (BinaryFib) exhibit exponential time complexity?",
+    "options": [
+      "A. Because each call makes two overlapping recursive calls",
+      "B. Because it uses a loop inside the recursive function",
+      "C. Because it allocates a new array on each call"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "66. How does the linear recursive Fibonacci algorithm (LinearFibonacci) achieve O(k) calls instead of exponential calls?",
+    "options": [
+      "A. By caching previous results in a table",
+      "B. By returning a pair (Fk, Fk-1) on each call, reducing overlap",
+      "C. By using tail recursion optimization"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "67. In the BinarySum algorithm, why is the overall running time still O(n) despite binary recursion?",
+    "options": [
+      "A. Because each level of recursion processes disjoint halves totaling n elements",
+      "B. Because the base case is reached in constant time",
+      "C. Because the algorithm uses tail recursion"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "68. What type of recursion is used when a function makes more than two recursive calls per invocation?",
+    "options": [
+      "A. Linear recursion",
+      "B. Binary recursion",
+      "C. Multiple recursion"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "69. In the PuzzleSolve algorithm, why is an element e removed from set U before the recursive call?",
+    "options": [
+      "A. To free memory for e",
+      "B. To prevent reusing e in the same configuration",
+      "C. To sort the set U"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "70. What does PuzzleSolve(k, S, U) enumerate when U has n elements?",
+    "options": [
+      "A. All subsets of size k from U regardless of order",
+      "B. All ordered sequences of length k from U without repetition",
+      "C. All possible partitions of U into k parts"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "71. What is the total number of recursive calls (including initial) made by PuzzleSolve(3, S, {a,b,c})?",
+    "options": [
+      "A. 6",
+      "B. 9",
+      "C. 11"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "72. After returning from the recursive call PuzzleSolve(k-1, S, U), why is e added back to U?",
+    "options": [
+      "A. To test e in different positions for other permutations",
+      "B. To maintain sorted order of U",
+      "C. To avoid memory leaks"
+    ],
+    "correct_option_id": 0
   }
 ]
