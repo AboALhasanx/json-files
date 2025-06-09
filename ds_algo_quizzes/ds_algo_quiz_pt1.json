@@ -1,38 +1,254 @@
 [
   {
-    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+    "question": "1. Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
     "options": [
-      "Because it guarantees zero-overhead access specifiers",
-      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
-      "Because it automatically inlines all accessor functions"
+      "A. Because it guarantees zero-overhead access specifiers",
+      "B. Because members are constructed directly with their final values, avoiding default construction plus reassignment",
+      "C. Because it automatically inlines all accessor functions"
     ],
     "correct_option_id": 1
   },
   {
-    "question": "Choosing an array as the primary container for fixed-size records mainly provides which advantage?",
+    "question": "2. Choosing an array as the primary container for fixed-size records mainly provides which advantage?",
     "options": [
-      "Constant-time random access regardless of record position",
-      "Automatic memory reallocation when the array exceeds capacity",
-      "O(1) insertion at arbitrary positions without shifting elements"
+      "A. Constant-time random access regardless of record position",
+      "B. Automatic memory reallocation when the array exceeds capacity",
+      "C. O(1) insertion at arbitrary positions without shifting elements"
     ],
     "correct_option_id": 0
   },
   {
-    "question": "Marking class data members as private while offering public getters is an example of enforcing which OOP principle?",
+    "question": "3. Marking class data members as private while offering public getters is an example of enforcing which OOP principle?",
     "options": [
-      "Polymorphism",
-      "Encapsulation",
-      "Multiple inheritance"
+      "A. Polymorphism",
+      "B. Encapsulation",
+      "C. Multiple inheritance"
     ],
     "correct_option_id": 1
   },
   {
-    "question": "If a class exposes its data members directly without any accessor methods, which of the following is the most immediate risk?",
+    "question": "4. If a class exposes its data members directly without any accessor methods, which of the following is the most immediate risk?",
     "options": [
-      "Increased compile-time type checking",
-      "Unrestricted external modification leading to inconsistent state",
-      "Automatic reduction in object size at runtime"
+      "A. Increased compile-time type checking",
+      "B. Automatic reduction in object size at runtime",
+      "C. Unrestricted external modification leading to inconsistent state"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5. Which delete form must be used to properly deallocate memory that was obtained with `new Type[n]` in C++?",
+    "options": [
+      "A. delete pointer;",
+      "B. delete[] pointer;",
+      "C. free(pointer);"
     ],
     "correct_option_id": 1
+  },
+  {
+    "question": "6. Assuming an array kept strictly in non-increasing order, inserting a new element with the highest value requires which time complexity in the worst case?",
+    "options": [
+      "A. O(log n)",
+      "B. O(n)",
+      "C. O(1)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "7. If a destructor fails to release dynamically allocated memory for a class, the most direct consequence is:",
+    "options": [
+      "A. Memory leak persisting for the lifetime of the program",
+      "B. Dangling pointer dereference",
+      "C. Double-free error during stack unwinding"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "8. Throwing an `IndexOutOfBounds` exception for an invalid position primarily enforces which software engineering principle?",
+    "options": [
+      "A. Lazy evaluation of error conditions",
+      "B. Fail-fast by detecting improper use early",
+      "C. Encapsulation of private data"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "9. In the add(e) algorithm for a fixed-size sorted array, why do we shift elements from right to left when making room for the new entry?",
+    "options": [
+      "A. To minimize the total number of element moves",
+      "B. To avoid overwriting entries that have not yet been processed",
+      "C. To maintain constant-time shifts regardless of position"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "10. What is the worst-case time complexity of inserting a new element into a descendingly sorted array of length n?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "11. Why does the algorithm check if the array is full and the new score is not higher than the last entry before proceeding?",
+    "options": [
+      "A. To ensure the array remains sorted after insertion",
+      "B. To prevent unnecessary work when the new element cannot be included",
+      "C. To automatically increase the array capacity when needed"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "12. When the array is not full, the algorithm increments numEntries before shifting. What would go wrong if this increment were omitted?",
+    "options": [
+      "A. The loop boundary would be incorrect and might overwrite the first element",
+      "B. New entries would always be appended at the end rather than inserted in order",
+      "C. The destructor would fail to free the allocated array properly"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "13. Why is it necessary to save the removed element in a temporary variable before shifting array entries?",
+    "options": [
+      "A. To prevent the loop from going out of bounds",
+      "B. Because shifting will overwrite the original data at index i",
+      "C. To maintain the sorted order of the remaining elements"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "14. What is the time complexity of removing an element at index i from an array of length n in the worst case?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. O(log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "15. If remove(i) does not decrement numEntries, what immediate issue will occur?",
+    "options": [
+      "A. Subsequent insertions will overwrite existing entries prematurely",
+      "B. The destructor will fail to free all allocated memory",
+      "C. The loop shifting elements will never terminate"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "16. Throwing an exception for an invalid index inside remove(i) primarily helps with:",
+    "options": [
+      "A. Ensuring the array remains sorted",
+      "B. Fail-fast error detection to catch bugs early",
+      "C. Automatically resizing the array to fit the operation"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "17. What is the primary operation that the inner loop of insertion sort performs?",
+    "options": [
+      "A. Swapping adjacent elements until the current element is in place",
+      "B. Copying larger elements one position to the right to make room",
+      "C. Partitioning the array around a pivot"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "18. What is the worst-case time complexity of insertion sort on an array of length n?",
+    "options": [
+      "A. O(n)",
+      "B. O(n log n)",
+      "C. O(n²)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "19. In which scenario does insertion sort run in linear time O(n)?",
+    "options": [
+      "A. When the array is already sorted",
+      "B. When the array is in reverse order",
+      "C. When all elements are identical"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "20. Why is insertion sort considered adaptive?",
+    "options": [
+      "A. Because it uses extra memory proportional to input size",
+      "B. Because it shifts fewer elements when the input is nearly sorted",
+      "C. Because it divides the array recursively"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "21. How do you declare a two-dimensional array with R rows and C columns in C++?",
+    "options": [
+      "A. int M[C][R];",
+      "B. int M[R][C];",
+      "C. int M[R,C];"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "22. Given `int M[8][10];`, what does `M[3][5]` refer to?",
+    "options": [
+      "A. Row 5, Column 3 element",
+      "B. Row 3, Column 5 element",
+      "C. A pointer to the entire 4th row"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "23. Why is it recommended to use symbolic constants for array dimensions?",
+    "options": [
+      "A. To allow dynamic resizing at runtime",
+      "B. To make the code clearer and easier to maintain",
+      "C. To reduce compilation time"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "24. If `const int N_DAYS = 7; const int N_HOURS = 24; int schedule[N_DAYS][N_HOURS];` is declared, what is the type of `schedule`?",
+    "options": [
+      "A. Pointer to pointer of int",
+      "B. 7*24 two-dimensional int array",
+      "C. Array of 24 arrays of 7 ints"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "25. When dynamically allocating an n×m integer matrix as an array of arrays in C++, what is the correct type of the variable M?",
+    "options": [
+      "A. int* M;",
+      "B. int** M;",
+      "C. vector<vector<int>> M;"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "26. Which sequence correctly allocates and then deallocates a dynamic n×m int matrix using new/delete?",
+    "options": [
+      "A. M = new int[n][m]; … delete[] M;",
+      "B. M = new int*[n]; for each i: M[i] = new int[m]; … for each i: delete[] M[i]; delete[] M;",
+      "C. M = new int[n*m]; … delete M;"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "27. Why is using `vector<vector<int>> M(n, vector<int>(m));` preferred over manual new/delete for a dynamic matrix?",
+    "options": [
+      "A. It compiles faster",
+      "B. It automatically manages memory and avoids explicit delete[] loops",
+      "C. It uses less memory at runtime"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "28. After allocating a matrix with `int** M = new int*[n];` and rows via `M[i] = new int[m];`, what must you do to correctly free all memory?",
+    "options": [
+      "A. delete M; delete[] M[i] for each i;",
+      "B. delete[] M; delete[] M[i] for each i;",
+      "C. delete[] M[i] for each i; then delete[] M;"
+    ],
+    "correct_option_id": 2
   }
 ]
