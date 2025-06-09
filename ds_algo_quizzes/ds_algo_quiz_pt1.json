@@ -1,0 +1,38 @@
+[
+  {
+    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+    "options": [
+      "Because it guarantees zero-overhead access specifiers",
+      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
+      "Because it automatically inlines all accessor functions"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Choosing an array as the primary container for fixed-size records mainly provides which advantage?",
+    "options": [
+      "Constant-time random access regardless of record position",
+      "Automatic memory reallocation when the array exceeds capacity",
+      "O(1) insertion at arbitrary positions without shifting elements"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Marking class data members as private while offering public getters is an example of enforcing which OOP principle?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Multiple inheritance"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "If a class exposes its data members directly without any accessor methods, which of the following is the most immediate risk?",
+    "options": [
+      "Increased compile-time type checking",
+      "Unrestricted external modification leading to inconsistent state",
+      "Automatic reduction in object size at runtime"
+    ],
+    "correct_option_id": 1
+  }
+]
