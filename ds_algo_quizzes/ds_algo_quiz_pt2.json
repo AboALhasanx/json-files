@@ -1,0 +1,322 @@
+[
+  {
+    "question": "1. Which of the following best describes the constant function in algorithm analysis?",
+    "options": [
+      "A. It always returns the input value n.",
+      "B. It always returns the same constant value regardless of n.",
+      "C. It increases as n increases but slowly.",
+      "D. It returns different values based on log(n)."
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "2. Which base of logarithm is most commonly used in computer science?",
+    "options": [
+      "A. Base 10",
+      "B. Base e",
+      "C. Base 2",
+      "D. Base 5"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "3. Which of the following statements about the linear function is most accurate?",
+    "options": [
+      "A. It represents algorithms with nested loops.",
+      "B. It represents algorithms that process each input element once.",
+      "C. It represents algorithms that take a constant time regardless of input size.",
+      "D. It represents algorithms that always divide the input in half."
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "4. What is the growth rate of n log n compared to linear and quadratic functions?",
+    "options": [
+      "A. It grows exponentially.",
+      "B. It grows faster than quadratic functions.",
+      "C. It grows faster than linear but slower than quadratic functions.",
+      "D. It grows at the same rate as constant functions."
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5. Which of the following best describes the quadratic function in algorithm analysis?",
+    "options": [
+      "A. It typically results from nested loops.",
+      "B. It typically results from recursive binary search.",
+      "C. It represents the fastest growing polynomial function.",
+      "D. It usually describes logarithmic algorithms."
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "6. What is the characteristic of exponential functions in algorithm analysis?",
+    "options": [
+      "A. They usually represent constant-time algorithms.",
+      "B. They grow slower than quadratic functions.",
+      "C. They grow at the same rate as logarithmic functions.",
+      "D. They grow extremely fast and are usually impractical for large inputs."
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "7. Which of the following correctly ranks the growth rates from slowest to fastest?",
+    "options": [
+      "A. Constant < Logarithmic < Linear < n log n < Quadratic < Cubic < Exponential",
+      "B. Constant < Linear < Logarithmic < Exponential < Cubic < Quadratic < n log n",
+      "C. Exponential < Cubic < Quadratic < n log n < Linear < Logarithmic < Constant",
+      "D. Logarithmic < Constant < n log n < Quadratic < Cubic < Exponential < Linear"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "8. What is the correct result of the geometric series 1 + 2 + 4 + ... + 2^(n-1)?",
+    "options": [
+      "A. n log n",
+      "B. 2^n - 1",
+      "C. n^2",
+      "D. log n"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "9. What does the story of Archimedes primarily illustrate in algorithm analysis?",
+    "options": [
+      "A. A method of experimental testing",
+      "B. The importance of execution time",
+      "C. A proof of Big-O notation",
+      "D. A tool of analysis (displacement) before formal time analysis"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "10. What is a 'good' algorithm and data structure combination characterized by?",
+    "options": [
+      "A. Randomized input handling",
+      "B. Guaranteed constant time for all operations",
+      "C. Well-organized data and a finite step procedure",
+      "D. Efficient memory usage only"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "11. What is the primary focus in measuring an algorithm's running time?",
+    "options": [
+      "A. The constant factors in the code",
+      "B. The number of programming languages used",
+      "C. The number of loops in the algorithm",
+      "D. The relationship between input size n and execution time"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "12. Which of the following is NOT a limitation of experimental studies in algorithm analysis?",
+    "options": [
+      "A. Provides perfect mathematical proofs",
+      "B. Requires executable code",
+      "C. Varies by hardware and environment",
+      "D. Tests are on limited input samples"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "13. In theoretical analysis, what is typically considered as a 'basic operation'?",
+    "options": [
+      "A. Running the entire program",
+      "B. Assigning a variable",
+      "C. Compiling the source code",
+      "D. Choosing a programming language"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "14. Why do we usually focus on the worst-case running time?",
+    "options": [
+      "A. Because the worst-case running time is always the fastest",
+      "B. Because it provides a guaranteed upper bound on running time",
+      "C. Because worst-case scenarios never occur",
+      "D. Average-case analysis always gives higher times"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "15. Which statement correctly defines Big-O notation?",
+    "options": [
+      "A. Big-O guarantees constant time for all algorithms",
+      "B. Big-O only applies to logarithmic functions",
+      "C. Big-O provides an upper bound of an algorithm’s growth rate",
+      "D. Big-O gives the exact number of operations required"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "16. Which of the following is an example of a function that is O(n)?",
+    "options": [
+      "A. log n",
+      "B. 2^n",
+      "C. 5n⁴ + 2n³",
+      "D. 8n – 2"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "17. What does Big-Ω notation describe?",
+    "options": [
+      "A. A hardware-dependent time measurement",
+      "B. The worst-case only",
+      "C. The exact runtime of an algorithm",
+      "D. The minimal growth rate (asymptotic lower bound)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "18. What is the running time of the prefixAverages1 algorithm?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. O(n²)",
+      "D. O(log n)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "19. What is the time complexity of Power(x, n) using exponentiation by squaring?",
+    "options": [
+      "A. O(n)",
+      "B. O(n²)",
+      "C. O(2ⁿ)",
+      "D. O(log n)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "20. Why do we prefer polynomial-time algorithms over exponential-time algorithms?",
+    "options": [
+      "A. Polynomial algorithms always give exact results",
+      "B. Exponential algorithms run faster on large inputs",
+      "C. Polynomial-time algorithms scale better with input size",
+      "D. Exponential algorithms always need less memory"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "21. Why do we analyze algorithms theoretically instead of relying only on experiments?",
+    "options": [
+      "A. Experiments completely replace the need for theoretical analysis",
+      "B. Experiments cannot handle any input sizes",
+      "C. Experiments always give inaccurate results",
+      "D. Experiments are limited in scope and depend on hardware"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "22. What does the story of Archimedes illustrate in the context of algorithm analysis?",
+    "options": [
+      "A. A proof of Big-O notation",
+      "B. A modern algorithm for water measurement",
+      "C. A historical tool for mathematical displacement analysis",
+      "D. The use of experimental hardware"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "23. What are the primary goals of analyzing an algorithm?",
+    "options": [
+      "A. To understand the syntax of the programming language",
+      "B. To guarantee zero memory usage",
+      "C. To evaluate the algorithm's running time and space as input size increases",
+      "D. To count the number of lines in the code"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "24. Which of the following is NOT a limitation of experimental analysis?",
+    "options": [
+      "A. Tests are on limited input samples",
+      "B. Depends on specific hardware and software",
+      "C. Provides universal theoretical guarantees",
+      "D. Requires a fully implemented algorithm"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "25. What is the core idea of theoretical analysis using primitive operations?",
+    "options": [
+      "A. To compare hardware configurations",
+      "B. To count basic steps like assignments, comparisons, and indexing as time units",
+      "C. To analyze only the average case of the algorithm",
+      "D. To measure the CPU temperature during execution"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "26. Why is the worst-case running time commonly analyzed?",
+    "options": [
+      "A. Because worst-case scenarios never occur",
+      "B. Because it provides a guaranteed upper bound on running time",
+      "C. Because the worst-case running time is always the fastest",
+      "D. Because average-case analysis always gives higher times"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "27. Which statement correctly describes Big-O notation?",
+    "options": [
+      "A. Big-O describes the minimum number of steps",
+      "B. Big-O is the asymptotic upper bound on an algorithm's growth",
+      "C. Big-O measures the exact running time",
+      "D. Big-O is used only for space complexity"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "28. Which is an example of an algorithm with O(n log n) time complexity?",
+    "options": [
+      "A. Sorting followed by uniqueness check",
+      "B. Prefix averages version 1",
+      "C. Exponentiation using naive multiplication",
+      "D. Simple array maximum search"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "29. What is the time complexity of prefixAverages1 algorithm?",
+    "options": [
+      "A. O(n)",
+      "B. O(2ⁿ)",
+      "C. O(log n)",
+      "D. O(n²)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "30. What is the time complexity of exponentiation using binary squaring?",
+    "options": [
+      "A. O(n²)",
+      "B. O(n)",
+      "C. O(log n)",
+      "D. O(2ⁿ)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "31. What is the time complexity of the isUnique recursive solution?",
+    "options": [
+      "A. O(n²)",
+      "B. O(n log n)",
+      "C. O(2ⁿ)",
+      "D. O(n)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "32. How does faster hardware affect asymptotic analysis?",
+    "options": [
+      "A. It guarantees O(1) performance for all algorithms",
+      "B. It reduces the number of primitive operations",
+      "C. It changes the algorithm's Big-O classification",
+      "D. It improves constant factors but not growth rate classification"
+    ],
+    "correct_option_id": 3
+  }
+]
