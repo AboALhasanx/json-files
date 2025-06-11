@@ -1,0 +1,402 @@
+[
+  {
+    "question": "1. What is the precise worst-case time complexity of the bubble-sort algorithm?",
+    "options": [
+      "A. O(n²)",
+      "B. Θ(n²)",
+      "C. O(n log n)",
+      "D. O(n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "2. What is the amortized time complexity of push_back on an extendable array-based vector?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. Θ(n)",
+      "D. Amortized O(1)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "3. In a simple array-based vector of size n, what is the worst-case time complexity of insert(0,e)?",
+    "options": [
+      "A. Θ(n)",
+      "B. O(n)",
+      "C. O(n log n)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "4. What is the time complexity of insertFront(e) in a doubly linked-list–based sequence?",
+    "options": [
+      "A. O(1)",
+      "B. Θ(1)",
+      "C. O(n)",
+      "D. O(log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "5. After performing n push_back operations starting from an empty extendable array, what is the total worst-case time?",
+    "options": [
+      "A. O(n)",
+      "B. O(n log n)",
+      "C. Θ(n)",
+      "D. O(n²)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "6. What is the time complexity of reserve(n) when the current capacity is already ≥n?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. Θ(1)",
+      "D. Θ(n)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "7. In a doubly linked-list implementation of Sequence, what is the complexity of atIndex(i)?",
+    "options": [
+      "A. O(n)",
+      "B. O(min(i,n–i))",
+      "C. O(log n)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "8. Which data structure provides O(1) time for both insertFront and insertBack?",
+    "options": [
+      "A. Circular array",
+      "B. Doubly linked list",
+      "C. Vector",
+      "D. Stack"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "9. Which simple array-based vector operations run in O(1) time?",
+    "options": [
+      "A. size()",
+      "B. at(i)",
+      "C. insert(i,e)",
+      "D. erase(i)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "10. In a circular-array queue of capacity N, which condition correctly indicates the queue is full?",
+    "options": [
+      "A. f == r",
+      "B. n == N",
+      "C. (r + 1) % N == f",
+      "D. Q[r] != NULL"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "11. In the context of STL iterators, what does the expression `*p` achieve?",
+    "options": [
+      "A. Returns a reference to the element at the iterator’s position",
+      "B. Advances the iterator to the next element",
+      "C. Checks if the iterator has reached the end()",
+      "D. Removes the element at the iterator’s position"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "12. Which of the following List ADT operations on a doubly linked list still runs in O(n) time, even if given a valid iterator?",
+    "options": [
+      "A. insert(p,e)",
+      "B. erase(p)",
+      "C. atIndex(i)",
+      "D. insertFront(e)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "13. In the NodeList implementation, which fields are stored in each `Node` struct?",
+    "options": [
+      "A. `Elem elem`, `Node* prev`, `Node* next`",
+      "B. `Elem elem`, `Node* next`",
+      "C. `Elem data`, `Node* head`, `Node* tail`",
+      "D. `Elem elem`, `Node* left`, `Node* right`"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "14. What is the purpose of the sentinel nodes (`header` and `trailer`) in a doubly linked list?",
+    "options": [
+      "A. They store the size and capacity of the list",
+      "B. They contain the first and last real elements",
+      "C. They mark the current iterator position",
+      "D. They serve as dummy head and tail nodes to simplify edge-case operations"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "15. How do the time complexities of `pop_front()` compare between `std::vector` and `std::list`?",
+    "options": [
+      "A. `vector.pop_front()` is amortized O(1), `list.pop_front()` is O(n)",
+      "B. `vector.pop_front()` is O(n), `list.pop_front()` is O(1)",
+      "C. Both are O(1)",
+      "D. Both are O(n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "16. Which iterator category supports both `++p` and `--p` but not pointer arithmetic like `p + 5`?",
+    "options": [
+      "A. Bidirectional iterator",
+      "B. Forward iterator",
+      "C. Random-access iterator",
+      "D. Input iterator"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "17. Under which circumstance is an STL iterator considered invalid?",
+    "options": [
+      "A. After the node it referred to has been erased",
+      "B. After calling `vector::size()`",
+      "C. After assigning `*p = x`",
+      "D. After reaching `end()`"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "18. Which STL container provides only bidirectional iterators and not random-access iterators?",
+    "options": [
+      "A. std::vector",
+      "B. std::list",
+      "C. std::deque",
+      "D. std::map"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "19. In the unified iteration pattern `for(auto p = C.begin(); p != C.end(); ++p) process(*p);`, what is the role of `++p`?",
+    "options": [
+      "A. Move the iterator to the next element in the container",
+      "B. Dereference the current element",
+      "C. Compare to the end iterator",
+      "D. Remove the current element"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "20. Which of the following STL algorithms cannot be applied directly to a `std::list`?",
+    "options": [
+      "A. reverse(p, q)",
+      "B. find(p, q, e)",
+      "C. sort(p, q)",
+      "D. merge(p, q, r)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "21. Which of the following best describes the Sequence ADT?",
+    "options": [
+      "A. It only supports index-based access like a vector",
+      "B. It only supports position-based access like a list",
+      "C. It combines both vector and list interfaces",
+      "D. It is identical to the deque ADT"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "22. What does the operation atIndex(i) return in a Sequence?",
+    "options": [
+      "A. The element at index i",
+      "B. An iterator (position) referring to index i",
+      "C. The current size of the sequence",
+      "D. A boolean indicating validity of i"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "23. What is returned by indexOf(p) in the Sequence ADT?",
+    "options": [
+      "A. The position before p",
+      "B. The element at position p",
+      "C. The numerical index of position p",
+      "D. A pointer to the internal node"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "24. In a doubly linked-list implementation of Sequence, what is the time complexity of insert(p,e)?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. O(log n)",
+      "D. Θ(n²)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "25. In the same doubly linked-list implementation, what is the naive time complexity of atIndex(i)?",
+    "options": [
+      "A. O(1)",
+      "B. O(n)",
+      "C. O(i)",
+      "D. O(log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "26. By optimizing atIndex(i) to start from the closer end, the time becomes O(min(i,n−i)). What is this an example of?",
+    "options": [
+      "A. Amortized analysis",
+      "B. Divide and conquer",
+      "C. Two‐sided traversal optimization",
+      "D. Greedy algorithm"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "27. In an array-based Sequence, what is the time complexity of erase(i)?",
+    "options": [
+      "A. O(1)",
+      "B. Amortized O(1)",
+      "C. O(log n)",
+      "D. O(n)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "28. Which Sequence operations run in O(1) time in the array-based implementation?",
+    "options": [
+      "A. insert(i,e)",
+      "B. atIndex(i)",
+      "C. erase(i)",
+      "D. shiftElements(i)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "29. In the array-based implementation, why is insertFront(e) O(1) when using a circular array?",
+    "options": [
+      "A. Because no shifting is needed at the front",
+      "B. Because capacity is fixed",
+      "C. Because atIndex is O(1)",
+      "D. Because begin() is constant time"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "30. For applications requiring frequent middle insertions and deletions, which implementation is preferable?",
+    "options": [
+      "A. Extendable array",
+      "B. Singly linked list",
+      "C. Doubly linked list",
+      "D. Static array"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "31. What is the exact number of comparisons performed in the worst case by bubble-sort on n elements?",
+    "options": [
+      "A. n(n-1)/2",
+      "B. Θ(n²)",
+      "C. O(n²)",
+      "D. n²"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "32. After completing the i-th pass of bubble-sort on a sequence of length n, which elements are guaranteed to be in their final positions?",
+    "options": [
+      "A. The smallest i elements at the front",
+      "B. The largest i elements at the end",
+      "C. No elements until all passes complete",
+      "D. The middle i elements"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "33. In the index-based implementation (bubbleSort1) on a doubly linked list, what is the worst-case time complexity if atIndex(i) takes O(n)?",
+    "options": [
+      "A. O(n³)",
+      "B. O(n²)",
+      "C. Θ(n²)",
+      "D. O(n log n)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "34. Why does the iterator-based bubbleSort2 always run in Θ(n²) time on any Sequence implementation?",
+    "options": [
+      "A. Because it still uses atIndex internally",
+      "B. Because ++iterator and element swaps are O(1)",
+      "C. Because it performs n³ comparisons",
+      "D. Because begin() is O(n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "35. How many passes does bubble-sort perform on a sequence of n elements in its standard form?",
+    "options": [
+      "A. n",
+      "B. n-1",
+      "C. n+1",
+      "D. ⌊n/2⌋"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "36. What condition inside the inner loop causes two adjacent elements to swap?",
+    "options": [
+      "A. If the predecessor is less than the successor",
+      "B. If the predecessor is greater than the successor",
+      "C. If their indices differ by more than one",
+      "D. Always swap on each comparison"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "37. What average-case time complexity does bubble-sort exhibit on random data?",
+    "options": [
+      "A. Θ(n²)",
+      "B. Θ(n log n)",
+      "C. O(n)",
+      "D. Θ(n³)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "38. Which implementation detail most directly prevents bubbleSort1 on a linked-list from running in Θ(n²)?",
+    "options": [
+      "A. Using begin() instead of atIndex",
+      "B. Using popBack() to remove elements",
+      "C. Using atIndex(j) inside the inner loop",
+      "D. Using reserve() to allocate space"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "39. If you replace the inner loop bound from (n - i) to (n - i - 1), what is the effect?",
+    "options": [
+      "A. No effect on correctness",
+      "B. Avoids one unnecessary comparison per pass",
+      "C. Reduces complexity to Θ(n)",
+      "D. Causes out-of-bounds errors"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "40. Which of these is a key lesson from the bubble-sort case study on Sequence ADTs?",
+    "options": [
+      "A. Choosing the right ADT operations (index vs. iterator) is critical for efficiency",
+      "B. Bubble-sort is optimal for large n",
+      "C. atIndex is always O(1)",
+      "D. Always use index-based access for best performance"
+    ],
+    "correct_option_id": 0
+  }
+]
