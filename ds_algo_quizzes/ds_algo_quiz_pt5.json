@@ -1,0 +1,362 @@
+[
+  {
+    "question": "1. According to the formal definition, what two conditions characterize a nonempty tree T?",
+    "options": [
+      "A. Each node has exactly two children, and there is a single root with no parent",
+      "B. T is either empty, or it consists of a root node r plus a (possibly empty) set of subtrees rooted at r's children",
+      "C. Every node has a parent and every parent has a left and right child",
+      "D. T has a single root and exactly one leaf"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "2. In an ordered tree, which operation becomes meaningful that is not in an unordered tree?",
+    "options": [
+      "A. Identifying the root node",
+      "B. Distinguishing internal from external nodes",
+      "C. Enumerating a node's children in a specific left-to-right sequence",
+      "D. Computing the tree's height"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "3. What does the `children(p)` operation of the Tree ADT return?",
+    "options": [
+      "A. The parent node of p",
+      "B. A count of p’s descendants",
+      "C. A PositionList containing p’s immediate children",
+      "D. The sibling nodes of p"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "4. In the linked structure for general trees, where is the count `n` of total nodes stored?",
+    "options": [
+      "A. As a field in each Node",
+      "B. In a global variable",
+      "C. As a member variable of the Tree object",
+      "D. In the container of children"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "5. Which of the following is NOT part of the informal C++ Tree interface?",
+    "options": [
+      "A. `Position root() const;`",
+      "B. `void insertChild(Position p, E e);`",
+      "C. `PositionList positions() const;`",
+      "D. `int size() const;`"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "6. How is an external (leaf) node identified via the Position interface?",
+    "options": [
+      "A. `p.isRoot()` returns true",
+      "B. `p.children().empty()` returns true",
+      "C. `p.isExternal()` returns true",
+      "D. `*p` is null"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "7. In the linked-node definition `struct Node`, which member stores the hierarchical link from a child back to its parent?",
+    "options": [
+      "A. `elem`",
+      "B. `children`",
+      "C. `parent`",
+      "D. `nextSibling`"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "8. What is the time complexity of `root()` and `parent(p)` in the linked-tree implementation?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)",
+      "D. O(degree(p))"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "9. What is the time complexity of computing the depth of a node p by the recursive `depth(T,p)` algorithm?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(dₚ)",
+      "D. O(n²)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "10. Which method computes the height of a tree in O(n) time?",
+    "options": [
+      "A. Summing depths of all leaves",
+      "B. Recursive definition checking each child: `height2`",
+      "C. Computing max depth via repeated `depth(T,p)` calls on leaves",
+      "D. Iterative breadth-first search"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "11. In a preorder traversal, when is a node’s element visited?",
+    "options": [
+      "A. After traversing its children",
+      "B. Before traversing its children",
+      "C. Between left and right subtree traversals",
+      "D. Only for external nodes"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "12. The function `parenPrint(T,p)` outputs a tree in parenthetic form. What traversal does it use?",
+    "options": [
+      "A. Postorder",
+      "B. Inorder",
+      "C. Preorder",
+      "D. Breadth-First"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "13. What is the time complexity of both preorder and postorder traversals on an n-node tree?",
+    "options": [
+      "A. O(n)",
+      "B. O(n log n)",
+      "C. O(n²)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "14. In a postorder traversal, which action occurs last for a node p?",
+    "options": [
+      "A. Visiting p itself",
+      "B. Traversing p’s left subtree",
+      "C. Traversing p’s right subtree",
+      "D. Printing parentheses"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "15. Which traversal strategy is best suited for computing a property of each node that depends on its children’s values?",
+    "options": [
+      "A. Preorder",
+      "B. Postorder",
+      "C. Inorder",
+      "D. Level-order"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "16. How does a breadth-first (level-order) traversal differ from preorder/postorder?",
+    "options": [
+      "A. It visits root last",
+      "B. It visits nodes by depth levels using a queue",
+      "C. It uses recursion only",
+      "D. It visits right subtree before left"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "17. In-order traversal is only defined for which type of tree?",
+    "options": [
+      "A. General ordered tree",
+      "B. Binary tree",
+      "C. N-ary tree",
+      "D. Decision tree"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "18. Which algorithm would you choose to compute the total size of directories in a file-system tree?",
+    "options": [
+      "A. Preorder traversal",
+      "B. Postorder traversal with aggregation",
+      "C. Inorder traversal",
+      "D. Depth-first search marking"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "19. What distinguishes a proper (full) binary tree from an improper one?",
+    "options": [
+      "A. Every node has exactly two children or none",
+      "B. Every node has at most one child",
+      "C. The tree is completely balanced",
+      "D. All leaves are at the same depth"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "20. In a decision tree, internal nodes represent questions and leaves represent outcomes. What traversal is best to list all decisions in evaluation order?",
+    "options": [
+      "A. Preorder",
+      "B. Inorder",
+      "C. Postorder",
+      "D. Level-order"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "21. Which Position method returns an iterator to the right child of a binary-tree node?",
+    "options": [
+      "A. p.children()[1]",
+      "B. p.right()",
+      "C. p.next()",
+      "D. p.getRight()"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "22. In a linked-node representation of a binary tree, what is the purpose of the field `par` in `struct Node`?",
+    "options": [
+      "A. To point to the node’s parent",
+      "B. To point to the next sibling",
+      "C. To store the node’s depth",
+      "D. To link nodes in preorder"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "23. Using level numbering f(v), what index does the right child of the root get in the vector-based representation?",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "24. What is the time complexity of `expandExternal(p)` in the linked-binary-tree implementation?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)",
+      "D. O(degree(p))"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "25. Which traversal visits each node exactly once and processes the node in between its left and right subtrees?",
+    "options": [
+      "A. Preorder",
+      "B. Inorder",
+      "C. Postorder",
+      "D. Euler tour"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "26. In a binary search tree of height h, what is the worst-case time to search for a key?",
+    "options": [
+      "A. Θ(log n)",
+      "B. Θ(h)",
+      "C. O(1)",
+      "D. Θ(n log n)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "27. During an Euler tour of a binary tree, how many times is each internal node ‘visited’?",
+    "options": [
+      "A. Once",
+      "B. Twice",
+      "C. Three times",
+      "D. Four times"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "28. The first-child/next-sibling transformation represents a general tree as a binary tree by mapping siblings to which pointers?",
+    "options": [
+      "A. left child pointers",
+      "B. parent pointers",
+      "C. right child pointers",
+      "D. child count fields"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "29. In the worst case, what shape of tree causes the recursive `depth(T,p)` algorithm to run in O(n) time?",
+    "options": [
+      "A. A complete binary tree",
+      "B. A perfectly balanced tree",
+      "C. A skewed (linear) tree",
+      "D. A full binary tree of height log n"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "30. What is the time complexity of the `height2(T,p)` algorithm when called on a non-root node v in a tree of n nodes?",
+    "options": [
+      "A. O(n)",
+      "B. O(depth(v))",
+      "C. O(number of children of v)",
+      "D. O(n²)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "31. Under what condition do Preorder and Postorder traversals of an ordered tree T produce the exact same sequence of nodes?",
+    "options": [
+      "A. When T is empty",
+      "B. When every internal node has exactly one child",
+      "C. When T is a proper binary tree",
+      "D. When all leaves are at the same depth"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "32. What is the worst-case running time of the `parenPrint(T, root)` function that prints the parenthetic representation of a tree?",
+    "options": [
+      "A. O(n)",
+      "B. O(n log n)",
+      "C. O(n²)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "33. When generalizing the Euler tour to a tree where each internal node has 3 children, how many times is each internal node visited?",
+    "options": [
+      "A. 2 times",
+      "B. 3 times",
+      "C. 4 times",
+      "D. 5 times"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "34. Which traversal method is most appropriate for counting a property of each node that depends on its children’s computed values?",
+    "options": [
+      "A. Preorder",
+      "B. Inorder",
+      "C. Postorder",
+      "D. Level-order"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "35. In an improper binary tree with n total nodes, what is the minimum possible number of external (leaf) nodes?",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. ⌈n/2⌉",
+      "D. n−1"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "36. Which traversal uses a queue to visit nodes level by level from the root downwards?",
+    "options": [
+      "A. Preorder",
+      "B. Inorder",
+      "C. Postorder",
+      "D. Breadth-First (Level-Order)"
+    ],
+    "correct_option_id": 3
+  }
+]
