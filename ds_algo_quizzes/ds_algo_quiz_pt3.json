@@ -1,0 +1,322 @@
+[
+  {
+    "question": "1. What principle does a stack follow in terms of element insertion and removal?",
+    "options": [
+      "A. FIFO (First-In, First-Out)",
+      "B. LIFO (Last-In, First-Out)",
+      "C. FILO (First-In, Last-Out)",
+      "D. Random Access"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "2. Which of the following stack operations returns the top element without removing it?",
+    "options": [
+      "A. push()",
+      "B. pop()",
+      "C. top()",
+      "D. peek()"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "3. What will happen if top() is called on an empty STL stack?",
+    "options": [
+      "A. It throws a StackEmpty exception",
+      "B. It returns NULL",
+      "C. It results in undefined behavior",
+      "D. It returns 0"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "4. What is the time complexity of push() operation in an array-based stack (assuming space is available)?",
+    "options": [
+      "A. O(n)",
+      "B. O(log n)",
+      "C. O(n log n)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "5. Which structure is most appropriate to implement a dynamically growing stack?",
+    "options": [
+      "A. Static array",
+      "B. Queue",
+      "C. Singly linked list",
+      "D. Hash table"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "6. In which application is a stack commonly used?",
+    "options": [
+      "A. Breadth-first search",
+      "B. Implementing Undo in text editors",
+      "C. Shortest path algorithms",
+      "D. Memory paging"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "7. What is the purpose of using a stack in checking for balanced parentheses?",
+    "options": [
+      "A. To reverse characters",
+      "B. To remove duplicates",
+      "C. To ensure correct pairing of symbols",
+      "D. To count operators"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "8. Which of the following best reverses a vector using a stack?",
+    "options": [
+      "A. Push elements then print",
+      "B. Push then pop into another vector",
+      "C. Recursively reverse in-place",
+      "D. Sort the vector in reverse order"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "9. What principle does a queue follow for inserting and removing elements?",
+    "options": [
+      "A. LIFO (Last-In, First-Out)",
+      "B. FILO (First-In, Last-Out)",
+      "C. FIFO (First-In, First-Out)",
+      "D. Random Access"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "10. What is the purpose of the 'enqueue' operation in a queue?",
+    "options": [
+      "A. Remove the first element",
+      "B. Add an element to the rear",
+      "C. Return the first element",
+      "D. Check if the queue is empty"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "11. In STL queue, which function removes the front element?",
+    "options": [
+      "A. dequeue()",
+      "B. front()",
+      "C. pop()",
+      "D. removeFront()"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "12. What is the main issue in using a simple array for queue implementation without circular handling?",
+    "options": [
+      "A. Difficult to access rear element",
+      "B. Array becomes full even if there is unused space",
+      "C. Enqueue operation is O(n)",
+      "D. It can't store integers"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "13. What is the correct way to handle index wrapping in a circular array?",
+    "options": [
+      "A. Use (index + 1) / N",
+      "B. Use (index + 1) - N",
+      "C. Use (index + 1) * N",
+      "D. Use (index + 1) % N"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "14. Which structure is best suited for dynamic queue implementation with O(1) operations?",
+    "options": [
+      "A. Static array",
+      "B. Doubly linked list",
+      "C. Circular linked list",
+      "D. Hash table"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "15. In circular linked list queue implementation, which element does 'front()' return?",
+    "options": [
+      "A. The element pointed to by the cursor",
+      "B. The element before the cursor",
+      "C. The element after the cursor",
+      "D. The last inserted element"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "16. Which of the following is NOT true about STL queue?",
+    "options": [
+      "A. It resizes dynamically",
+      "B. It provides push and pop operations",
+      "C. It throws exceptions on front() if empty",
+      "D. It is based on the STL vector class"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "17. What is the main feature of a deque (double-ended queue)?",
+    "options": [
+      "A. Insertion and deletion from one end only",
+      "B. Insertion at front and deletion at rear",
+      "C. Insertion and deletion from both front and rear",
+      "D. Random access of elements"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "18. Which of the following correctly inserts an element at the back of a deque in STL?",
+    "options": [
+      "A. insertBack(e)",
+      "B. push_back(e)",
+      "C. enqueue(e)",
+      "D. addBack(e)"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "19. What is the time complexity of insertFront() and eraseBack() operations in a deque implemented with a doubly linked list?",
+    "options": [
+      "A. O(log n)",
+      "B. O(n)",
+      "C. O(n log n)",
+      "D. O(1)"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "20. What design pattern is used when we implement a stack or queue using a deque internally?",
+    "options": [
+      "A. Singleton",
+      "B. Adapter",
+      "C. Observer",
+      "D. Iterator"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "21. Which deque operation removes the front element?",
+    "options": [
+      "A. pop_back()",
+      "B. eraseBack()",
+      "C. pop_front()",
+      "D. removeBack()"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "22. In the Adapter design for a Stack using a deque, which deque operation simulates the stack's pop()?",
+    "options": [
+      "A. insertFront()",
+      "B. eraseFront()",
+      "C. eraseBack()",
+      "D. pop_back()"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "23. Why is a doubly linked list suitable for implementing a deque?",
+    "options": [
+      "A. Allows indexing",
+      "B. Allows constant-time access to middle elements",
+      "C. Allows O(1) insertions and deletions at both ends",
+      "D. Uses less memory than arrays"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "24. What happens if you call pop_front() on an empty STL deque?",
+    "options": [
+      "A. It returns NULL",
+      "B. It throws a DequeEmpty exception",
+      "C. It returns 0",
+      "D. It results in undefined behavior"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "25. In the simple array-based stack implementation described, which exception is thrown when attempting to push onto a full stack?",
+    "options": [
+      "A. StackEmpty",
+      "B. StackFull",
+      "C. QueueFull",
+      "D. OverflowError"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "26. According to Goodrich & Tamassia’s description, what underlying container does the STL `std::stack` use by default?",
+    "options": [
+      "A. std::vector",
+      "B. std::deque",
+      "C. std::list",
+      "D. std::forward_list"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "27. In a circular-array queue of capacity N, which condition correctly indicates that the queue is full?",
+    "options": [
+      "A. f == r",
+      "B. n == N",
+      "C. (r + 1) % N == f",
+      "D. Q[r] != NULL"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "28. What is the asymptotic time complexity of accessing the middle element in a doubly linked‐list–based deque of size n?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)",
+      "D. O(n log n)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "29. Which design pattern is illustrated by wrapping a `std::deque` to provide the `Stack` interface?",
+    "options": [
+      "A. Factory",
+      "B. Singleton",
+      "C. Adapter",
+      "D. Strategy"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "30. In the parentheses‐matching algorithm using a stack, what is the worst‐case space complexity in terms of the input length n?",
+    "options": [
+      "A. O(1)",
+      "B. O(log n)",
+      "C. O(n)",
+      "D. O(n²)"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "31. When reversing a vector of length n via a stack, how many total push/pop operations are performed?",
+    "options": [
+      "A. n pushes and n pops",
+      "B. n pushes and (n−1) pops",
+      "C. 2n pushes and 2n pops",
+      "D. n pushes and 2n pops"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "32. Which of the following is NOT a member function of the informal `Deque` interface in Goodrich & Tamassia?",
+    "options": [
+      "A. insertFront(e)",
+      "B. eraseBack()",
+      "C. pop()",
+      "D. back()"
+    ],
+    "correct_option_id": 2
+  }
+]
