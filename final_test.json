@@ -3,15 +3,15 @@
     "question": "this is the first question and the answer is 11",
     "options": ["10","11","12","13"],
     "correct_option_id": 1
-  },       ← لازم تبقى هذه الفاصلة هنا لأن يليها كائن ثاني
+  },
   {
     "question": "this is the second question and the answer is 22",
     "options": ["20","21","22","23"],
     "correct_option_id": 2
-  },       ← ولا تنساها هنا قبل الكائن الثالث
+  },
   {
     "question": "this is the third question and the answer is 33",
     "options": ["30","31","32","33"],
     "correct_option_id": 3
-  }        ← لا تضع فاصلة هنا، لأنّ هذا آخر كائن
+  }
 ]
