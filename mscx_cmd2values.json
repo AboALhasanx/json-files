@@ -17,7 +17,7 @@
     "se_summarize_lec": null,
     
     "ds_algo_subject_sources": [15,40,41,42,43,58,45,46,16],
-    "ds_algo_summarize_lec": null,
+    "ds_algo_summarize_lec": [59, 61, 62, 63, 64],
     
     "os_subject_sources": 17,
     "os_summarize_lec": null
