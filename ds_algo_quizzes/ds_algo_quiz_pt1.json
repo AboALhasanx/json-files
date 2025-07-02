@@ -1,654 +1,491 @@
 [
   {
-    "question": "1. Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
     "options": [
-      "A. Because it guarantees zero-overhead access specifiers",
-      "B. Because members are constructed directly with their final values, avoiding default construction plus reassignment",
-      "C. Because it automatically inlines all accessor functions"
+      "Because it guarantees zero-overhead access specifiers",
+      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
+      "Because it automatically inlines all accessor functions",
+      "Because it prevents incorrect ordering of member initialization inside the constructor body "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "2. Choosing an array as the primary container for fixed-size records mainly provides which advantage?",
+    "question": "Choosing an array as the primary container for fixed-size records mainly provides which advantage?",
     "options": [
-      "A. Constant-time random access regardless of record position",
-      "B. Automatic memory reallocation when the array exceeds capacity",
-      "C. O(1) insertion at arbitrary positions without shifting elements"
+      "Constant-time random access regardless of record position",
+      "Automatic memory reallocation when the array exceeds capacity",
+      "O(1) insertion at arbitrary positions without shifting elements",
+      "The ability to resize the array dynamically at runtime without reallocation "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "3. Marking class data members as private while offering public getters is an example of enforcing which OOP principle?",
+    "question": "Marking class data members as private while offering public getters is an example of enforcing which OOP principle?",
     "options": [
-      "A. Polymorphism",
-      "B. Encapsulation",
-      "C. Multiple inheritance"
+      "Polymorphism",
+      "Encapsulation",
+      "Multiple inheritance",
+      "Static binding "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "4. If a class exposes its data members directly without any accessor methods, which of the following is the most immediate risk?",
+    "question": "If a class exposes its data members directly without any accessor methods, which of the following is the most immediate risk?",
     "options": [
-      "A. Increased compile-time type checking",
-      "B. Automatic reduction in object size at runtime",
-      "C. Unrestricted external modification leading to inconsistent state"
+      "Increased compile-time type checking",
+      "Automatic reduction in object size at runtime",
+      "Unrestricted external modification leading to inconsistent state",
+      "Automatic performance improvement due to fewer abstraction layers "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "5. Which delete form must be used to properly deallocate memory that was obtained with `new Type[n]` in C++?",
+    "question": "Assuming an array kept strictly in non-increasing order, inserting a new element with the highest value requires which time complexity in the worst case?",
     "options": [
-      "A. delete pointer;",
-      "B. delete[] pointer;",
-      "C. free(pointer);"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "6. Assuming an array kept strictly in non-increasing order, inserting a new element with the highest value requires which time complexity in the worst case?",
-    "options": [
-      "A. O(log n)",
-      "B. O(n)",
-      "C. O(1)"
+      "O(log n) if binary search is used first",
+      "O(n) to shift necessary elements",
+      "O(1) if inserted at the beginning directly",
+      "O(n²) if additional sorting is performed "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "7. If a destructor fails to release dynamically allocated memory for a class, the most direct consequence is:",
+    "question": "If a destructor fails to release dynamically allocated memory for a class, the most direct consequence is:",
     "options": [
-      "A. Memory leak persisting for the lifetime of the program",
-      "B. Dangling pointer dereference",
-      "C. Double-free error during stack unwinding"
+      "Memory leak persisting for the lifetime of the program",
+      "Dangling pointer dereference at a later time",
+      "Double-free error during stack unwinding",
+      "Significant CPU slowdown due to leaked allocations "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "8. Throwing an `IndexOutOfBounds` exception for an invalid position primarily enforces which software engineering principle?",
+    "question": "Throwing an `IndexOutOfBounds` exception for an invalid position primarily enforces which software engineering principle?",
     "options": [
-      "A. Lazy evaluation of error conditions",
-      "B. Fail-fast by detecting improper use early",
-      "C. Encapsulation of private data"
+      "Lazy evaluation of error conditions",
+      "Fail-fast by detecting improper use early",
+      "Encapsulation of private data",
+      "Deferred error handling for user convenience "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "9. In the add(e) algorithm for a fixed-size sorted array, why do we shift elements from right to left when making room for the new entry?",
+    "question": "In the add(e) algorithm for a fixed-size sorted array, why do we shift elements from right to left when making room for the new entry?",
     "options": [
-      "A. To minimize the total number of element moves",
-      "B. To avoid overwriting entries that have not yet been processed",
-      "C. To maintain constant-time shifts regardless of position"
+      "To minimize the total number of element moves",
+      "To avoid overwriting entries that have not yet been processed",
+      "To maintain constant-time shifts regardless of position",
+      "Because shifting in the opposite direction causes race conditions "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "10. What is the worst-case time complexity of inserting a new element into a descendingly sorted array of length n?",
+    "question": "What is the worst-case time complexity of inserting a new element into a descendingly sorted array of length n?",
     "options": [
-      "A. O(1)",
-      "B. O(log n)",
-      "C. O(n)"
+      "O(1) regardless of position",
+      "O(log n) with binary search then insertion",
+      "O(n) to shift older elements",
+      "O(n log n) if a full resort is triggered "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "11. Why does the algorithm check if the array is full and the new score is not higher than the last entry before proceeding?",
+    "question": "Why does the algorithm check if the array is full and the new score is not higher than the last entry before proceeding?",
     "options": [
-      "A. To ensure the array remains sorted after insertion",
-      "B. To prevent unnecessary work when the new element cannot be included",
-      "C. To automatically increase the array capacity when needed"
+      "To ensure the array remains sorted after insertion",
+      "To prevent unnecessary work when the new element cannot be included",
+      "To automatically increase the array capacity when needed",
+      "To switch to a different algorithm for optimization "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "12. When the array is not full, the algorithm increments numEntries before shifting. What would go wrong if this increment were omitted?",
+    "question": "When the array is not full, the algorithm increments numEntries before shifting. What would go wrong if this increment were omitted?",
     "options": [
-      "A. The loop boundary would be incorrect and might overwrite the first element",
-      "B. New entries would always be appended at the end rather than inserted in order",
-      "C. The destructor would fail to free the allocated array properly"
+      "The loop boundary would be incorrect and might overwrite the first element",
+      "New entries would always be appended at the end regardless of order",
+      "The destructor would fail to free the allocated array properly",
+      "The array size would exceed its capacity silently "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "13. Why is it necessary to save the removed element in a temporary variable before shifting array entries?",
+    "question": "Why is it necessary to save the removed element in a temporary variable before shifting array entries?",
     "options": [
-      "A. To prevent the loop from going out of bounds",
-      "B. Because shifting will overwrite the original data at index i",
-      "C. To maintain the sorted order of the remaining elements"
+      "To prevent the loop from going out of bounds",
+      "Because shifting will overwrite the original data at index i",
+      "To maintain the sorted order of the remaining elements",
+      "Because direct reference would lose the value "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "14. What is the time complexity of removing an element at index i from an array of length n in the worst case?",
+    "question": "What is the time complexity of removing an element at index i from an array of length n in the worst case?",
     "options": [
-      "A. O(1)",
-      "B. O(n)",
-      "C. O(log n)"
+      "O(1) for direct removal",
+      "O(n) for shifting elements",
+      "O(log n) if binary search identifies the index",
+      "O(n²) if resorting is required "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "15. If remove(i) does not decrement numEntries, what immediate issue will occur?",
+    "question": "If remove(i) does not decrement numEntries, what immediate issue will occur?",
     "options": [
-      "A. Subsequent insertions will overwrite existing entries prematurely",
-      "B. The destructor will fail to free all allocated memory",
-      "C. The loop shifting elements will never terminate"
+      "Subsequent insertions will overwrite existing entries prematurely",
+      "The destructor will fail to free all allocated memory",
+      "The loop shifting elements will never terminate",
+      "The array capacity will increase unexpectedly "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "16. Throwing an exception for an invalid index inside remove(i) primarily helps with:",
+    "question": "Throwing an exception for an invalid index inside remove(i) primarily helps with:",
     "options": [
-      "A. Ensuring the array remains sorted",
-      "B. Fail-fast error detection to catch bugs early",
-      "C. Automatically resizing the array to fit the operation"
+      "Ensuring the array remains sorted",
+      "Fail-fast error detection to catch bugs early",
+      "Automatically resizing the array to fit the operation",
+      "Logging errors for later analysis "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "17. What is the primary operation that the inner loop of insertion sort performs?",
+    "question": "What is the primary operation that the inner loop of insertion sort performs?",
     "options": [
-      "A. Swapping adjacent elements until the current element is in place",
-      "B. Copying larger elements one position to the right to make room",
-      "C. Partitioning the array around a pivot"
+      "Swapping adjacent elements until the current element is in place",
+      "Copying larger elements one position to the right to make room",
+      "Partitioning the array around a pivot",
+      "Merging sorted subarrays "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "18. What is the worst-case time complexity of insertion sort on an array of length n?",
+    "question": "What is the worst-case time complexity of insertion sort on an array of length n?",
     "options": [
-      "A. O(n)",
-      "B. O(n log n)",
-      "C. O(n²)"
+      "O(n) if the array is nearly sorted",
+      "O(n log n) with optimization",
+      "O(n²) in the worst case",
+      "O(n!) with deep recursion "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "19. In which scenario does insertion sort run in linear time O(n)?",
+    "question": "In which scenario does insertion sort run in linear time O(n)?",
     "options": [
-      "A. When the array is already sorted",
-      "B. When the array is in reverse order",
-      "C. When all elements are identical"
+      "When the array is already sorted",
+      "When the array is in reverse order",
+      "When all elements are identical",
+      "When the array size is prime "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "20. Why is insertion sort considered adaptive?",
+    "question": "Why is insertion sort considered adaptive?",
     "options": [
-      "A. Because it uses extra memory proportional to input size",
-      "B. Because it shifts fewer elements when the input is nearly sorted",
-      "C. Because it divides the array recursively"
+      "Because it uses extra memory proportional to input size",
+      "Because it shifts fewer elements when the input is nearly sorted",
+      "Because it divides the array recursively",
+      "Because it runs in parallel on multiple cores "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "21. How do you declare a two-dimensional array with R rows and C columns in C++?",
+    "question": "Why is it recommended to use symbolic constants for array dimensions?",
     "options": [
-      "A. int M[C][R];",
-      "B. int M[R][C];",
-      "C. int M[R,C];"
+      "To allow dynamic resizing at runtime",
+      "To make the code clearer and easier to maintain",
+      "To reduce compilation time significantly",
+      "To enforce strict memory limits "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "22. Given `int M[8][10];`, what does `M[3][5]` refer to?",
+    "question": "If `const int N_DAYS = 7; const int N_HOURS = 24; int schedule[N_DAYS][N_HOURS];` is declared, what is the type of `schedule`?",
     "options": [
-      "A. Row 5, Column 3 element",
-      "B. Row 3, Column 5 element",
-      "C. A pointer to the entire 4th row"
+      "Pointer to pointer of int",
+      "Two-dimensional int array of size 7×24",
+      "Array of 24 arrays of 7 ints",
+      "Dynamic pointer to int "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "23. Why is it recommended to use symbolic constants for array dimensions?",
+    "question": "In a singly linked list, what does the 'next' pointer in each node represent?",
     "options": [
-      "A. To allow dynamic resizing at runtime",
-      "B. To make the code clearer and easier to maintain",
-      "C. To reduce compilation time"
+      "A link to the previous node",
+      "A link to the next node",
+      "The data stored in the node",
+      "The index of the node in the list "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "24. If `const int N_DAYS = 7; const int N_HOURS = 24; int schedule[N_DAYS][N_HOURS];` is declared, what is the type of `schedule`?",
+    "question": "Which node in a singly linked list is identified by having its 'next' pointer equal to null?",
     "options": [
-      "A. Pointer to pointer of int",
-      "B. 7*24 two-dimensional int array",
-      "C. Array of 24 arrays of 7 ints"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "25. When dynamically allocating an n×m integer matrix as an array of arrays in C++, what is the correct type of the variable M?",
-    "options": [
-      "A. int* M;",
-      "B. int** M;",
-      "C. vector<vector<int>> M;"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "26. Which sequence correctly allocates and then deallocates a dynamic n×m int matrix using new/delete?",
-    "options": [
-      "A. M = new int[n][m]; … delete[] M;",
-      "B. M = new int*[n]; for each i: M[i] = new int[m]; … for each i: delete[] M[i]; delete[] M;",
-      "C. M = new int[n*m]; … delete M;"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "27. Why is using `vector<vector<int>> M(n, vector<int>(m));` preferred over manual new/delete for a dynamic matrix?",
-    "options": [
-      "A. It compiles faster",
-      "B. It automatically manages memory and avoids explicit delete[] loops",
-      "C. It uses less memory at runtime"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "28. After allocating a matrix with `int** M = new int*[n];` and rows via `M[i] = new int[m];`, what must you do to correctly free all memory?",
-    "options": [
-      "A. delete M; delete[] M[i] for each i;",
-      "B. delete[] M; delete[] M[i] for each i;",
-      "C. delete[] M[i] for each i; then delete[] M;"
+      "Head node",
+      "Middle node",
+      "Tail node",
+      "Sentinel node "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "29. In a singly linked list, what does the 'next' pointer in each node represent?",
+    "question": "What term describes the process of moving from one node to the next by following 'next' pointers?",
     "options": [
-      "A. A link to the previous node",
-      "B. A link to the next node",
-      "C. The data stored in the node"
+      "Index hopping",
+      "Link hopping",
+      "Memory hopping",
+      "Node traversal "
     ],
     "correct_option_id": 1
   },
   {
-    "question": "30. Which node in a singly linked list is identified by having its 'next' pointer equal to null?",
+    "question": "Unlike a fixed-size array, a singly linked list can be resized at runtime because:",
     "options": [
-      "A. Head node",
-      "B. Middle node",
-      "C. Tail node"
+      "Its nodes are stored contiguously in memory",
+      "It uses a dynamic array internally",
+      "You can add or remove nodes without shifting all elements",
+      "It preallocates extra nodes for growth "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "31. What term describes the process of moving from one node to the next by following 'next' pointers?",
+    "question": "In a singly linked list implementation, what does a head pointer value of NULL signify?",
     "options": [
-      "A. Index hopping",
-      "B. Link hopping",
-      "C. Memory hopping"
+      "The list is empty",
+      "The list has one element",
+      "The list is full",
+      "The list is circular "
     ],
-    "correct_option_id": 1
+    "correct_option_id": 0
   },
   {
-    "question": "32. Unlike a fixed-size array, a singly linked list can be resized at runtime because:",
+    "question": "What is the time complexity of adding an element to the front of a singly linked list?",
     "options": [
-      "A. Its nodes are stored contiguously in memory",
-      "B. It uses a dynamic array internally",
-      "C. You can add or remove nodes without shifting all elements"
+      "O(n) to traverse to the end",
+      "O(log n) with balanced splitting",
+      "O(1) by adjusting the head pointer",
+      "O(n²) if reallocation occurs "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "33. In a singly linked list implementation, what does a head pointer value of NULL signify?",
+    "question": "Which sequence of steps correctly describes removing the first node from a singly linked list?",
     "options": [
-      "A. The list is empty",
-      "B. The list has one element",
-      "C. The list is full"
+      "Save head in temp, head = head->next, delete temp",
+      "Delete head, then set head to temp->next",
+      "head = head->next, delete head",
+      "Save head->next, delete head, then set head to saved "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "34. What is the time complexity of adding an element to the front of a singly linked list?",
+    "question": "In the node definition `class StringNode { string elem; StringNode* next; };`, what is the role of the `next` pointer?",
     "options": [
-      "A. O(n)",
-      "B. O(log n)",
-      "C. O(1)"
+      "It stores the data element",
+      "It points to the next node in the list",
+      "It indicates the end of the list",
+      "It tracks the element’s index "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What must the destructor of a singly linked list do to avoid memory leaks?",
+    "options": [
+      "Repeatedly call removeFront() until the list is empty",
+      "Just set head to NULL",
+      "Only delete the head pointer",
+      "Rely on OS to reclaim memory on exit "
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What ensures no memory leaks in the destructor of `SLinkedList<E>`?",
+    "options": [
+      "Calling delete head; once",
+      "Iteratively calling removeFront() until the list is empty",
+      "Setting head to NULL without deletion",
+      "Relying on garbage collection "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the purpose of the header and trailer sentinels in a doubly linked list?",
+    "options": [
+      "To store user data at the ends of the list",
+      "To simplify edge-case code by marking list boundaries",
+      "To improve memory allocation speed",
+      "To act as backup data nodes "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "How can one check if a doubly linked list (with sentinels) is empty?",
+    "options": [
+      "header->next == trailer",
+      "header->prev == trailer",
+      "trailer->next == header",
+      "trailer->prev == header "
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which advantage do doubly linked lists have over singly linked lists?",
+    "options": [
+      "They use less memory per node",
+      "They allow efficient removal from any position if you have a pointer to the node",
+      "They avoid the need for sentinels",
+      "They automatically sort elements "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Reversing a doubly linked list by copying elements into a temporary list and back results in what overall time complexity?",
+    "options": [
+      "O(n) for a single pass",
+      "O(n²) because of nested operations",
+      "O(log n) with divide-and-conquer",
+      "O(1) if pointers are swapped "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "During list reversal, inserting each extracted element from the original list to the front of the temporary list ensures that:",
+    "options": [
+      "The relative order of elements is preserved",
+      "The last element of the original list becomes the first in the temporary list",
+      "The list remains sorted",
+      "No additional memory is used "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What distinguishes the base case in a recursive function?",
+    "options": [
+      "It calls the function again with a smaller argument",
+      "It returns a non-recursive value without further self-calls",
+      "It throws an exception when a condition is met",
+      "It uses tail recursion optimization "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "In a recursion trace, each arrow pointing inward (→) represents:",
+    "options": [
+      "A return from a function call",
+      "A new recursive function call",
+      "A loop iteration",
+      "A tail-call optimization "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "For `recursiveFactorial(n)`, what is the time complexity in terms of `n`?",
+    "options": [
+      "O(n!) due to factorial growth",
+      "O(n) each call reduces n by one",
+      "O(log n) with divide-and-conquer",
+      "O(2^n) if overlapping calls occur "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Why does a recursive function always terminate if its argument strictly decreases and a base case is defined?",
+    "options": [
+      "Because C++ enforces a maximum recursion depth",
+      "Because eventually the argument reaches the base case and no further self-calls occur",
+      "Because the compiler optimizes tail calls automatically",
+      "Because the call stack resets periodically "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "In a linear recursive function summing an array of length n, how many total calls to the recursive function are made (including the initial call)?",
+    "options": [
+      "n calls—one per element",
+      "n+1 calls to handle the base case",
+      "2n calls due to overlapping calls",
+      "n−1 calls excluding the base "
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which of the following correctly describes the base case for the recursive array-sum algorithm LinearSum(A,n)?",
+    "options": [
+      "n == 0: return 0",
+      "n == 1: return A[0]",
+      "n ≤ 1: return 1",
+      "n < 0: throw error "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which feature distinguishes a tail-recursive function from a general recursive one?",
+    "options": [
+      "It makes at most one recursive call per invocation",
+      "Its recursive call is the very last operation in the function",
+      "It uses only constant extra memory",
+      "It never calls itself indirectly "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What is the worst-case additional space (call-stack depth) used by the linear recursive sum of n elements?",
+    "options": [
+      "O(1) independent of n",
+      "O(log n) if optimized",
+      "O(n) one frame per element",
+      "O(n^2) due to nested calls "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "35. Which sequence of steps correctly describes removing the first node from a singly linked list?",
+    "question": "What characterizes a binary recursive algorithm?",
     "options": [
-      "A. Save head in a temp, head = head->next, delete temp",
-      "B. Delete head, then save head->next, head = temp",
-      "C. head = head->next, delete head"
+      "It makes exactly one recursive call per invocation",
+      "It makes two recursive calls per invocation",
+      "It alternates between recursion and iteration",
+      "It uses a binary search internally "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Assuming n is a power of two, what is the depth of the recursion tree for the BinarySum algorithm on an array of length n?",
+    "options": [
+      "O(n) if balanced poorly",
+      "O(log n) dividing the array in half each time",
+      "O(n log n) due to merging",
+      "O(1) because depth is constant "
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "In the BinarySum algorithm, why is the overall running time still O(n) despite binary recursion?",
+    "options": [
+      "Because each level of recursion processes disjoint halves totaling n elements",
+      "Because the base case is reached in constant time",
+      "Because the algorithm uses tail recursion",
+      "Because overlapping calls cancel out "
     ],
     "correct_option_id": 0
   },
   {
-    "question": "36. In the node definition `class StringNode { string elem; StringNode* next; };`, what is the role of the `next` pointer?",
+    "question": "What type of recursion is used when a function makes more than two recursive calls per invocation?",
     "options": [
-      "A. It stores the data element",
-      "B. It points to the next node in the list",
-      "C. It indicates the end of the list"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "37. What must the destructor of a singly linked list do to avoid memory leaks?",
-    "options": [
-      "A. Repeatedly call removeFront() until the list is empty",
-      "B. Just set head to NULL",
-      "C. Only delete the head pointer"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "38. What does the template parameter `<E>` represent in `class SLinkedList<E>`?",
-    "options": [
-      "A. The maximum number of elements",
-      "B. The type of elements stored in the list",
-      "C. The memory allocation strategy"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "39. Which statement correctly creates a generic singly linked list of integers?",
-    "options": [
-      "A. SLinkedList<int> list;",
-      "B. SLinkedList list<int>;",
-      "C. SLinkedList<E> list<int>;"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "40. In the `addFront` method of `SLinkedList<E>`, why do we set `v->next = head` before `head = v`?",
-    "options": [
-      "A. To free the old head node",
-      "B. To link the new node to the existing list",
-      "C. To delete previous nodes"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "41. What ensures no memory leaks in the destructor of `SLinkedList<E>`?",
-    "options": [
-      "A. Calling `delete head;` once",
-      "B. Iteratively calling `removeFront()` until the list is empty",
-      "C. Setting head to NULL without deletion"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "42. Why must each definition be prefaced by `template <typename E>` when implementing `SLinkedList<E>` methods?",
-    "options": [
-      "A. To specify exception handling",
-      "B. To instantiate the template for each type parameter",
-      "C. To optimize memory usage"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "43. What is the purpose of the header and trailer sentinels in a doubly linked list?",
-    "options": [
-      "A. To store user data at the ends of the list",
-      "B. To simplify edge-case code by marking list boundaries",
-      "C. To improve memory allocation speed"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "44. When inserting a new node z immediately after node v, which pointer update must happen last to maintain list integrity?",
-    "options": [
-      "A. z->next = v->next;",
-      "B. v->next = z;",
-      "C. z->prev = v;"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "45. In the `remove(DNode* v)` utility, after unlinking v, which action must follow to prevent a memory leak?",
-    "options": [
-      "A. Delete the header sentinel",
-      "B. Delete the trailer sentinel",
-      "C. Delete node v"
+      "Linear recursion",
+      "Binary recursion",
+      "Multiple recursion",
+      "Mutual recursion "
     ],
     "correct_option_id": 2
   },
   {
-    "question": "46. How can one check if a doubly linked list (with sentinels) is empty?",
+    "question": "After returning from the recursive call PuzzleSolve(k-1, S, U), why is e added back to U?",
     "options": [
-      "A. header->next == trailer",
-      "B. header->prev == trailer",
-      "C. trailer->next == header"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "47. Which advantage do doubly linked lists have over singly linked lists?",
-    "options": [
-      "A. They use less memory per node",
-      "B. They allow efficient removal from any position if you have a pointer to the node",
-      "C. They avoid the need for sentinels"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "48. In a circularly linked list with a cursor, the element returned by `back()` is:",
-    "options": [
-      "A. The element at the cursor node",
-      "B. The element immediately after the cursor node",
-      "C. The element immediately before the cursor node"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "49. Which pointer update is required when adding a new node after the cursor in a nonempty circular list?",
-    "options": [
-      "A. newNode->next = cursor->next;",
-      "B. cursor->next = newNode->next;",
-      "C. cursor->next = cursor;"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "50. What must the `remove()` operation do when the list contains only one node?",
-    "options": [
-      "A. Set cursor->next = cursor",
-      "B. Delete the node and set cursor = NULL",
-      "C. Throw an exception"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "51. Reversing a doubly linked list by copying elements into a temporary list and back results in what overall time complexity?",
-    "options": [
-      "A. O(n)",
-      "B. O(n²)",
-      "C. O(log n)"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "52. During list reversal, inserting each extracted element from the original list to the front of the temporary list ensures that:",
-    "options": [
-      "A. The relative order of elements is preserved",
-      "B. The last element of the original list becomes the first in the temporary list",
-      "C. The list remains sorted"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "53. What distinguishes the base case in a recursive function?",
-    "options": [
-      "A. It calls the function again with a smaller argument",
-      "B. It returns a non-recursive value without further self-calls",
-      "C. It throws an exception when a condition is met"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "54. In a recursion trace, each arrow pointing inward (→) represents:",
-    "options": [
-      "A. A return from a function call",
-      "B. A new recursive function call",
-      "C. A loop iteration"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "55. For `recursiveFactorial(n)`, what is the time complexity in terms of `n`?",
-    "options": [
-      "A. O(n!)",
-      "B. O(n)",
-      "C. O(log n)"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "56. Which pattern best describes the recursive drawing of ticks between inch marks in the ruler example?",
-    "options": [
-      "A. drawTicks(L) calls drawTicks(L+1) once",
-      "B. drawTicks(L) performs two calls to drawTicks(L-1) around a central action",
-      "C. drawTicks(L) uses an iterative for-loop to simulate recursion"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "57. Why does a recursive function always terminate if its argument strictly decreases and a base case is defined?",
-    "options": [
-      "A. Because C++ enforces a maximum recursion depth",
-      "B. Because eventually the argument reaches the base case and no further self-calls occur",
-      "C. Because the compiler optimizes tail calls automatically"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "58. In a linear recursive function summing an array of length n, how many total calls to the recursive function are made (including the initial call)?",
-    "options": [
-      "A. n",
-      "B. n+1",
-      "C. 2n",
-      "D. n−1"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "59. Which of the following correctly describes the base case for the recursive array-sum algorithm LinearSum(A,n)?",
-    "options": [
-      "A. n == 0: return 0",
-      "B. n == 1: return A[0]",
-      "C. n ≤ 1: return 1",
-      "D. n < 0: throw error"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "60. Consider the recursive array-reversal algorithm ReverseArray(A,i,j). What condition signals that the recursion should stop?",
-    "options": [
-      "A. i == j",
-      "B. i > j",
-      "C. either i >= j",
-      "D. either i == j or i+1 == j"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "61. Which feature distinguishes a tail-recursive function from a general recursive one?",
-    "options": [
-      "A. It makes at most one recursive call per invocation",
-      "B. Its recursive call is the very last operation in the function",
-      "C. It uses only constant amount of extra memory",
-      "D. It never calls itself indirectly"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "62. What is the worst-case additional space (call-stack depth) used by the linear recursive sum of n elements?",
-    "options": [
-      "A. O(1)",
-      "B. O(log n)",
-      "C. O(n)",
-      "D. O(n^2)"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "63. What characterizes a binary recursive algorithm?",
-    "options": [
-      "A. It makes exactly one recursive call per invocation",
-      "B. It makes two recursive calls per invocation",
-      "C. It alternates between recursion and iteration"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "64. Assuming n is a power of two, what is the depth of the recursion tree for the BinarySum algorithm on an array of length n?",
-    "options": [
-      "A. O(n)",
-      "B. O(log n)",
-      "C. O(n log n)"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "65. Why does the naive binary recursion for Fibonacci (BinaryFib) exhibit exponential time complexity?",
-    "options": [
-      "A. Because each call makes two overlapping recursive calls",
-      "B. Because it uses a loop inside the recursive function",
-      "C. Because it allocates a new array on each call"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "66. How does the linear recursive Fibonacci algorithm (LinearFibonacci) achieve O(k) calls instead of exponential calls?",
-    "options": [
-      "A. By caching previous results in a table",
-      "B. By returning a pair (Fk, Fk-1) on each call, reducing overlap",
-      "C. By using tail recursion optimization"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "67. In the BinarySum algorithm, why is the overall running time still O(n) despite binary recursion?",
-    "options": [
-      "A. Because each level of recursion processes disjoint halves totaling n elements",
-      "B. Because the base case is reached in constant time",
-      "C. Because the algorithm uses tail recursion"
-    ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "68. What type of recursion is used when a function makes more than two recursive calls per invocation?",
-    "options": [
-      "A. Linear recursion",
-      "B. Binary recursion",
-      "C. Multiple recursion"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "69. In the PuzzleSolve algorithm, why is an element e removed from set U before the recursive call?",
-    "options": [
-      "A. To free memory for e",
-      "B. To prevent reusing e in the same configuration",
-      "C. To sort the set U"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "70. What does PuzzleSolve(k, S, U) enumerate when U has n elements?",
-    "options": [
-      "A. All subsets of size k from U regardless of order",
-      "B. All ordered sequences of length k from U without repetition",
-      "C. All possible partitions of U into k parts"
-    ],
-    "correct_option_id": 1
-  },
-  {
-    "question": "71. What is the total number of recursive calls (including initial) made by PuzzleSolve(3, S, {a,b,c})?",
-    "options": [
-      "A. 6",
-      "B. 9",
-      "C. 11"
-    ],
-    "correct_option_id": 2
-  },
-  {
-    "question": "72. After returning from the recursive call PuzzleSolve(k-1, S, U), why is e added back to U?",
-    "options": [
-      "A. To test e in different positions for other permutations",
-      "B. To maintain sorted order of U",
-      "C. To avoid memory leaks"
+      "To test e in different positions for other permutations",
+      "To maintain sorted order of U",
+      "To avoid memory leaks",
+      "To free memory used by e "
     ],
     "correct_option_id": 0
   }
