@@ -478,15 +478,5 @@
       "Mutual recursion "
     ],
     "correct_option_id": 2
-  },
-  {
-    "question": "After returning from the recursive call PuzzleSolve(k-1, S, U), why is e added back to U?",
-    "options": [
-      "To test e in different positions for other permutations",
-      "To maintain sorted order of U",
-      "To avoid memory leaks",
-      "To free memory used by e "
-    ],
-    "correct_option_id": 0
   }
 ]
