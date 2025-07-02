@@ -47,7 +47,7 @@
       "O(1) if inserted at the beginning directly",
       "O(n²) if additional sorting is performed "
     ],
-    "correct_option_id": 2
+    "correct_option_id": 1
   },
   {
     "question": "If a destructor fails to release dynamically allocated memory for a class, the most direct consequence is:",
@@ -347,7 +347,7 @@
       "O(log n) with divide-and-conquer",
       "O(1) if pointers are swapped "
     ],
-    "correct_option_id": 1
+    "correct_option_id": 0
   },
   {
     "question": "During list reversal, inserting each extracted element from the original list to the front of the temporary list ensures that:",
