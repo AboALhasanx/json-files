@@ -1,20 +1,12 @@
 [
   {
-    "question": "ESP8266 is a:",
+    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
     "options": [
-      "Low-cost",
-      "High-cost",
-      "Bluetooth module"
+      "A",
+      "B",
+      "C",
+      "D"
     ],
-    "correct_option_id": 0
-  },
-  {
-    "question": "ESP8266 is a:",
-    "options": [
-      "Low-cost",
-      "High-cost",
-      "Bluetooth module"
-    ],
-    "correct_option_id": 0
+    "correct_option_id": 1
   }
 ]
