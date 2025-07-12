@@ -1,0 +1,11 @@
+[
+  {
+    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+    "options": [
+      "a",
+      "b",
+      "c"
+    ],
+    "correct_option_id": 0
+  }
+]
