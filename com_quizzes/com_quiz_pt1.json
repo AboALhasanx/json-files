@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+    "options": [
+      "Because it guarantees zero-overhead access specifiers",
+      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
+      "Because it automatically inlines all accessor functions",
+      "Because it prevents incorrect ordering of member initialization inside the constructor body "
+    ],
+    "correct_option_id": 1
+  }
+]
