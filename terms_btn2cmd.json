@@ -4,7 +4,7 @@
         "🌐 المادة في ملف واحد كاملة 📁": "webprogramming__old",
         "🌐 ملخصات وتوضيحات 📝": "webprogramming_summarize_lectures",
         "🌐 اسئلة وحلول 📝": "webprogramming_qa_lectures",
-        "🌐 البرنامج الي نطبق عليه VS Code 💻": "webprogramming_app",
+        "🌐 البرنامج الي نطبق عليه (VS Code) + (XAMPP) 💻": "webprogramming_app",
 
 
 
@@ -99,7 +99,7 @@
 
         "☁️ المادة في ملف واحد كاملة 📁": "cloud_computing_lab_full",
         "☁️ كل جابتر  بملف 🗂":"cloud_computing_lab_lectures",
-        "☁️ البرنامج الي نطبق عليه 💻": "cloud_computing_lab_app",
+        "☁️ البرنامج الي نطبق عليه Cisco Packet Tracer 💻": "cloud_computing_lab_app",
         "☁️ مادة السنة السابقة 🕐": "cloud_computing_lab_old",
         "☁️ ملحقـات عشوائية من السنة السابقة 🕐": "cloud_computing_lab_adds_lectures",
 
@@ -118,7 +118,7 @@
 
         "📊 المادة في ملف واحد كاملة 📁": "design_and_analyze_systems_lab_full",
         "📊 كل جابتر  بملف 🗂":"design_and_analyze_systems_lab_lectures",
-        "📊 البرنامج الي نطبق عليه 💻": "design_and_analyze_systems_lab_app",
+        "📊 البرنامج الي نطبق عليه StarUML 💻": "design_and_analyze_systems_lab_app",
         "📊 مادة السنة السابقة 🕐":"design_and_analyze_systems_lab_old",
 
         "📊 المحاضرات في ملف واحد كاملة 📁": "design_and_analyze_systems_theo_full",
@@ -136,7 +136,7 @@
 
         "📱 المادة في ملف واحد كاملة 📁": "mobile_applications_lab_full",
         "📱 كل جابتر  بملف 🗂":"mobile_applications_lab_lectures",
-        "📱 البرنامج الي نطبق عليه 💻": "mobile_applications_lab_app",
+        "📱 البرنامج الي نطبق عليه Flutter 💻": "mobile_applications_lab_app",
         "📱 مادة السنة السابقة 🕐":"mobile_applications_lab_old",
         "📱 ملحقـات عشوائية من السنة السابقة 🕐": "mobile_applications_lab_adds_lectures",
 
@@ -155,7 +155,7 @@
 
         "🦾 المادة في ملف واحد كاملة 📁": "iot_lab_full",
         "🦾 كل جابتر  بملف 🗂":"iot_lab_lectures",
-        "🦾 البرنامج الي نطبق عليه 💻": "iot_lab_app",
+        "🦾 البرنامج الي نطبق عليه Arduino 💻": "iot_lab_app",
         "🦾 مادة السنة السابقة 🕐":"iot_lab_old",
 
         "🦾 المحاضرات في ملف واحد كاملة 📁": "iot_theo_full",
