@@ -18,7 +18,7 @@
         "cloud_computing_lab_full": 45,
         "cloud_computing_lab_lectures": [362, 434],
         "cloud_computing_lab_old": 76,
-        "cloud_computing_lab_app": 33,
+        "cloud_computing_lab_app": [33,34],
         "cloud_computing_lab_adds_lectures": 7,
 
 
@@ -35,7 +35,7 @@
         "design_and_analyze_systems_lab_full": 47,
         "design_and_analyze_systems_lab_lectures": [357, 401],
         "design_and_analyze_systems_lab_old": 78,
-        "design_and_analyze_systems_lab_app": null,
+        "design_and_analyze_systems_lab_app": [68,69],
 
 
         
@@ -47,7 +47,7 @@
 
         "mobile_applications_lab_full": 49,
         "mobile_applications_lab_lectures": null,
-        "mobile_applications_lab_app": null,
+        "mobile_applications_lab_app": [66,67],
         "mobile_applications_lab_old": 72,
         "mobile_applications_lab_adds_lectures": 17,
 
@@ -90,7 +90,7 @@
         "webprogramming__old": 86,
         "webprogramming_summarize_lectures": [315,337,340],
         "webprogramming_qa_lectures": [44,46,65],
-        "webprogramming_app": [27,28],
+        "webprogramming_app": [27,28,64,65],
 
 
 
