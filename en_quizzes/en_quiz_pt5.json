@@ -1,0 +1,380 @@
+[
+    {
+        "question": "Girl: I lost! Everyone will laugh at me!\nFriend: Don’t worry! I’m sure they won’t.\n ",
+        "options": [
+            "A) To protest",
+            " B) To console",
+            "C) To criticize",
+            "D) To blame"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A:I don't want to see you now .get off!",
+        "options": [
+            "To agree",
+            "To claim",
+            "To dismiss"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Which of the following words is considered an uncountable noun?",
+        "options": [
+            "A) love",
+            "B) Book",
+            "C) Chair",
+            "D) Apple"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Stop talking",
+        "options": [
+            "To order",
+            "To regret",
+            "To invite",
+            "To offer"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "He has ....the same job for three years .",
+        "options": [
+            "Had",
+            "Have",
+            "Has"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": " I suggested ……….. a break.\n ",
+        "options": [
+            "take",
+            "took",
+            "taking",
+            " to take"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "She is tired, so she _______ to bed early tonight.\n",
+        "options": [
+            "a. will go",
+            "b. goes",
+            "c. went",
+            "d. going"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I _______ not listening to music when you called.\n",
+        "options": [
+            "a. was",
+            "b. were",
+            "c. am",
+            "d. is"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Have you had enough to eat? — I’d like …….., please.\n",
+        "options": [
+            "A) any more",
+            "B) one more",
+            "C) some more",
+            "D) another"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "You can’t be serious about quitting your job!\n",
+        "options": [
+            "a. Expressing disbelief",
+            "b. Advice",
+            "c. Offer"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "What do you think about the plan? B: from my point of view, the plan is impractical",
+        "options": [
+            "To express opinion",
+            "To blame",
+            "To introduce",
+            "To advice"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Jake: how did you like the movie you saw last night? Karen: I can’t say it was the best I’ve ever seen. What does Karen mean? ",
+        "options": [
+            "A-hadn’t you read the reviews before you went",
+            "B-The movie was not good enough",
+            "C-The movie was good",
+            "D-Karen was satisfies"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Interviewer: Why do you want this job?\nApplicant: ______\n ",
+        "options": [
+            "A) Because I think I’m suitable for it.",
+            "B) Yes, I like pizza.",
+            "C) I’m from Baghdad.",
+            "D) Tomorrow at 7 o’clock."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She looks as if she ………. crying.\n",
+        "options": [
+            "a. was",
+            "b. were",
+            "c. is",
+            "d. has"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A:(What time is it)?\n\nB:9 pm",
+        "options": [
+            "To agree",
+            "To disagree",
+            "To ask"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "The cake .............. by my mother.",
+        "options": [
+            "was baked",
+            "bakes",
+            "baked",
+            "is baking"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "They fooled me totally. They pulled the …….. over my eyes.\n",
+        "options": [
+            "A) egg",
+            "B) Wood",
+            "C) eel",
+            "D) snake"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Jack was reading a book when the phone————-",
+        "options": [
+            "ringing",
+            "rang",
+            "was ringing",
+            "ringed"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Many of the novels of Kurt Vonnegut——————- a remarkable skepticism about the ultimate of technological advances",
+        "options": [
+            "Display",
+            "They display",
+            "Will have displayed",
+            "Had displayed"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "It is going to being a terrible journey by road .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "“Turn off your phones during the meeting.”\nThis sentence is a/an …………\n",
+        "options": [
+            "a) request",
+            "b) order",
+            "c) advice",
+            "d) offer"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "I eat the rice everyday .",
+        "options": [
+            "Correct",
+            "Incorrect"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "What type\"She\" of word is in the following sentence?\n\n\"She is a doctor\"",
+        "options": [
+            "A) Interjection",
+            "B) Noun",
+            "C) Verb",
+            "D) Adverb"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "mother :I  haven't seen  my pet since last weekend !\n\nKids: (We will search for it)",
+        "options": [
+            "To apologize",
+            "To volunteer",
+            "To celebrate"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Are you tired?",
+        "options": [
+            "Yes ,I am .",
+            "Yes ,  I am not ."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Many mistakes ………… in the exam.",
+        "options": [
+            "a) makes",
+            "b) were made",
+            "c) are making",
+            "d) made"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "It was raining when I came in. Mom: Hang your clothes immedialty dear. Me: OK Mom. Then I will put them on the —————-",
+        "options": [
+            "Dryer",
+            "Sofa",
+            "Clothesline",
+            "Washing machine"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Speaker: Listen to me all please, my new bab's name will be Marry",
+        "options": [
+            "To announce",
+            "To protest",
+            "To claim"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "There is a blood on your shirt.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Everyone are happy .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "———— Peter? I ——————— for him all morning.",
+        "options": [
+            "Have you been seeing / have locked",
+            "Have you seing / I've locked",
+            "Have you been seen / have been looking",
+            "Have you seen / I've been looking"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Teacher: Keep your marks high.  Student: I will do my best",
+        "options": [
+            "To promise",
+            "to inform",
+            "to fear",
+            "to claim"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mr. Ibraheem ....axuhusted.",
+        "options": [
+            "Is",
+            "Are",
+            "Am"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Your mum carries  a heavy bag, you offer to carry this bag for her",
+        "options": [
+            "You ask your friend if he wants tea",
+            "You friend offers you chocolate, and you accept",
+            "Ali offers to give you his pens, but you refuse",
+            "none of the above"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "It’s high time we ……….. working on the assignment.\n ",
+        "options": [
+            "start",
+            "started",
+            "have started",
+            "starting"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "He has a lot of childs.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Practice well and you will do better next time",
+        "options": [
+            "To advice",
+            "To order",
+            "To request",
+            "To obey"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Why don't we call for help? Yes we need to",
+        "options": [
+            "To ask for information",
+            "To refer",
+            "To refuse",
+            "To suggest"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "He will not waives his right .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Language .....with the ear .",
+        "options": [
+            "Starting",
+            "Started",
+            "Starts"
+        ],
+        "correct_option_id": 2
+    }
+]

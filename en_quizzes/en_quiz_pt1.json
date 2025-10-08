@@ -1,12 +1,383 @@
 [
-  {
-    "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D"
-    ],
-    "correct_option_id": 1
-  }
+    {
+        "question": "We arrived ....the airport.",
+        "options": [
+            "At",
+            "In"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Cindy .....my darling .",
+        "options": [
+            "Is",
+            "Are"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The letter ‘K’ in knife is silent",
+        "options": [
+            "Vocabulary",
+            "Grammar",
+            "Pronounciation",
+            "Spelling"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Tofik: could you please explain the requirement for the workshop for Tuesday? Sabreen? Sabreen: of course, you have to read the first pages of the next chapter. What are they talk about?",
+        "options": [
+            "The teacher",
+            "Homework",
+            "The weekend",
+            "Movie"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "None of the students.....late .",
+        "options": [
+            "Is",
+            "Are"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "She would rather you ……….. here tomorrow.\n",
+        "options": [
+            "come",
+            "came",
+            "coming",
+            "will come"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "They usually ———— football on Fridays.\n ",
+        "options": [
+            "play",
+            "plays",
+            "playing",
+            "played"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The rules ………… carefully.\n",
+        "options": [
+            "a) must observe",
+            "b) must be observed",
+            "c) must observed",
+            "d) observed"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "You are ......fine now .",
+        "options": [
+            "Perfect",
+            "Perfectly"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "……….. Interesting\n",
+        "options": [
+            "A) Noun",
+            "B) Pronoun",
+            "C) Adjective",
+            "D) Verb"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Unless you ……….. harder, you won’t pass the exam.\n ",
+        "options": [
+            "study",
+            "studied",
+            "studies",
+            "studying"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A: How are you today?\nB: ______\n ",
+        "options": [
+            "A) I am fifteen",
+            "B) I like football",
+            " C) I’m fine, thank you.",
+            "D) It’s sunny."
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "She signs beautifully.",
+        "options": [
+            "Adverb of manner",
+            "Adverb of time",
+            "Adverb of certainty",
+            "Adverb of frequency"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Your wife is having a affair .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The boy said: “I broke the window.”\n",
+        "options": [
+            "The boy said he broke the window",
+            "The boy said he had broken the window",
+            "The boy said he has broken the window",
+            "The boy said he breaks the window."
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Rise your hand—————-",
+        "options": [
+            "down",
+            "up",
+            "of",
+            "on"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅When Mr Brown........(com)to the part,all the guests............(sit) at the table.",
+        "options": [
+            "Coming/sit",
+            "Comes/sat",
+            "Came/had sat",
+            "Came /are sitting"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "_______ you _______ me with my homework?\n",
+        "options": [
+            "a. Will / help",
+            "b. Do / help",
+            "c. Did / help",
+            "d. Are / helping"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I did not know this dish .....nuts in it. I ....allergic to them .",
+        "options": [
+            "Had ,am",
+            "Am ,had",
+            "Had ,had"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Manners makes the man .",
+        "options": [
+            "Correct",
+            "Incorrect"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A new hospital ………… in our city.\n",
+        "options": [
+            "a) is being built",
+            "b) was building",
+            "c) builds",
+            "d) build"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "There’s no denying that climate change is a major issue.\n",
+        "options": [
+            "a. Obligation",
+            "b. Possibility",
+            "c. Certainty "
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Waiter: What would you like to drink?\nCustomer: ______\n ",
+        "options": [
+            "A) A cup of tea, please. ",
+            "B) Yes, I would.",
+            "C) I’m twenty years old.",
+            "D) It’s Monday."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A: Can you help me with this exercise?\nB: ______\n ",
+        "options": [
+            "A) Yes, of course. ",
+            "B) I’m hungry.",
+            "C) It’s ten o’clock.",
+            "D) I’m from Iraq."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "player 1 : (you had the worst performance today )\n\nplayer 2: yes it wasn't actually me",
+        "options": [
+            "To blame",
+            "To thank",
+            "To order"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The song ………… by Adele.\n",
+        "options": [
+            "a) is sung",
+            "b) sings",
+            "c) sang",
+            "d) is sing"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": ".Choose the correct article: “This is ____ old map",
+        "options": [
+            "an",
+            "a",
+            "the",
+            "No one"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "We have been waiting here ……. two hours.\n",
+        "options": [
+            "a. since",
+            "b. for",
+            "c. from",
+            "d. ago"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A: How often do you read books?\nB: ______\n ",
+        "options": [
+            "A) Every day",
+            "B) Yesterday.",
+            "C) At 7 o’clock.",
+            "D) It’s on the table."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I .................. football alot, but I don't play very much now",
+        "options": [
+            "Use to play",
+            "Used to play",
+            "Uses to play",
+            "Use to played"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A: We are winning the sixth war, long live the king.\n\nB: Long live the king!",
+        "options": [
+            "To agree",
+            "To excuse",
+            "To celebrate"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Personally, I think you have to start your project earlier.\n",
+        "options": [
+            "a. regret",
+            "b. request",
+            "c. Opinion"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Employee:(I am quitting this job)\n\nDirector:Request denied.",
+        "options": [
+            "To anger",
+            "To den",
+            "To take leave"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "What does Ahmed face upon arriving in India?",
+        "options": [
+            "Good weather",
+            "Obstacl",
+            "Easy challenges",
+            "Bad friends"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "There are my car keys ......?",
+        "options": [
+            "Are not they",
+            "Is not they",
+            "Are not"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "You made a mistake. You say:\n",
+        "options": [
+            "Thanks",
+            "Sorry",
+            "Hello",
+            "Welcome"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "He ———— English fluently.\n ",
+        "options": [
+            "speak",
+            "speaks",
+            "speaking",
+            "spoke"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "He _______ just _______ the news.\n",
+        "options": [
+            "a. has / heard",
+            "b. have / hear",
+            "c. did / hear",
+            "d. is / hearing"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Don’t call me at 9. I _______ a meeting.\n",
+        "options": [
+            "a. will have",
+            "b. will be having",
+            "c. had",
+            "d. have"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A: I think learning English is difficult.\nB: ………… It just needs practice.\n",
+        "options": [
+            "a) Not really",
+            "b) Of course",
+            "c) Absolutely",
+            "d) Sure"
+        ],
+        "correct_option_id": 0
+    }
 ]

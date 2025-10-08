@@ -1,0 +1,393 @@
+[
+    {
+        "question": "He asked me where I ……. going.\n",
+        "options": [
+            "a. am",
+            "b. was",
+            "c. were",
+            "d. be"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "I’d appreciate it if you could lower your voice.\n",
+        "options": [
+            "a. Order",
+            "b. Polite request",
+            "c. Suggestion"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "What sentence do you say when you recieve something?",
+        "options": [
+            "Would you like some cake?",
+            "I'd like some more soda, please",
+            "Here you are",
+            "Thank you"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "I always ———— my homework after school.\n",
+        "options": [
+            "do",
+            "does",
+            "doing",
+            "did"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Many of her family ......in London.",
+        "options": [
+            "Lives",
+            "Lived",
+            "Live"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Wife: we’re out of milk again? Husband: oops, I forgot to pick some up at the store yesterday. What does the husband mean? ",
+        "options": [
+            "He purposefully did not buy milk",
+            "He made a mistake",
+            "They have enough milk",
+            "The wife should buy milk"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The cify of Baverly Hills is surrounded on ----------------- the city of Los Angeles",
+        "options": [
+            "Its sides",
+            "The sides are",
+            "It is the side of",
+            "All sides by"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "The problem ………… already.\n",
+        "options": [
+            "a) has solved",
+            "b) has been solved",
+            "c) solved",
+            "d) is solve"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Doctor: You need to take this medicine twice a day.\nPatient: ______\n",
+        "options": [
+            "A) Thank you, doctor. ",
+            "B) It’s too expensive.",
+            "C) Yes, I’m a doctor.",
+            "D) I don’t like math."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The story ………… on TV yesterday.\n",
+        "options": [
+            "a) told",
+            "b) was told",
+            "c) is telling",
+            "d) tells"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": ".What is the word \"they\" in the sentence “They are coming soon...",
+        "options": [
+            "Noun",
+            "Pronoun",
+            "Adjective",
+            "Verb"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Father: Why are you late again?\nSon: ______\n ",
+        "options": [
+            "A) Because the bus broke down.",
+            "B) Yes, I’m fine.",
+            "C) It’s my book.",
+            "D) On the table."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Clean  ,cleaned , cleaned. Compute ,.....,....",
+        "options": [
+            "Computed , computer",
+            "Computed , computers",
+            "Computed , computed"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "8-Man: How do you like English food?\nWoman: I’m used to it now.\nWhat does the woman mean?",
+        "options": [
+            "He would rather have English food",
+            "She is accustomed to eat English food",
+            "She eat English food more in the past",
+            "She always liked English food"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Undoubtedly, ………………\n",
+        "options": [
+            "A) What’s that you",
+            "B) Are you sure",
+            "C) How about",
+            "D) It is true "
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Which of the following is an adjective? ",
+        "options": [
+            "smart",
+            "pencil",
+            "quietly",
+            "run"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Speaker1: Ann: this book is similar to my book speaker2: Diana: yes, they look very ( similar)",
+        "options": [
+            "To express necessity",
+            "To express indifference",
+            "To express appreciation",
+            "To express similarity"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Adel: could you help me prepare for astronomy confrence tomorrow? Clarissa: sure! I will redesign the hall first.",
+        "options": [
+            "She agreed to help adel",
+            "She wasn’t be able to help Adil at the moment",
+            "She doesn’t know if she will have time to help Adil",
+            "There was too much food at a previous meetin"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "He made the cake\".____",
+        "options": [
+            "himself",
+            "herself",
+            "themselves",
+            "myself"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": " “I have finished my project,” Sara said.\n",
+        "options": [
+            "Sara said she finished her project.",
+            "Sara said she had finished her project",
+            "Sara said she was finishing her ",
+            " Sara said she has finished her project"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "She ....from Brazil.",
+        "options": [
+            "Are",
+            "Have",
+            "Is"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Tom………………….Is she a morning person? Adam: No, she is more of a night owl. She likes to stay late",
+        "options": [
+            "What is her favorite book?",
+            "When is her prefered time to wake up?",
+            "Does she like breakfast food?",
+            "How does she spend her mornings?"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": ".He made the cake\".____ ",
+        "options": [
+            "themselves",
+            "himself",
+            "herself",
+            "Myself"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Sally: I need a taxi to go to the cinama\nLura: i will call for one",
+        "options": [
+            "Sally likes to ride a bicycle",
+            "Taxi is a favorite for Laura",
+            "Taxi is a good choice for Sally",
+            "Taxi is an urgent need for Laura"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "This time tomorrow, I _______ on the plane to Paris.\n",
+        "options": [
+            "a. will sit",
+            "b. will be sitting",
+            "c. sit",
+            "d. sat"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅\"The guy …………… my brother",
+        "options": [
+            "you saw is",
+            "who saw",
+            "that saw",
+            "that’s saw you"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Do you like tea ?",
+        "options": [
+            "Yes , l do .",
+            "Yes , he don't.",
+            "Yes , he is not ."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The window is green . ....is not yellow .",
+        "options": [
+            "It",
+            "She",
+            "He"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Coach : I expect a better performance.\n\nplayer :(I'm doing my best)",
+        "options": [
+            "To excuse",
+            "To encourage",
+            "To mourn"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Which of the following expression can be used to show frustration?",
+        "options": [
+            "That's great news",
+            "Congradulation on your success",
+            "I'm really happy for you",
+            "I can't take it anymore"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "May Li: How dare you accuse me of cheating!\nSusan: I didn’t say that.\n ",
+        "options": [
+            "A) To protest ",
+            "B) To complain",
+            "C) To appeal",
+            "D) To warn"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A: He is late for school!\nB:(Let's give him a ride).",
+        "options": [
+            "To suggest",
+            "To assure",
+            "To blame"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "He is wet. He _______ in the rain.\n",
+        "options": [
+            "has been running",
+            "ran",
+            "runs",
+            " is running"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She _______ to the market yesterday.\n",
+        "options": [
+            "a. goes",
+            "b. go",
+            "c. went",
+            "d. going"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "I think it _______ tomorrow.\n",
+        "options": [
+            "a. rains",
+            "b. will rain",
+            "c. rained",
+            "d. raining"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Nada waved to Noor, but she------------ looking",
+        "options": [
+            "Didn't",
+            "Wasn't",
+            "Isn't",
+            "Hasn't"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "How long _______ you _______ English?\n",
+        "options": [
+            "did / study",
+            "have / studied",
+            "have / been studying ",
+            "are / studying"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Yousif: what’s wrong with Ayham? Wassan: I wouldn’t like to be in Ayham’s shoes when Dad comes home and sees that broken window. What does Wasan mean?",
+        "options": [
+            "Wasan doesn’t want to be in Ayham’s place",
+            "Ayham has to clean his shoes",
+            "Ayham broke the woindow by his shoes",
+            "Yousif will tell his dad about the window"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A:I feel so bored. \n\nB:( Let's go to the movies).",
+        "options": [
+            "To suggest",
+            "To blame",
+            "To urge"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She has ……. friends in Baghdad.\n",
+        "options": [
+            "a. a little",
+            "b. few",
+            "c. a few",
+            "d. little"
+        ],
+        "correct_option_id": 2
+    }
+]

@@ -1,0 +1,391 @@
+[
+    {
+        "question": "Speaker A —————————.  Speaker B: take the next turn and its in the end of the street.",
+        "options": [
+            "how to buy bread?",
+            "Who is the new teacher?",
+            "Where is the nearest restaurant?",
+            "is there any bank  around here?"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "I’m tired because I _______ all day.\n",
+        "options": [
+            "worked",
+            "have been working ",
+            "work",
+            "am working"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "2- Which of the following words is considered a (verb)?",
+        "options": [
+            "A) Slowly",
+            "B) Eat",
+            "C) Happy",
+            "D) Chair"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "He said he ………. the report by Friday.\n",
+        "options": [
+            "a. would finish",
+            "b. finishes",
+            "c. will finish",
+            "d. finished"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Right now, she _______ a letter to her friend.\n",
+        "options": [
+            "a. write",
+            "b. writes",
+            "c. is writing",
+            "d. wrote"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Ali :Ahmed .I want you to meet Sameer ,Sameer this is Ahmed.\n \nSameer: Nice to meet you .  Ahmed: Nice to meet  you too.",
+        "options": [
+            "To anger",
+            "To introduce",
+            "To take leave"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "If it ………. tomorrow, the match will be canceled.\n",
+        "options": [
+            "a. rains",
+            "b. rained",
+            "c. is raining",
+            "d. rain"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "We live …..the city center ",
+        "options": [
+            "Next",
+            "Near",
+            "By",
+            "Nearby"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅Speaker A what is you name?\nSpeaker B not  your business",
+        "options": [
+            "Approval",
+            "Express an anger",
+            "dislike",
+            "Offer"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "If she____ harder a bit, she would not have failed to get a job.",
+        "options": [
+            "Have work",
+            "Have worked",
+            "Had work",
+            "Had worked"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "A: Excuse me, where is the bank?\nB: ______\n ",
+        "options": [
+            " A) It’s green",
+            " B) It’s next to the school ",
+            "C) It’s Monday.",
+            "D) It’s mine."
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Mother: Be careful when you cross the street.\nChild: ______\n ",
+        "options": [
+            "A) Don’t worry, I will",
+            "B) I’m going to school.",
+            "C) The street is long.",
+            "D) Yes, I am hungry."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Mother: I haven't seen my pet since last weekend. Kids: Let's search for it",
+        "options": [
+            "to intimidate",
+            "to apologize",
+            "to celebrate",
+            "to volunteer"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "You must take off your shoes before entering the mosque",
+        "options": [
+            "express a rule",
+            "obligation",
+            "explain a reason",
+            "giving a fact"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Mother: (get back before dark,otherwise your dad will get angry)",
+        "options": [
+            "To threaten",
+            "To inform",
+            "To claim"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "While she _______ to school, she met her friend.\n",
+        "options": [
+            "a. was walking ",
+            "b. walked",
+            "c. walks",
+            "d. walking"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The woman--------------- lives next door to me is a doctor",
+        "options": [
+            "Whom",
+            "Who",
+            "Whose",
+            "Which"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Teacher: All the girls who didn’t finish must stay after school.\nStudent: But there was not enough time to finish in ten minutes!\n ",
+        "options": [
+            "A) To deny",
+            "B) To protest",
+            "C) To disagree",
+            "D) To warn"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The word work is uncountable noun .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "He is always .....",
+        "options": [
+            "Late",
+            "Lately"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Last Monday, Suha ……..a wallet on a lonely street",
+        "options": [
+            "Saw",
+            "Is seeing",
+            "Has seen",
+            "Sees"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "…..does he speak and read French?well",
+        "options": [
+            "How many",
+            "How",
+            "How far",
+            "Who"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Waiter: May I take your order sir? Man:—————————",
+        "options": [
+            "chicken with rice please",
+            "my mobile is not working",
+            "What time is it please?"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "...............is the nearest hospital from here ",
+        "options": [
+            "How far",
+            "How much",
+            "How many",
+            "How many s"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "A: Would you like some tea?\nB: ______\n ",
+        "options": [
+            "A) Yes, please",
+            "B) I’m playing football.",
+            "C) I’m 20 years old.",
+            "D) It’s far away."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "These cartons ....almost raw .",
+        "options": [
+            "Is",
+            "Are",
+            "Has"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "This gift is .......... you",
+        "options": [
+            "For",
+            "the",
+            "On",
+            "In"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "UNICEF stands for United International Children Emergeny Fund",
+        "options": [
+            "Expressing opinion",
+            "Making a complaint",
+            "Definition",
+            "Suggestion"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "We ———— TV in the evening.\n ",
+        "options": [
+            "watch",
+            "watches",
+            "watching",
+            "watched"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "You should take an umbrella ………… it rains.\n",
+        "options": [
+            "a) unless",
+            "b) in case",
+            "c) although",
+            "d) because"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The svelte dancer seemed to .....across the stage .",
+        "options": [
+            "Float",
+            "Floats",
+            "Floating"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "At 7 o’clock yesterday, we _______ dinner.\n\n",
+        "options": [
+            "a. have",
+            "b. had",
+            "c. were having",
+            "d. having"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": " “We went to the park,” they said.\n",
+        "options": [
+            "They said they go to the park.",
+            "They said they were going to the park.",
+            "They said they had gone to the park",
+            "They said they will go to the park."
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "What degree does Ahmed want to pursuer in India?  ",
+        "options": [
+            "Bachelor",
+            "Master",
+            "PhD",
+            "Diploma"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "She is ....life .",
+        "options": [
+            "I",
+            "My",
+            "Me"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "I don’t mind ………… late tonight.\n",
+        "options": [
+            "a) work",
+            "b) working",
+            "c) worked",
+            "d) to work"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "We _______ a movie last night.\n",
+        "options": [
+            "a. watch",
+            "b. watched",
+            "c. watching",
+            "d. watches"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "We ....veg and non veg snacks .",
+        "options": [
+            "Has",
+            "Have",
+            "Is"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Joe:  That remark was  uncalled for\n\nRaymond: Im sorry I shouldn't have said it",
+        "options": [
+            "To apologize",
+            "To wish",
+            "To blame",
+            "To forgive"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "You won’t attend the party,will you?",
+        "options": [
+            "Promise",
+            "Confirm",
+            "Request",
+            "Intention"
+        ],
+        "correct_option_id": 1
+    }
+]

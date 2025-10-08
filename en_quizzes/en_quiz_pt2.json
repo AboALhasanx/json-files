@@ -1,0 +1,390 @@
+[
+    {
+        "question": "I _______ never _______ such a beautiful place.\n",
+        "options": [
+            "a. have / seen",
+            "b. has / saw",
+            "c. did / see",
+            "d. do / see"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Customer: Could you hand me the menu please.  Waiter: Here you go. Customer: ——————— Waiter: We don't serve seafood today, I am sorry.",
+        "options": [
+            "Is that seat taken?",
+            "I am unable to read it",
+            "The choices are too many",
+            "Which page is for fish please?"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "If only I ……….. more time to finish my project.\n",
+        "options": [
+            "have",
+            "had",
+            "will have",
+            "having"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "This table is .....wood .",
+        "options": [
+            "Made of",
+            "Made from"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She said: “I may come tomorrow.”\n",
+        "options": [
+            "She said she might come the next day",
+            "She said she may come tomorrow.",
+            "She said she might came tomorrow",
+            "She said she will come the next day."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "By next summer, we _______ in our new house.\n",
+        "options": [
+            "a. will live",
+            "b. will be living",
+            "c. lived",
+            "d. living"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Which sentence correctly uses the Present Simple to express a general truth?",
+        "options": [
+            "Water boils at 100 degrees Celsius",
+            "Water boiling at 100 degrees Celsius.",
+            "Water boil at 100 degrees Celsius.",
+            "Water boiled at 100 degrees Celsius."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "_______ you ever _______ sushi?\n",
+        "options": [
+            "a. Did / eat",
+            "b. Have / eaten",
+            "c. Has / ate",
+            "d. Do / eat"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Let me get this ,.....?",
+        "options": [
+            "Does you",
+            "Do you",
+            "Will you"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Rosemary: I'm sorry I'm late for the meeting.\n \nConnor:    It's all right ",
+        "options": [
+            "To inform",
+            "To welcome",
+            "To wish",
+            "To forgive"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "I think this shirt is rather expensive.",
+        "options": [
+            "Expressing a statement",
+            "Expressing an adjective",
+            "Expressing an opinion",
+            "Expressing a complaint"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "A:————————— did you learn to play the guitar? B: I started taking lessons two years ago",
+        "options": [
+            "Where",
+            "When",
+            "Why",
+            "How"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "It ———— a lot in winter.\n ",
+        "options": [
+            "rain",
+            "raining",
+            "raining",
+            "rains"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Choose the correct sentence:",
+        "options": [
+            "She do her homework every day.",
+            "She did her homework every day",
+            "b) She does her homework every day",
+            "She doing her homework every day."
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "A: Excuse me, what time is it now?\nB: ______\n",
+        "options": [
+            "A) It’s 8 o’clock",
+            " B) It’s a pen.",
+            "C) It’s red",
+            "D) I’m at school"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "What do cats eat ? They ....meat .",
+        "options": [
+            "Eat",
+            "Ate",
+            "Eating"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "------------------- you go out last night? No, I wad too tired.",
+        "options": [
+            "Did",
+            "Are",
+            "Where",
+            "Werr"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "…..he sleep well?",
+        "options": [
+            "Do",
+            "Does",
+            "Have",
+            "Has"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "I am agree with you .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The problem ……. carefully by the committee.\n",
+        "options": [
+            "a. is discussed",
+            "b. was discussed",
+            "c. discussed",
+            "d. discusses"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The boy ........... bike was stolen is crying ",
+        "options": [
+            "whose",
+            "Whis",
+            "Who",
+            "What's"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Which of the following is an adjective?",
+        "options": [
+            "quietly",
+            "pencil",
+            "smart",
+            "run"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Ali’s father is …… doctor ",
+        "options": [
+            "An",
+            "A",
+            "The ",
+            "At"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "His family keeps asking him ……smoking",
+        "options": [
+            "To give up",
+            "To giving up",
+            "Giving up",
+            "Give up"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I will hits the hay early .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Last year I ……… all of my books in my office.\n",
+        "options": [
+            "A) keep",
+            "B) kept ",
+            "C) have kept",
+            "D) has kept"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The word( Hair )we can use as countable or uncountable .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Raymond: I’ve sprained my ankle. I can’t take part in the race.\n………….:\n",
+        "options": [
+            "A) You should try",
+            "B) I’m sorry to hear that",
+            "C) You should see a doctor ",
+            "D) Don’t miss this chance"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Huda is allergic —————— cats",
+        "options": [
+            "On",
+            "To",
+            "Of",
+            "For"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅Woman:why is Nora feeling so happy?\nMan:she just got promoted.\nWhat does the man mean?",
+        "options": [
+            "She always likes  her car",
+            "She got anew baby",
+            "She got  promotion",
+            "She bought a house"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Sound travels much fast in solid than gas.\n",
+        "options": [
+            "A) Very fast",
+            "B) More fast",
+            "C) fast",
+            "D) Much faster "
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "She asked me if I ……. English.\n",
+        "options": [
+            "a. speak",
+            "b. spoke",
+            "c. speaking",
+            "d. speaks"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The results ………… next week.\n",
+        "options": [
+            "a) announce",
+            "b) are announced",
+            "c) will be announced",
+            "d) announced"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "6️⃣ A: What do you usually do on Fridays?\nB: ______\n",
+        "options": [
+            "A) I go shopping. ",
+            "B) I am teacher.",
+            "C) I went shopping.",
+            "D) It was sunny."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "He was tired; ………… he continued working.\n",
+        "options": [
+            "a) therefore",
+            "b) however",
+            "c) because",
+            "d) so"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅ lwant to lose weight, so this week …………… Dinner.\"",
+        "options": [
+            "I am not eat",
+            "I’m not eating",
+            "I am eating",
+            "I never eating"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "you mustn't play tennis in the house.",
+        "options": [
+            "A - obligation",
+            "B-Suggestion",
+            "C-Offer",
+            "D-Request"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "What kind of  artists would have used oli paints",
+        "options": [
+            "artists who did not care about real-looking paintings",
+            "artists who wanted to make real-looking paintings",
+            "artists who wanted to make sculptures",
+            "artists who wanted their paintings to look fake"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "✅Woman :why is Nora feeling so happy?\n\nMan:she just got promoted What does the man mean?",
+        "options": [
+            "She always likes her car",
+            "She got anew baby",
+            "She got apromotion",
+            "She bought ahouse"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "You ....to be brave .",
+        "options": [
+            "Has",
+            "Have"
+        ],
+        "correct_option_id": 1
+    }
+]

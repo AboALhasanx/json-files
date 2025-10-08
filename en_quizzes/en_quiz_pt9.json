@@ -1,0 +1,529 @@
+[
+  {
+    "question": "What does Ahmed achieve by the end of hisjourney?  ",
+    "options": [
+      "Success",
+      "Nothing",
+      "Sicknessfa",
+      "Eroded"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The book, together with the magazines, ………. on the table.\n",
+    "options": [
+      "a. is",
+      "b. are",
+      "c. were",
+      "d. have been"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Identify the correct question form in Present Simple:",
+    "options": [
+      "Does she speaks English fluently?",
+      "Do she speak English fluently?",
+      "Is she speaking English fluently?",
+      "Does she speak English fluently?"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "It is so an interesting book.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "I strongly advise against investing in that company right now.\n",
+    "options": [
+      "a. Regret",
+      "b. Strong warning",
+      "c. Suggestion"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "A: I couldn't watch TV last night? B: ————————",
+    "options": [
+      "I was busy with my exam",
+      "I was happy",
+      "I am trying to buy a car"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "I work ....Google.",
+    "options": [
+      "For",
+      "In"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The cake ………… by my mother tomorrow.\n",
+    "options": [
+      "a) is baked",
+      "b) was baked",
+      "c) will be baked",
+      "d) baked"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Tom:——————— does she speak any other languages? Adam: yes she speaks French fluently. She learned it during her college.",
+    "options": [
+      "How did you become friends with her",
+      "Does she enjoy learning new languages",
+      "Is she fluent in any languages other than English",
+      "What’s her favorite languages"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Do you ………………… a uniform at your school?",
+    "options": [
+      "Wear",
+      "Carry",
+      "Hold",
+      "Use"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Neither of the answers ………. correct.\n",
+    "options": [
+      "a. is ",
+      "b. are",
+      "c. were",
+      "d. being"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "She _______ not _______ at home at 6 p.m.\n",
+    "options": [
+      "a. will / be",
+      "b. won’t / be",
+      "c. will / being",
+      "d. will / was"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Sorry to be late . I was delayed by……\n",
+    "options": [
+      "Traffic being heavy ",
+      "Some heavy traffic ",
+      "A heavy traffic ",
+      "Heavy traffic "
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Jane and Tom——————— -15 years old",
+    "options": [
+      "Is",
+      "Will",
+      "Are",
+      "Have"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "The book was reading by me .",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Mother: We can’t go to the zoo today.\nChild: But you promised!\n ",
+    "options": [
+      "A) To deny",
+      "B) To protest ",
+      "C) To disagree",
+      "D) To warn"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "My father isn’t at home. He _______ in the garden.\n",
+    "options": [
+      "a. works",
+      "b. work",
+      "c. is working",
+      "d. working"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "We is on the road for 14 hours .",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "She sings ....",
+    "options": [
+      "Sweet",
+      "Sweetly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "It \"costed me an arm and leg\" means:",
+    "options": [
+      "It was rather expensive",
+      "It was affordable",
+      "It was strange",
+      "It's a human body"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Be careful, or you _______ hurt yourself!\n",
+    "options": [
+      "a. will",
+      "b. are",
+      "c. were",
+      "d. did"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Transform the sentence to passive voice\"They are cleaning the house\"",
+    "options": [
+      "The house is cleaned by them",
+      "The house is being cleaned by them",
+      "The house is cleaning by them",
+      "The house was cleaned by them"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "What type\"Very\" of word is in the following sentence?\n\n\"She is very smart.\"",
+    "options": [
+      "A) Adverb",
+      "B) Noun",
+      "C) Adjective",
+      "D) Verb"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "What type \"men\" of word is in the following sentence?\n\n      \"I do not think that all men are rational.\"",
+    "options": [
+      "A) Proper Noun",
+      "B) Collective Noun",
+      "C) Material Noun",
+      "D) Common Noun"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "She __ to school every day.",
+    "options": [
+      "go",
+      "went",
+      "going",
+      "goes"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "Jason: ………. do you eat at this cafe?\n",
+    "options": [
+      "A) How much",
+      "B) How many",
+      "C) How often",
+      "D) How long"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "He said: “I will help you.”\n",
+    "options": [
+      "He said he would help me. ",
+      "He said he helps me",
+      "He said he will help me.",
+      "He said he had helped me"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "By the time we arrived, the movie ………. .\n",
+    "options": [
+      "a. has starte",
+      "b. had started ",
+      "c. started",
+      "d. was starting"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Maha is the........ girl in the class",
+    "options": [
+      "the tallest",
+      "tallest",
+      "more the tallest",
+      "tallested"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Lisa is a police officer,....?",
+    "options": [
+      "Is she",
+      "Are she",
+      "Is not she"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "My father is the ……. person I know.\n",
+    "options": [
+      "a. kinder",
+      "b. kindest",
+      "c. most kind",
+      "d. kindly"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "A: Can you help me with this exercise?\nB: Sure, …………\n",
+    "options": [
+      "a) no problem",
+      "b) I can’t",
+      "c) never",
+      "d) not at all"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "You are driving too fast, watch out!",
+    "options": [
+      "To blame",
+      "To pacify",
+      "To warn",
+      "To regret"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Speaker 1 : I suggest we go To London ?\n \nSpeaker 2 : I don't think I can",
+    "options": [
+      "To refuse",
+      "To argue",
+      "To agree"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "They -------------------- the market",
+    "options": [
+      "Will",
+      "Are going",
+      "Are going to",
+      "Is going to"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "He said: “I am playing football.”\n",
+    "options": [
+      "He said he was playing football",
+      "He said he had played football",
+      " He said he would play football.",
+      "He said he is playing football"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The man, along with his children, ……….. waiting outside.\n",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Where were he born ?",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Coach: I expect a better performance. Player: I'm doing my best",
+    "options": [
+      "To excuse",
+      "to encourage",
+      "to mourn",
+      "to inform"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The word job is uncountable noun .",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Sargent : regroup now !\n\nSoldier : (coming Sir)",
+    "options": [
+      "To  express fear",
+      "To inform",
+      "To confirm"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "No matter how hard I tried, he kept on ………. \n",
+    "options": [
+      "A) Complaining ",
+      "B) Complain",
+      "C) to complain",
+      "D) complained"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "The exam was ………… difficult that many students failed.\n",
+    "options": [
+      "a) too",
+      "b) very",
+      "c) so",
+      "d) such"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "Police officer:(Car registration papers please!)\n\nDriver:AII right Sir",
+    "options": [
+      "To inform",
+      "To order",
+      "To disagree"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Which of the following words is considered an Interjection?",
+    "options": [
+      "A) Why",
+      "B) In",
+      "C) wow",
+      "D) And"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "She prefers tea ………… coffee.\n",
+    "options": [
+      "a) on",
+      "b) for",
+      "c) than",
+      "d) to"
+    ],
+    "correct_option_id": 3
+  },
+  {
+    "question": "My mother has died ,……..",
+    "options": [
+      "I’m sorry to hear that",
+      "Best of luck",
+      "I’m sorry to ",
+      "That’s kind of you"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "1:(Go fast ,you will be late)!\n2:I will",
+    "options": [
+      "To advise",
+      "To fear",
+      "To punish"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Which of the following words is considered a pronoun?",
+    "options": [
+      "A) She",
+      "B) Apple",
+      "C) Jump",
+      "D) Kind"
+    ],
+    "correct_option_id": 0
+  },
+  {
+    "question": "Select the sentence that expresses a habit in Present Simple:",
+    "options": [
+      "I have gone to the gym every Monday.",
+      "I go to the gym every Monday.",
+      "I went to the gym every Monday",
+      "I am going to the gym every Monday."
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "She ———— to school every day.\n ",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "I prefer reading books ……….. watching TV.\n",
+    "options": [
+      "than",
+      "to",
+      "over",
+      "rather"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": " I was wondering if you could clarify that point for me.\n",
+    "options": [
+      "a. Opinion",
+      "b. Polite request",
+      "c. Prohibition"
+    ],
+    "correct_option_id": 1
+  },
+  {
+    "question": "Some people....more talented than others .",
+    "options": [
+      "Is",
+      "Has",
+      "Are"
+    ],
+    "correct_option_id": 2
+  },
+  {
+    "question": "“I am reading a story,” she said.\n",
+    "options": [
+      "She said she is reading a story",
+      "She said she was reading a story. ",
+      "She said she had read a story",
+      "She said she reads a story."
+    ],
+    "correct_option_id": 1
+  }
+]

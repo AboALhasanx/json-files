@@ -1,0 +1,383 @@
+[
+    {
+        "question": "Which of the following words is considered an (adverb)?",
+        "options": [
+            "A) Quickly",
+            "B) Table",
+            "C) Write",
+            "D) Smart"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Garoline __ to the cinema three times last week.",
+        "options": [
+            "Go",
+            "Went",
+            "Goes",
+            "Got"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Listen! The baby _______.\n",
+        "options": [
+            "a. is crying",
+            "b. cries",
+            "c. cry",
+            "d. crying"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "I had ....appointment to see my doctor.",
+        "options": [
+            "An",
+            "A",
+            "The"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She _______ TV when her mother arrived.\n",
+        "options": [
+            "a. watch",
+            "b. watched",
+            "c. was watching",
+            "d. watches"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "How does  the author describe the effects of using oil paint in the second paragraph?",
+        "options": [
+            "Oil paint was used in layers, so artists could create different shades of color.",
+            "Artists used oil paint to create brighter colors in their paintings.",
+            "Artists did not understand how to use oil paint correctly until modern times.",
+            "Oil paint was used to paint sculptures so that they looked more realistic."
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Hearsay .....admissible in court .",
+        "options": [
+            "Is not",
+            "Are not",
+            "Have not"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The bridge ………… in 1990.\n",
+        "options": [
+            "a) was built",
+            "b) is built",
+            "c) builds",
+            "d) was build"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Hary ————- his father's car when the accident happened",
+        "options": [
+            "was driving",
+            "drove",
+            "had driven",
+            "has been driving"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Some friends of mine............... building threir own house. They hope to finish it next summer",
+        "options": [
+            "Are",
+            "Have",
+            "Do",
+            "Were"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "The man sitting next to me on the plane was very nervous. He had never---------------before.",
+        "options": [
+            "Fly",
+            "Flowon",
+            "Flow",
+            "Flying"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She is always lately .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The students ……. by the headmaster yesterday.\n",
+        "options": [
+            "a. are praised",
+            "b. were praised",
+            "c. praise",
+            "d. praised"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Scarcely had I arrived ……….. the train left",
+        "options": [
+            "when",
+            "than",
+            "then",
+            "before"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "That is .....hearsay .",
+        "options": [
+            "A",
+            "An",
+            "The",
+            "×"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Bill hasn't.....rent on time .",
+        "options": [
+            "Pay",
+            "Paying",
+            "Paid"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Sorry, I can't talk. I——————- right now.",
+        "options": [
+            "driving",
+            "am driving",
+            "drives",
+            "drive"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "There are too many ....on the roads these days .",
+        "options": [
+            "Car",
+            "Cars"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Everyone.....a car .",
+        "options": [
+            "Need",
+            "Needs",
+            "Needing"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "The computer ………… by someone now.\n\n",
+        "options": [
+            "a) is being used",
+            "b) is using",
+            "c) used",
+            "d) was used"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "Which of the following words is considered a preposition?",
+        "options": [
+            "A) Beautiful",
+            "B) Elephant",
+            "C) Swim",
+            "D) Under"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Should I listen to my mom and dad? Said the girl. The grandma”Ultimatly, you will have to decide for yourself. The word “Ultimatly’ means",
+        "options": [
+            "Freqently",
+            "Normally",
+            "Whenever possible",
+            "In the end"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Do you enjoy…..?\n",
+        "options": [
+            "To swimmIng",
+            "Swim",
+            "Swimming ",
+            "To swim"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Ana  ......her job a month ago .",
+        "options": [
+            "Starts",
+            "Started",
+            "Starting"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Can you hear .....music?",
+        "options": [
+            "A",
+            "An",
+            "The",
+            "×"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "It’s time you ………. to bed.\n",
+        "options": [
+            "a. go",
+            "b. went",
+            "c. going",
+            "d. gone"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "When……leaving for Toronto,Canada ? We are planning to set out at 10 o’clock ",
+        "options": [
+            "Are us",
+            "Will us",
+            "Are we",
+            "Will we"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "Paper is .....trees .",
+        "options": [
+            "Made of",
+            "Made from"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Is Ali at home ? Yes , she is .",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "She will not waive ....right .",
+        "options": [
+            "I",
+            "Her",
+            "We"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Which of the following words is considered a conjunction",
+        "options": [
+            "A) Fast",
+            "B) And",
+            "C) Car",
+            "D) Laugh"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Mr. Salim wills hit the hay because he is tired.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "What type\"country\" of word is in the following sentence?\n\nWhich country do you want to visit.",
+        "options": [
+            "A) Verb",
+            "B) Pronoun",
+            "C) Adjective",
+            "D) Noun"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Speaker 1 : It feels like Spring today ! \nSpeaker 2 :(really ?It feels humid).",
+        "options": [
+            "To excuse",
+            "To disagree",
+            "To confirm"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "Which language function is present in this sentence\" Could you please help me carry thid box?",
+        "options": [
+            "Suggestion",
+            "Offer",
+            "Command",
+            "Request"
+        ],
+        "correct_option_id": 3
+    },
+    {
+        "question": "Speaker1: Fred: my teacher is travelling to Jordon this weekend. Speaker2: Who cares!",
+        "options": [
+            "To express safisfaction",
+            "To express happiness",
+            "To express indifference",
+            "To express similarity"
+        ],
+        "correct_option_id": 2
+    },
+    {
+        "question": "_______ you _______ TV now?\n",
+        "options": [
+            "a. Do / watch",
+            "b. Are / watching ",
+            "c. Is / watch",
+            "d. Were / watching"
+        ],
+        "correct_option_id": 1
+    },
+    {
+        "question": "A:Long time no see dad!\n\nB:(Welcome back my dear son)",
+        "options": [
+            "To welcome",
+            "To agree",
+            "To refuse"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": "She speaks English better than ……….. in the class.\n ",
+        "options": [
+            "anyone else",
+            "everyone",
+            "other",
+            "another"
+        ],
+        "correct_option_id": 0
+    },
+    {
+        "question": ".......is hearsay .",
+        "options": [
+            "That",
+            "Those",
+            "These"
+        ],
+        "correct_option_id": 0
+    }
+]
