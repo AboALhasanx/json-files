@@ -2,34 +2,34 @@
   {
     "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
     "options": [
-      "Because it guarantees zero-overhead access specifiers",
-      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
-      "Because it automatically inlines all accessor functions",
-      "Because it prevents incorrect ordering of member initialization inside the constructor body"
+      "Guarantees zero-overhead access specifiers",
+      "Constructs members directly, avoiding default construction + reassignment",
+      "Automatically inlines all accessor functions",
+      "Prevents incorrect member initialization ordering"
     ],
     "correct_option_id": 1,
-    "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment."
+    "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment. This is especially important for const members, references, and objects without default constructors."
   },
   {
     "question": "What is the definition of Artificial Intelligence according to the Turing Test?",
     "options": [
       "A machine that can think like a human",
-      "A machine that acts like a human and passes the Turing Test",
+      "A machine that acts indistinguishably from a human",
       "A machine that can learn from data",
       "A machine that uses neural networks"
     ],
     "correct_option_id": 1,
-    "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
+    "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. If a human evaluator cannot reliably distinguish between machine and human responses, the machine passes the test."
   },
   {
     "question": "Which of the following is a characteristic of a rational agent?",
     "options": [
-      "Acts randomly",
-      "Maximizes expected utility",
+      "Acts randomly to explore possibilities",
+      "Maximizes expected utility based on knowledge",
       "Always makes optimal decisions",
-      "Has emotions"
+      "Has emotions and feelings"
     ],
     "correct_option_id": 1,
-    "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions."
+    "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions of the environment. It doesn't always make optimal decisions (which would require perfect information), but rather makes the best decision possible given its available information."
   }
 ]
