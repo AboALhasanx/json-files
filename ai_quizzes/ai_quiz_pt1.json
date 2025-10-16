@@ -2,10 +2,34 @@
   {
     "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
     "options": [
-      "a",
-      "b",
-      "c"
+      "Because it guarantees zero-overhead access specifiers",
+      "Because members are constructed directly with their final values, avoiding default construction plus reassignment",
+      "Because it automatically inlines all accessor functions",
+      "Because it prevents incorrect ordering of member initialization inside the constructor body"
     ],
-    "correct_option_id": 0
+    "correct_option_id": 1,
+    "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment."
+  },
+  {
+    "question": "What is the definition of Artificial Intelligence according to the Turing Test?",
+    "options": [
+      "A machine that can think like a human",
+      "A machine that acts like a human and passes the Turing Test",
+      "A machine that can learn from data",
+      "A machine that uses neural networks"
+    ],
+    "correct_option_id": 1,
+    "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
+  },
+  {
+    "question": "Which of the following is a characteristic of a rational agent?",
+    "options": [
+      "Acts randomly",
+      "Maximizes expected utility",
+      "Always makes optimal decisions",
+      "Has emotions"
+    ],
+    "correct_option_id": 1,
+    "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions."
   }
 ]
