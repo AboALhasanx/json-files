@@ -2,43 +2,21 @@
   "metadata": {
     "title": "Chapter 1: Introduction to AI",
     "title_ar": "الفصل الأول: مقدمة في الذكاء الاصطناعي",
-    "description": "Basic concepts and definitions",
+    "description": "Basic AI concepts and definitions",
     "difficulty": "easy",
-    "estimated_time": "10 minutes"
+    "topics": ["AI Definition", "Turing Test", "Rational Agents"]
   },
   "questions": [
     {
-      "question": "Why is an initializer list generally preferred over assignment inside the constructor body for data-member initialization?",
+      "question": "What defines AI according to the Turing Test?",
       "options": [
-        "Guarantees zero-overhead access specifiers",
-        "Constructs members directly, avoiding default construction + reassignment",
-        "Automatically inlines all accessor functions",
-        "Prevents incorrect member initialization ordering"
-      ],
-      "correct_option_id": 1,
-      "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment."
-    },
-    {
-      "question": "What is the definition of Artificial Intelligence according to the Turing Test?",
-      "options": [
-        "A machine that can think like a human",
-        "A machine that acts indistinguishably from a human",
-        "A machine that can learn from data",
-        "A machine that uses neural networks"
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
       ],
       "correct_option_id": 1,
       "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
-    },
-    {
-      "question": "Which of the following is a characteristic of a rational agent?",
-      "options": [
-        "Acts randomly to explore possibilities",
-        "Maximizes expected utility based on knowledge",
-        "Always makes optimal decisions",
-        "Has emotions and feelings"
-      ],
-      "correct_option_id": 1,
-      "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions of the environment."
     }
   ]
 }
