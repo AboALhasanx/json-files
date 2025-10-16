@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "title": "Chapter 1: Introduction to AI",
+    "title_ar": "الفصل الثاني: تطور الذكاء الاصطناعي",
+    "description": "Basic AI concepts and definitions",
+    "difficulty": "easy",
+    "topics": ["AI Definition", "Turing Test", "Rational Agents"]
+  },
+  "questions": [
+    {
+      "question": "What defines AI according to the Turing Test?",
+      "options": [
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Turing Test defines AI as a machine's telligent behavior indistinguishable from that of a human."
+    },
+    {
+      "question": "What defines AI according to the Turing Test?",
+      "options": [
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Turing Test defines AI  to exhibit intelligent behavior indistinguishable from that of a human."
+    },
+    {
+      "question": "What defines AI according to the Turing Test?",
+      "options": [
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent of a human."
+    },
+    {
+      "question": "What defines AI according to the Turing Test?",
+      "options": [
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Turing Test defines AI as a machine that of a human."
+    },
+    {
+      "question": "What defines AI according to the Turing Test?",
+      "options": [
+        "Thinks like a human",
+        "Acts indistinguishably from a human",
+        "Learns from data",
+        "Uses neural networks"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Turing machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
+    }
+  ]
+}
+
