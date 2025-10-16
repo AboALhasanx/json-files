@@ -16,53 +16,106 @@
         "Uses neural networks"
       ],
       "correct_option_id": 1,
-      "explanation": "The Turing Test defines AI as a machine's telligent behavior indistinguishable from that of a human."
+      "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
     },
     {
-      "question": "What defines AI according to the Turing Test?",
+      "question": "What is a rational agent in AI?",
       "options": [
-        "Thinks like a human",
-        "Acts indistinguishably from a human",
-        "Learns from data",
-        "Uses neural networks"
+        "An agent that acts randomly",
+        "An agent that maximizes expected utility",
+        "An agent with emotions",
+        "An agent that copies humans"
       ],
       "correct_option_id": 1,
-      "explanation": "The Turing Test defines AI  to exhibit intelligent behavior indistinguishable from that of a human."
+      "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions."
     },
     {
-      "question": "What defines AI according to the Turing Test?",
+      "question": "What is the main goal of AI?",
       "options": [
-        "Thinks like a human",
-        "Acts indistinguishably from a human",
-        "Learns from data",
-        "Uses neural networks"
+        "Replace humans",
+        "Create systems performing tasks requiring human intelligence",
+        "Make faster computers",
+        "Store big data"
       ],
       "correct_option_id": 1,
-      "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent of a human."
+      "explanation": "AI aims to create systems capable of performing tasks that typically require human intelligence."
     },
     {
-      "question": "What defines AI according to the Turing Test?",
+      "question": "Which approach focuses on acting rationally?",
       "options": [
-        "Thinks like a human",
-        "Acts indistinguishably from a human",
-        "Learns from data",
-        "Uses neural networks"
+        "Acting humanly",
+        "Thinking humanly",
+        "Thinking rationally",
+        "Rational agent approach"
       ],
-      "correct_option_id": 1,
-      "explanation": "The Turing Test defines AI as a machine that of a human."
+      "correct_option_id": 3,
+      "explanation": "The rational agent approach focuses on systems that act to achieve the best expected outcome."
     },
     {
-      "question": "What defines AI according to the Turing Test?",
+      "question": "What is the difference between weak and strong AI?",
       "options": [
-        "Thinks like a human",
-        "Acts indistinguishably from a human",
-        "Learns from data",
-        "Uses neural networks"
+        "Speed difference",
+        "Weak AI: specific tasks; Strong AI: general intelligence",
+        "Memory usage",
+        "No difference"
       ],
       "correct_option_id": 1,
-      "explanation": "The Turing machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
+      "explanation": "Weak (narrow) AI is designed for specific tasks, while Strong (general) AI would have human-level intelligence across all domains."
+    },
+    {
+      "question": "What is a percept in AI?",
+      "options": [
+        "An action by the agent",
+        "Agent's sensory input at a given instant",
+        "Agent's goal",
+        "Agent's memory"
+      ],
+      "correct_option_id": 1,
+      "explanation": "A percept is the agent's perceptual input at any given instant - what it senses from the environment."
+    },
+    {
+      "question": "What does PEAS stand for in agent design?",
+      "options": [
+        "Performance, Environment, Actuators, Sensors",
+        "Planning, Execution, Actions, Solutions",
+        "Problems, Environments, Algorithms, Systems",
+        "Perception, Evaluation, Analysis, Solutions"
+      ],
+      "correct_option_id": 0,
+      "explanation": "PEAS stands for Performance measure, Environment, Actuators, and Sensors."
+    },
+    {
+      "question": "Which is an example of narrow AI?",
+      "options": [
+        "Chess-playing program",
+        "General-purpose humanoid",
+        "Human-level AGI",
+        "Sentient AI"
+      ],
+      "correct_option_id": 0,
+      "explanation": "Chess programs are narrow AI, designed specifically for playing chess."
+    },
+    {
+      "question": "What is the Chinese Room argument about?",
+      "options": [
+        "Machine learning",
+        "Whether machines truly understand or just simulate",
+        "Computer vision",
+        "NLP efficiency"
+      ],
+      "correct_option_id": 1,
+      "explanation": "The Chinese Room argument questions whether AI systems truly understand or merely simulate understanding."
+    },
+    {
+      "question": "What is an agent in AI?",
+      "options": [
+        "Human operator",
+        "Entity that perceives and acts upon environment",
+        "Database",
+        "Programming language"
+      ],
+      "correct_option_id": 1,
+      "explanation": "An agent perceives its environment through sensors and acts upon it through actuators."
     }
   ]
 }
-
-
