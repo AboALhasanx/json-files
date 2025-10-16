@@ -8,7 +8,7 @@
       "Prevents incorrect member initialization ordering"
     ],
     "correct_option_id": 1,
-    "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment. This is especially important for const members, references, and objects without default constructors."
+    "explanation": "Initializer lists construct members directly with their intended values, avoiding the overhead of default construction followed by assignment."
   },
   {
     "question": "What is the definition of Artificial Intelligence according to the Turing Test?",
@@ -19,7 +19,7 @@
       "A machine that uses neural networks"
     ],
     "correct_option_id": 1,
-    "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human. If a human evaluator cannot reliably distinguish between machine and human responses, the machine passes the test."
+    "explanation": "The Turing Test defines AI as a machine's ability to exhibit intelligent behavior indistinguishable from that of a human."
   },
   {
     "question": "Which of the following is a characteristic of a rational agent?",
@@ -30,6 +30,6 @@
       "Has emotions and feelings"
     ],
     "correct_option_id": 1,
-    "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions of the environment. It doesn't always make optimal decisions (which would require perfect information), but rather makes the best decision possible given its available information."
+    "explanation": "A rational agent acts to maximize its expected utility based on its knowledge and perceptions of the environment."
   }
 ]
